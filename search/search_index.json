@@ -1,0 +1,199 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Introducci\u00f3n\n\n\n(\nBORRADOR/CONTENIDO PROVISIONAL\n)", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#introduccion", 
+            "text": "( BORRADOR/CONTENIDO PROVISIONAL )", 
+            "title": "Introducci\u00f3n"
+        }, 
+        {
+            "location": "/proyecto/objetivo/", 
+            "text": "Mapa Base de Informaci\u00f3n Geogr\u00e1fica Oficial\n\n\n(\nBORRADOR/CONTENIDO PROVISIONAL\n)\n\n\n\n\n\nDesarrollo de una gu\u00eda de implementaci\u00f3n del Mapa Base de Informaci\u00f3n Geogr\u00e1fica Oficial, para utilizarlo en visualizadores con tecnolog\u00eda de tiles vectoriales.\n\n\n\n\n\nOBJETIVO\n\n\n\nObtener una Gu\u00eda de Implementaci\u00f3n del Mapa Base de Informaci\u00f3n Geogr\u00e1fica Oficial para realizar un visualizador basado en tecnolog\u00eda de teselas vectoriales, donde se identifique el contenido para cada nivel de zoom y su fuente de referencia, los conjuntos de simbolOS que se van a usar y el modelo de datos orientado a facilitar la publicaci\u00f3n con dicha tecnolog\u00eda.\n\n\n\n\n\nCRITERIOS DE \u00c9XITO\n\n\n\nCriterio de \u00e9xito 2.1:\n La gu\u00eda de implementaci\u00f3n debe ajustarse a la estructura de ISO19131, en la medida de lo posible.\n\n\nCriterio de \u00e9xito 2.2:\n La gu\u00eda de implementaci\u00f3n debe describir el contenido a cada nivel de zoom y la fuente de referencia de la que se va a recoger dicha informaci\u00f3n.\n\n\nCriterio de \u00e9xito 2.3:\n La gu\u00eda de implementaci\u00f3n debe recoger el modelo de datos elegido para facilitar la publicaci\u00f3n con la tecnolog\u00eda de tiles vectoriales.\n\n\nCriterio de \u00e9xito 2.4:\n Se debe definir una o varias simbolizaciones que cubran todos los elementos representados en el Mapa Base.", 
+            "title": "Objetivo"
+        }, 
+        {
+            "location": "/proyecto/objetivo/#mapa-base-de-informacion-geografica-oficial", 
+            "text": "( BORRADOR/CONTENIDO PROVISIONAL )   Desarrollo de una gu\u00eda de implementaci\u00f3n del Mapa Base de Informaci\u00f3n Geogr\u00e1fica Oficial, para utilizarlo en visualizadores con tecnolog\u00eda de tiles vectoriales.   OBJETIVO  Obtener una Gu\u00eda de Implementaci\u00f3n del Mapa Base de Informaci\u00f3n Geogr\u00e1fica Oficial para realizar un visualizador basado en tecnolog\u00eda de teselas vectoriales, donde se identifique el contenido para cada nivel de zoom y su fuente de referencia, los conjuntos de simbolOS que se van a usar y el modelo de datos orientado a facilitar la publicaci\u00f3n con dicha tecnolog\u00eda.   CRITERIOS DE \u00c9XITO  Criterio de \u00e9xito 2.1:  La gu\u00eda de implementaci\u00f3n debe ajustarse a la estructura de ISO19131, en la medida de lo posible.  Criterio de \u00e9xito 2.2:  La gu\u00eda de implementaci\u00f3n debe describir el contenido a cada nivel de zoom y la fuente de referencia de la que se va a recoger dicha informaci\u00f3n.  Criterio de \u00e9xito 2.3:  La gu\u00eda de implementaci\u00f3n debe recoger el modelo de datos elegido para facilitar la publicaci\u00f3n con la tecnolog\u00eda de tiles vectoriales.  Criterio de \u00e9xito 2.4:  Se debe definir una o varias simbolizaciones que cubran todos los elementos representados en el Mapa Base.", 
+            "title": "Mapa Base de Informaci\u00f3n Geogr\u00e1fica Oficial"
+        }, 
+        {
+            "location": "/proyecto/justificacion/", 
+            "text": "Justificaci\u00f3n\n\n\n(\nBORRADOR/CONTENIDO PROVISIONAL\n)", 
+            "title": "Justificaci\u00f3n"
+        }, 
+        {
+            "location": "/proyecto/justificacion/#justificacion", 
+            "text": "( BORRADOR/CONTENIDO PROVISIONAL )", 
+            "title": "Justificaci\u00f3n"
+        }, 
+        {
+            "location": "/diseno/diseno01/", 
+            "text": "Dise\u00f1o 01\n\n\n(\nBORRADOR/CONTENIDO PROVISIONAL\n)", 
+            "title": "Dise\u00f1o 01"
+        }, 
+        {
+            "location": "/diseno/diseno01/#diseno-01", 
+            "text": "( BORRADOR/CONTENIDO PROVISIONAL )", 
+            "title": "Dise\u00f1o 01"
+        }, 
+        {
+            "location": "/diseno/diseno02/", 
+            "text": "Dise\u00f1o 02\n\n\n(\nBORRADOR/CONTENIDO PROVISIONAL\n)", 
+            "title": "Dise\u00f1o 02"
+        }, 
+        {
+            "location": "/diseno/diseno02/#diseno-02", 
+            "text": "( BORRADOR/CONTENIDO PROVISIONAL )", 
+            "title": "Dise\u00f1o 02"
+        }, 
+        {
+            "location": "/diseno/diseno03/", 
+            "text": "Dise\u00f1o 03\n\n\n(\nBORRADOR/CONTENIDO PROVISIONAL\n)", 
+            "title": "Dise\u00f1o 03"
+        }, 
+        {
+            "location": "/diseno/diseno03/#diseno-03", 
+            "text": "( BORRADOR/CONTENIDO PROVISIONAL )", 
+            "title": "Dise\u00f1o 03"
+        }, 
+        {
+            "location": "/recursos/recursos01/", 
+            "text": "Recursos 01\n\n\nBORRADOR/CONTENIDO PROVISIONAL\n)", 
+            "title": "Recursos 01"
+        }, 
+        {
+            "location": "/recursos/recursos01/#recursos-01", 
+            "text": "BORRADOR/CONTENIDO PROVISIONAL )", 
+            "title": "Recursos 01"
+        }, 
+        {
+            "location": "/recursos/recursos02/", 
+            "text": "Recursos 02\n\n\nBORRADOR/CONTENIDO PROVISIONAL\n)", 
+            "title": "Recursos 02"
+        }, 
+        {
+            "location": "/recursos/recursos02/#recursos-02", 
+            "text": "BORRADOR/CONTENIDO PROVISIONAL )", 
+            "title": "Recursos 02"
+        }, 
+        {
+            "location": "/recursos/recursos03/", 
+            "text": "Recursos 03\n\n\nBORRADOR/CONTENIDO PROVISIONAL\n)", 
+            "title": "Recursos 03"
+        }, 
+        {
+            "location": "/recursos/recursos03/#recursos-03", 
+            "text": "BORRADOR/CONTENIDO PROVISIONAL )", 
+            "title": "Recursos 03"
+        }, 
+        {
+            "location": "/implementacion/implementacion01/", 
+            "text": "Implementaci\u00f3n 01\n\n\nBORRADOR/CONTENIDO PROVISIONAL\n)", 
+            "title": "Implementaci\u00f3n 01"
+        }, 
+        {
+            "location": "/implementacion/implementacion01/#implementacion-01", 
+            "text": "BORRADOR/CONTENIDO PROVISIONAL )", 
+            "title": "Implementaci\u00f3n 01"
+        }, 
+        {
+            "location": "/implementacion/implementacion02/", 
+            "text": "Implementaci\u00f3n 02\n\n\nBORRADOR/CONTENIDO PROVISIONAL\n)", 
+            "title": "Implementaci\u00f3n 02"
+        }, 
+        {
+            "location": "/implementacion/implementacion02/#implementacion-02", 
+            "text": "BORRADOR/CONTENIDO PROVISIONAL )", 
+            "title": "Implementaci\u00f3n 02"
+        }, 
+        {
+            "location": "/implementacion/implementacion03/", 
+            "text": "Implementaci\u00f3n 03\n\n\nBORRADOR/CONTENIDO PROVISIONAL\n)", 
+            "title": "Implementaci\u00f3n 03"
+        }, 
+        {
+            "location": "/implementacion/implementacion03/#implementacion-03", 
+            "text": "BORRADOR/CONTENIDO PROVISIONAL )", 
+            "title": "Implementaci\u00f3n 03"
+        }, 
+        {
+            "location": "/referencias/servicios_de_teselas_vectoriales/", 
+            "text": "Servicios de Teselas Vectoriales\n\n\n(\nBORRADOR/CONTENIDO PROVISIONAL\n)\n\n\n\nCada d\u00eda son m\u00e1s numerosas las organizaciones que ofrecen servicios de distribuci\u00f3n de informaci\u00f3n geogr\u00e1fica mediante la tecnolog\u00eda de teselas vectoriales.\n\n\nAlgunos de estos servicios de car\u00e1cter global, ofrecen la posibilidad de crear mapas de referencia de cualquier lugar del mundo con distintos niveles de detalle. \n\n\nLa mayor parte de ellos generan las teselas que ofertan a partir de la informaci\u00f3n ofrecida por \nOpenStreetMap\n (OSM)\n, utilizando para ello distintos esquemas o modelos de datos.\n\n\nRecogemos aqu\u00ed algunos de estos modelos con objeto de que puedan servir de referencia, sin la pretensi\u00f3n de realizar una recopilaci\u00f3n completa y exhaustiva de toda la oferta existente  \n\n\n\n\n\n\nOpenMapTiles\n\n\n\n\nOpenMapTiles\n es un proyecto de software abierto de \nKlokan Technologies GmbH\n, que ofrece la posibilidad de instalar libremente el servidor de teselas estilizadas \nOpenMapTiles Map Server\n.\n\n\nLas teselas producidas por esta aplicaci\u00f3n, pueden ser consumidas por visualizadores de mapas \nJavaScript\n as\u00ed como por aplicaciones nativas para dispositivos m\u00f3viles \niOS\n y \nAndroid\n.\n\n\nEste software se nutre de los paquetes de teselas vectoriales ofrecidos por \nOpenMapTiles\n a trav\u00e9s de su \nservicio de descarga de teselas vectoriales\n, conforme con el est\u00e1ndar \nMVT (Mapbox Vector Tile)\n.\n\n\nEl servicio de descarga de teselas vectoriales es de pago, existiendo la posibilidad de descargar la informaci\u00f3n de forma gratuita en caso de proyectos no comerciales o de software/datos abiertos.\n\n\nPara facilitar el estilizado de su esquema de datos, \nopenMapTiles\n distribuye distintas \ncolecciones de ficheros de estilos\n, cuyo uso es libre.\n\n\nEl \nesquema de teselas vectoriales\n de \nOpenMapTiles\n, codifica informaci\u00f3n de \nOpenStreetMap\n, \nNatural Earth\n y datos geogr\u00e1ficos abiertos.\n\n\nOpenMapTiles\n ofrece tambi\u00e9n el software libre \nTileserver GL\n para la distribuci\u00f3n de teselas r\u00e1ster y vectoriales, el software \nMapTiler desktop\n para la producci\u00f3n de mapas teselados a partir de informaci\u00f3n r\u00e1ster y vectorial, con un uso gratuito limitado; y servicios de alojamiento de mapas personalizados en la nube: \nMapTiler Cloud\n, con planes limitados para su uso libre.\n\n\n\n\n\n\n\n\n\n\n\n\nEsri\n\n\n\n\nEsri\n es una compa\u00f1\u00eda de servicios cartogr\u00e1ficos creadora del software de an\u00e1lisis y representaci\u00f3n cartogr\u00e1fica \nArcGIS\n. Junto con las soluciones geom\u00e1ticas de escritorio, \nEsri\n ofrece una plataforma de trabajo y servicios de mapas online: \nArcGIS Online\n.\n\n\nComo otras empresas del sector, \nEsri\n ha desarrollado en los \u00faltimos a\u00f1os, herramientas para la producci\u00f3n, estilizado y distribuci\u00f3n de mapas renderizados a partir de teselas vectoriales.\n\n\nAdem\u00e1s de las teselas vectoriales que puede generar un usuario, \nEsri\n ha desarrollado distintas colecciones de teselas vectoriales de \u00e1mbito global, a partir de las cuales oferta a sus clientes una amplia \ncolecci\u00f3n de mapas base\n, que estos pueden utilizar directamente o reestilizar con objeto de dise\u00f1ar una propuesta cartogr\u00e1fica personal.\n\n\nEl resultado obtenido puede ser utilizado en soluciones webmapping y aplicaciones para dispositivos m\u00f3viles.\n\n\nLa estructura y configuraci\u00f3n de las entidades que \nEsri\n utiliza para la producci\u00f3n sus mapas base, se puede consultar en el documento: \nEsri Vector Basemap Reference Document (v2)\n\n\n\n\n\n\n\n\n\n\n\n\nMapbox\n\n\n\n\nMapbox\n es una empresa que ofrece principalmente servicios cartogr\u00e1ficos de pago, que complementa con soluciones de geocodificaci\u00f3n directa e inversa de direcciones, routing en funci\u00f3n de datos de tr\u00e1fico, y an\u00e1lisis geoespacial a partir de la librer\u00eda JavaScript \nTurf.js\n.\n\n\nMapbox\n es uno de los actores m\u00e1s influyentes en lo que respecta a teselas vectoriales, ya que esta compa\u00f1\u00eda fue la creadora del est\u00e1ndar abierto para la producci\u00f3n y gesti\u00f3n de teselas vectoriales, denominado \nMapbox Vector Tile Specification\n, conocido como \nMVT\n (Mapbox Vector Tile), de uso muy generalizado.\n\n\nEsta especificaci\u00f3n incorpora el m\u00e9todo \nProtobuf\n (Protocol Buffers)\n de \nGoogle\n para la serializaci\u00f3n estructurada de datos, con objeto de conseguir un almacenamiento y procesado m\u00e1s eficiente.\n\n\nEsta compa\u00f1\u00eda ofrece a sus clientes varios servicios de distribuci\u00f3n de teselas vectoriales de \u00e1mbito global, siendo el principal de ellos el denominado \"Streets\", dise\u00f1ado a partir de la base de datos geogr\u00e1fica \nOpenStreetMap\n (OSM)\n.\n\n\nActualmente el esquema de datos estable de esta colecci\u00f3n es \nMapbox Streets v7\n, si bien ya est\u00e1 disponible en versi\u00f3n beta el esquema \nMapbox Streets v8\n\n\nMapbox\n oferta a sus usuarios otros dos servicios de teselas vectoriales, mediante los que distribuye datos para la renderizaci\u00f3n del relieve (\nMapbox Terrain\n) y datos actualizados de congesti\u00f3n del tr\u00e1fico (\nMapbox Traffic v1\n).\n\n\nLos usuarios de \nMapbox\n disponen de un entorno para la estilizaci\u00f3n de las teselas vectoriales denominado \nMapbox Studio\n que les ofrece la posibilidad de configurar una simbolog\u00eda de mapas propia.\n\n\nAunque los servicios de \nMapbox\n son de pago, existe la posibilidad de utilizarlos gratuitamente de forma limitada, en entornos webmapping y desarrollos SDK para m\u00f3viles.\n\n\n\n\n\n\n\n\n\n\nMapbox\n es una compa\u00f1\u00eda que ha apostado fuertemente por el desarrollo de software abierto, lo que hace posible que muchas de sus aplicaciones, librer\u00edas y utilidades puedan ser utilizadas de forma libre.\n\n\nEntre las muchas aplicaciones que distribuye, resultan particularmente interesantes las siguientes:\n\n\n\n\ntippecanoe\n: Utilidad que ofrece la posibilidad de generar, con un gran rendimiento, colecciones de teselas vectoriales en formatos: \nGeoJSON\n, \nGeobuf\n y CSV.\n\n\nMapbox GL JS\n: Librer\u00eda JavaScript para visualizar mapas en la web de forma interactiva. Permite aplicar a las teselas vectoriales estilos conforme a la especificaci\u00f3n \nMapbox Style Specification\n y presentar sus resultados en entornos \nWebGL\n (especificaci\u00f3n OpenGL ES 2.0 para gr\u00e1ficos 3D).\n\n\n\n\nMapbox\n mantiene en GitHub una amplia oferta de \nrepositorios\n, desde donde es posible acceder y descargar el c\u00f3digo de todos sus desarrollos.\n\n\n\n\n\n\nNota: La informaci\u00f3n y especificaciones que se recogen en esta p\u00e1gina est\u00e1n referidas a la fecha 1 de julio de 2018\n.", 
+            "title": "Servicios de teselas vectoriales"
+        }, 
+        {
+            "location": "/referencias/servicios_de_teselas_vectoriales/#servicios-de-teselas-vectoriales", 
+            "text": "( BORRADOR/CONTENIDO PROVISIONAL )  Cada d\u00eda son m\u00e1s numerosas las organizaciones que ofrecen servicios de distribuci\u00f3n de informaci\u00f3n geogr\u00e1fica mediante la tecnolog\u00eda de teselas vectoriales.  Algunos de estos servicios de car\u00e1cter global, ofrecen la posibilidad de crear mapas de referencia de cualquier lugar del mundo con distintos niveles de detalle.   La mayor parte de ellos generan las teselas que ofertan a partir de la informaci\u00f3n ofrecida por  OpenStreetMap  (OSM) , utilizando para ello distintos esquemas o modelos de datos.  Recogemos aqu\u00ed algunos de estos modelos con objeto de que puedan servir de referencia, sin la pretensi\u00f3n de realizar una recopilaci\u00f3n completa y exhaustiva de toda la oferta existente", 
+            "title": "Servicios de Teselas Vectoriales"
+        }, 
+        {
+            "location": "/referencias/servicios_de_teselas_vectoriales/#openmaptiles", 
+            "text": "OpenMapTiles  es un proyecto de software abierto de  Klokan Technologies GmbH , que ofrece la posibilidad de instalar libremente el servidor de teselas estilizadas  OpenMapTiles Map Server .  Las teselas producidas por esta aplicaci\u00f3n, pueden ser consumidas por visualizadores de mapas  JavaScript  as\u00ed como por aplicaciones nativas para dispositivos m\u00f3viles  iOS  y  Android .  Este software se nutre de los paquetes de teselas vectoriales ofrecidos por  OpenMapTiles  a trav\u00e9s de su  servicio de descarga de teselas vectoriales , conforme con el est\u00e1ndar  MVT (Mapbox Vector Tile) .  El servicio de descarga de teselas vectoriales es de pago, existiendo la posibilidad de descargar la informaci\u00f3n de forma gratuita en caso de proyectos no comerciales o de software/datos abiertos.  Para facilitar el estilizado de su esquema de datos,  openMapTiles  distribuye distintas  colecciones de ficheros de estilos , cuyo uso es libre.  El  esquema de teselas vectoriales  de  OpenMapTiles , codifica informaci\u00f3n de  OpenStreetMap ,  Natural Earth  y datos geogr\u00e1ficos abiertos.  OpenMapTiles  ofrece tambi\u00e9n el software libre  Tileserver GL  para la distribuci\u00f3n de teselas r\u00e1ster y vectoriales, el software  MapTiler desktop  para la producci\u00f3n de mapas teselados a partir de informaci\u00f3n r\u00e1ster y vectorial, con un uso gratuito limitado; y servicios de alojamiento de mapas personalizados en la nube:  MapTiler Cloud , con planes limitados para su uso libre.", 
+            "title": "OpenMapTiles"
+        }, 
+        {
+            "location": "/referencias/servicios_de_teselas_vectoriales/#esri", 
+            "text": "Esri  es una compa\u00f1\u00eda de servicios cartogr\u00e1ficos creadora del software de an\u00e1lisis y representaci\u00f3n cartogr\u00e1fica  ArcGIS . Junto con las soluciones geom\u00e1ticas de escritorio,  Esri  ofrece una plataforma de trabajo y servicios de mapas online:  ArcGIS Online .  Como otras empresas del sector,  Esri  ha desarrollado en los \u00faltimos a\u00f1os, herramientas para la producci\u00f3n, estilizado y distribuci\u00f3n de mapas renderizados a partir de teselas vectoriales.  Adem\u00e1s de las teselas vectoriales que puede generar un usuario,  Esri  ha desarrollado distintas colecciones de teselas vectoriales de \u00e1mbito global, a partir de las cuales oferta a sus clientes una amplia  colecci\u00f3n de mapas base , que estos pueden utilizar directamente o reestilizar con objeto de dise\u00f1ar una propuesta cartogr\u00e1fica personal.  El resultado obtenido puede ser utilizado en soluciones webmapping y aplicaciones para dispositivos m\u00f3viles.  La estructura y configuraci\u00f3n de las entidades que  Esri  utiliza para la producci\u00f3n sus mapas base, se puede consultar en el documento:  Esri Vector Basemap Reference Document (v2)", 
+            "title": "Esri"
+        }, 
+        {
+            "location": "/referencias/servicios_de_teselas_vectoriales/#mapbox", 
+            "text": "Mapbox  es una empresa que ofrece principalmente servicios cartogr\u00e1ficos de pago, que complementa con soluciones de geocodificaci\u00f3n directa e inversa de direcciones, routing en funci\u00f3n de datos de tr\u00e1fico, y an\u00e1lisis geoespacial a partir de la librer\u00eda JavaScript  Turf.js .  Mapbox  es uno de los actores m\u00e1s influyentes en lo que respecta a teselas vectoriales, ya que esta compa\u00f1\u00eda fue la creadora del est\u00e1ndar abierto para la producci\u00f3n y gesti\u00f3n de teselas vectoriales, denominado  Mapbox Vector Tile Specification , conocido como  MVT  (Mapbox Vector Tile), de uso muy generalizado.  Esta especificaci\u00f3n incorpora el m\u00e9todo  Protobuf  (Protocol Buffers)  de  Google  para la serializaci\u00f3n estructurada de datos, con objeto de conseguir un almacenamiento y procesado m\u00e1s eficiente.  Esta compa\u00f1\u00eda ofrece a sus clientes varios servicios de distribuci\u00f3n de teselas vectoriales de \u00e1mbito global, siendo el principal de ellos el denominado \"Streets\", dise\u00f1ado a partir de la base de datos geogr\u00e1fica  OpenStreetMap  (OSM) .  Actualmente el esquema de datos estable de esta colecci\u00f3n es  Mapbox Streets v7 , si bien ya est\u00e1 disponible en versi\u00f3n beta el esquema  Mapbox Streets v8  Mapbox  oferta a sus usuarios otros dos servicios de teselas vectoriales, mediante los que distribuye datos para la renderizaci\u00f3n del relieve ( Mapbox Terrain ) y datos actualizados de congesti\u00f3n del tr\u00e1fico ( Mapbox Traffic v1 ).  Los usuarios de  Mapbox  disponen de un entorno para la estilizaci\u00f3n de las teselas vectoriales denominado  Mapbox Studio  que les ofrece la posibilidad de configurar una simbolog\u00eda de mapas propia.  Aunque los servicios de  Mapbox  son de pago, existe la posibilidad de utilizarlos gratuitamente de forma limitada, en entornos webmapping y desarrollos SDK para m\u00f3viles.      Mapbox  es una compa\u00f1\u00eda que ha apostado fuertemente por el desarrollo de software abierto, lo que hace posible que muchas de sus aplicaciones, librer\u00edas y utilidades puedan ser utilizadas de forma libre.  Entre las muchas aplicaciones que distribuye, resultan particularmente interesantes las siguientes:   tippecanoe : Utilidad que ofrece la posibilidad de generar, con un gran rendimiento, colecciones de teselas vectoriales en formatos:  GeoJSON ,  Geobuf  y CSV.  Mapbox GL JS : Librer\u00eda JavaScript para visualizar mapas en la web de forma interactiva. Permite aplicar a las teselas vectoriales estilos conforme a la especificaci\u00f3n  Mapbox Style Specification  y presentar sus resultados en entornos  WebGL  (especificaci\u00f3n OpenGL ES 2.0 para gr\u00e1ficos 3D).   Mapbox  mantiene en GitHub una amplia oferta de  repositorios , desde donde es posible acceder y descargar el c\u00f3digo de todos sus desarrollos.    Nota: La informaci\u00f3n y especificaciones que se recogen en esta p\u00e1gina est\u00e1n referidas a la fecha 1 de julio de 2018 .", 
+            "title": "Mapbox"
+        }, 
+        {
+            "location": "/referencias/referencias01/", 
+            "text": "Referencias 01\n\n\nBORRADOR/CONTENIDO PROVISIONAL\n)", 
+            "title": "Referencias 01"
+        }, 
+        {
+            "location": "/referencias/referencias01/#referencias-01", 
+            "text": "BORRADOR/CONTENIDO PROVISIONAL )", 
+            "title": "Referencias 01"
+        }, 
+        {
+            "location": "/referencias/referencias02/", 
+            "text": "Referencias 02\n\n\nBORRADOR/CONTENIDO PROVISIONAL\n)", 
+            "title": "Referencias 02"
+        }, 
+        {
+            "location": "/referencias/referencias02/#referencias-02", 
+            "text": "BORRADOR/CONTENIDO PROVISIONAL )", 
+            "title": "Referencias 02"
+        }, 
+        {
+            "location": "/referencias/referencias03/", 
+            "text": "Referencias 03\n\n\nBORRADOR/CONTENIDO PROVISIONAL\n)", 
+            "title": "Referencias 03"
+        }, 
+        {
+            "location": "/referencias/referencias03/#referencias-03", 
+            "text": "BORRADOR/CONTENIDO PROVISIONAL )", 
+            "title": "Referencias 03"
+        }, 
+        {
+            "location": "/informacion/licencia/", 
+            "text": "Licencia\n\n\n(\nBORRADOR/CONTENIDO PROVISIONAL\n)\n\n\n\nLos contenidos, documentos y c\u00f3digo que aqu\u00ed se exponen, son el resultado del proyecto desarrollado por el \nSubgrupo de Trabajo del Mapa Base de Informaci\u00f3n Geogr\u00e1fica Nacional\n, creado a propuesta de la \nComisi\u00f3n Especializada de Normas Geogr\u00e1ficas\n, del \nConsejo Superior Geogr\u00e1fico\n de Espa\u00f1a.\n\n\nVd. puede hacer uso libremente de los documentos, procedimientos y material que aqu\u00ed se ofrece, de acuerdo a los t\u00e9rminos y condiciones definidos en la \nLicencia Creative Commons Atribuci\u00f3n 4.0 Internacional\n, correspondiendo al \nSistema Cartogr\u00e1fico Nacional\n de Espa\u00f1a su titularidad exclusiva y los derechos derivados de esta, conforme a lo regulado por la \nLey 23/2006, de 7 de julio, por la que se modifica el texto refundido de la Ley de Propiedad Intelectual\n, aprobado por el Real Decreto Legislativo 1/1996, de 12 de abril.\n\n\nEn la medida que le resulte t\u00e9cnicamente posible, debe proporcionar informaci\u00f3n de reconocimiento en l\u00ednea, o bien hacerlo a trav\u00e9s de la documentaci\u00f3n o metadatos de su aplicaci\u00f3n.\n\n\n\n\n\n\n\nRESUMEN DE LOS T\u00c9RMINOS DE LA LICENCIA CREATIVE COMMONS CC BY 4.0 \n\n\nAdvertencia\n:\n\n\nEste resumen no es un sustituto de la licencia real.\n\n\nEste resumen pone de relieve solo algunas de las caracter\u00edsticas clave y los t\u00e9rminos de la licencia real. No es una licencia y no tiene valor legal. Debe revisar cuidadosamente todos los t\u00e9rminos y condiciones de la licencia real antes de utilizar el material sujeto a la licencia. \n\n\nEs libre de\n:\n\n\nCOMPARTIR - copiar y redistribuir el material en cualquier medio o formato.\n\n\nADAPTAR - remezclar, transformar y crear a partir del material para cualquier finalidad, incluso comercial.\n\n\nEl licenciador no puede revocar estas libertades mientras cumpla con los t\u00e9rminos de la licencia. \n\n\nBajo las siguientes condiciones:\n\n\nRECONOCIMIENTO - Debe reconocer adecuadamente la autor\u00eda, proporcionar un enlace a la licencia e indicar si se han realizado cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que tiene el apoyo del licenciador o lo recibe por el uso que hace.\n\n\nNo hay restricciones adicionales - No puede aplicar t\u00e9rminos legales o medidas tecnol\u00f3gicas que legalmente restrinja realizar aquello que la licencia permite. \n\n\nAvisos\n:\n\n\nNo tiene que cumplir con la licencia para aquellos elementos del material en el dominio p\u00fablico o cuando su utilizaci\u00f3n est\u00e1 permitida por la aplicaci\u00f3n de una excepci\u00f3n o un l\u00edmite.\n\n\nNo se dan garant\u00edas: La licencia puede no ofrecer todos los permisos necesarios para la utilizaci\u00f3n prevista. Por ejemplo, otros derechos como los de publicidad, privacidad, o los derechos morales pueden limitar el uso del material.\n\n\n\n\n\nEl \nSistema Cartogr\u00e1fico Nacional\n de Espa\u00f1a, se reserva la capacidad de modificar o revocar la documentaci\u00f3n y ficheros que ofrece, sin previo aviso y sin necesidad de justificaci\u00f3n.", 
+            "title": "Licencia"
+        }, 
+        {
+            "location": "/informacion/licencia/#licencia", 
+            "text": "( BORRADOR/CONTENIDO PROVISIONAL )  Los contenidos, documentos y c\u00f3digo que aqu\u00ed se exponen, son el resultado del proyecto desarrollado por el  Subgrupo de Trabajo del Mapa Base de Informaci\u00f3n Geogr\u00e1fica Nacional , creado a propuesta de la  Comisi\u00f3n Especializada de Normas Geogr\u00e1ficas , del  Consejo Superior Geogr\u00e1fico  de Espa\u00f1a.  Vd. puede hacer uso libremente de los documentos, procedimientos y material que aqu\u00ed se ofrece, de acuerdo a los t\u00e9rminos y condiciones definidos en la  Licencia Creative Commons Atribuci\u00f3n 4.0 Internacional , correspondiendo al  Sistema Cartogr\u00e1fico Nacional  de Espa\u00f1a su titularidad exclusiva y los derechos derivados de esta, conforme a lo regulado por la  Ley 23/2006, de 7 de julio, por la que se modifica el texto refundido de la Ley de Propiedad Intelectual , aprobado por el Real Decreto Legislativo 1/1996, de 12 de abril.  En la medida que le resulte t\u00e9cnicamente posible, debe proporcionar informaci\u00f3n de reconocimiento en l\u00ednea, o bien hacerlo a trav\u00e9s de la documentaci\u00f3n o metadatos de su aplicaci\u00f3n.    RESUMEN DE LOS T\u00c9RMINOS DE LA LICENCIA CREATIVE COMMONS CC BY 4.0   Advertencia :  Este resumen no es un sustituto de la licencia real.  Este resumen pone de relieve solo algunas de las caracter\u00edsticas clave y los t\u00e9rminos de la licencia real. No es una licencia y no tiene valor legal. Debe revisar cuidadosamente todos los t\u00e9rminos y condiciones de la licencia real antes de utilizar el material sujeto a la licencia.   Es libre de :  COMPARTIR - copiar y redistribuir el material en cualquier medio o formato.  ADAPTAR - remezclar, transformar y crear a partir del material para cualquier finalidad, incluso comercial.  El licenciador no puede revocar estas libertades mientras cumpla con los t\u00e9rminos de la licencia.   Bajo las siguientes condiciones:  RECONOCIMIENTO - Debe reconocer adecuadamente la autor\u00eda, proporcionar un enlace a la licencia e indicar si se han realizado cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que tiene el apoyo del licenciador o lo recibe por el uso que hace.  No hay restricciones adicionales - No puede aplicar t\u00e9rminos legales o medidas tecnol\u00f3gicas que legalmente restrinja realizar aquello que la licencia permite.   Avisos :  No tiene que cumplir con la licencia para aquellos elementos del material en el dominio p\u00fablico o cuando su utilizaci\u00f3n est\u00e1 permitida por la aplicaci\u00f3n de una excepci\u00f3n o un l\u00edmite.  No se dan garant\u00edas: La licencia puede no ofrecer todos los permisos necesarios para la utilizaci\u00f3n prevista. Por ejemplo, otros derechos como los de publicidad, privacidad, o los derechos morales pueden limitar el uso del material.   \nEl  Sistema Cartogr\u00e1fico Nacional  de Espa\u00f1a, se reserva la capacidad de modificar o revocar la documentaci\u00f3n y ficheros que ofrece, sin previo aviso y sin necesidad de justificaci\u00f3n.", 
+            "title": "Licencia"
+        }, 
+        {
+            "location": "/informacion/about/", 
+            "text": "About\n\n\n(\nBORRADOR/CONTENIDO PROVISIONAL\n)\n\n\n\nEstas p\u00e1ginas recogen el trabajo realizado en el marco del proyecto \nMapa Base de Informaci\u00f3n Geogr\u00e1fica Oficial\n, desarrollado por el Subgrupo de Trabajo, que para tal fin se ha constituido a propuesta de la \nComisi\u00f3n Especializada de Normas Geogr\u00e1ficas\n del \nConsejo Superior Geogr\u00e1fico\n de Espa\u00f1a.\n\n\nEn el mismo colaboran 19 t\u00e9cnicos de 13 instituciones y organizaciones.\n\n\nLas actividades han dado comienzo el d\u00eda 28 de junio de 2018, estando inicialmente previsto que se extiendan hasta el 30 de junio de 2019", 
+            "title": "About"
+        }, 
+        {
+            "location": "/informacion/about/#about", 
+            "text": "( BORRADOR/CONTENIDO PROVISIONAL )  Estas p\u00e1ginas recogen el trabajo realizado en el marco del proyecto  Mapa Base de Informaci\u00f3n Geogr\u00e1fica Oficial , desarrollado por el Subgrupo de Trabajo, que para tal fin se ha constituido a propuesta de la  Comisi\u00f3n Especializada de Normas Geogr\u00e1ficas  del  Consejo Superior Geogr\u00e1fico  de Espa\u00f1a.  En el mismo colaboran 19 t\u00e9cnicos de 13 instituciones y organizaciones.  Las actividades han dado comienzo el d\u00eda 28 de junio de 2018, estando inicialmente previsto que se extiendan hasta el 30 de junio de 2019", 
+            "title": "About"
+        }
+    ]
+}
