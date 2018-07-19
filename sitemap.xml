@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2018-07-05</lastmod>
+     <lastmod>2018-07-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,14 +12,32 @@
     
         
     <url>
-     <loc>/proyecto/objetivo/</loc>
-     <lastmod>2018-07-05</lastmod>
+     <loc>/proyecto/justificacion/</loc>
+     <lastmod>2018-07-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/proyecto/justificacion/</loc>
-     <lastmod>2018-07-05</lastmod>
+     <loc>/proyecto/objetivo/</loc>
+     <lastmod>2018-07-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/proyecto/directrices/</loc>
+     <lastmod>2018-07-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/proyecto/acciones/</loc>
+     <lastmod>2018-07-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/proyecto/handicaps/</loc>
+     <lastmod>2018-07-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -29,19 +47,7 @@
         
     <url>
      <loc>/diseno/diseno01/</loc>
-     <lastmod>2018-07-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/diseno/diseno02/</loc>
-     <lastmod>2018-07-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/diseno/diseno03/</loc>
-     <lastmod>2018-07-05</lastmod>
+     <lastmod>2018-07-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -51,19 +57,7 @@
         
     <url>
      <loc>/recursos/recursos01/</loc>
-     <lastmod>2018-07-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/recursos/recursos02/</loc>
-     <lastmod>2018-07-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/recursos/recursos03/</loc>
-     <lastmod>2018-07-05</lastmod>
+     <lastmod>2018-07-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -73,19 +67,7 @@
         
     <url>
      <loc>/implementacion/implementacion01/</loc>
-     <lastmod>2018-07-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/implementacion/implementacion02/</loc>
-     <lastmod>2018-07-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/implementacion/implementacion03/</loc>
-     <lastmod>2018-07-05</lastmod>
+     <lastmod>2018-07-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -94,26 +76,14 @@
     
         
     <url>
+     <loc>/referencias/mapas_teselados/</loc>
+     <lastmod>2018-07-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>/referencias/servicios_de_teselas_vectoriales/</loc>
-     <lastmod>2018-07-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/referencias/referencias01/</loc>
-     <lastmod>2018-07-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/referencias/referencias02/</loc>
-     <lastmod>2018-07-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/referencias/referencias03/</loc>
-     <lastmod>2018-07-05</lastmod>
+     <lastmod>2018-07-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -123,13 +93,13 @@
         
     <url>
      <loc>/informacion/licencia/</loc>
-     <lastmod>2018-07-05</lastmod>
+     <lastmod>2018-07-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/informacion/about/</loc>
-     <lastmod>2018-07-05</lastmod>
+     <lastmod>2018-07-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         

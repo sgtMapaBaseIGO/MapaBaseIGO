@@ -75,13 +75,31 @@
                         
                             
 <li >
+    <a href="../../proyecto/justificacion/">Justificación</a>
+</li>
+
+                        
+                            
+<li >
     <a href="../../proyecto/objetivo/">Objetivo</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../proyecto/justificacion/">Justificación</a>
+    <a href="../../proyecto/directrices/">Directrices</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../proyecto/acciones/">Acciones</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../proyecto/handicaps/">Hándicaps</a>
 </li>
 
                         
@@ -100,18 +118,6 @@
 </li>
 
                         
-                            
-<li >
-    <a href="../../diseno/diseno02/">Diseño 02</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../diseno/diseno03/">Diseño 03</a>
-</li>
-
-                        
                         </ul>
                     </li>
                 
@@ -124,18 +130,6 @@
                             
 <li >
     <a href="../../recursos/recursos01/">Recursos 01</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../recursos/recursos02/">Recursos 02</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../recursos/recursos03/">Recursos 03</a>
 </li>
 
                         
@@ -154,18 +148,6 @@
 </li>
 
                         
-                            
-<li >
-    <a href="../../implementacion/implementacion02/">Implementación 02</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../implementacion/implementacion03/">Implementación 03</a>
-</li>
-
-                        
                         </ul>
                     </li>
                 
@@ -176,26 +158,14 @@
                         <ul class="dropdown-menu">
                         
                             
+<li class="active">
+    <a href="./">Mapas teselados</a>
+</li>
+
+                        
+                            
 <li >
     <a href="../servicios_de_teselas_vectoriales/">Servicios de teselas vectoriales</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../referencias01/">Referencias 01</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../referencias02/">Referencias 02</a>
-</li>
-
-                        
-                            
-<li class="active">
-    <a href="./">Referencias 03</a>
 </li>
 
                         
@@ -233,12 +203,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../referencias02/">
+                        <a rel="next" href="../../implementacion/implementacion01/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../../informacion/licencia/">
+                        <a rel="prev" href="../servicios_de_teselas_vectoriales/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -251,14 +221,65 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#referencias-03">Referencias 03</a></li>
+        <li class="first-level active"><a href="#mapas-teselados">Mapas teselados</a></li>
+            <li class="second-level"><a href="#teselas-piramidales">Teselas piramidales</a></li>
+                
+            <li class="second-level"><a href="#direccionamiento-xyz">Direccionamiento XYZ</a></li>
+                
+            <li class="second-level"><a href="#web-map-tile-service-wmts">Web Map Tile Service (WMTS)</a></li>
+                
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="referencias-03">Referencias 03</h1>
-<p><strong><em>BORRADOR/CONTENIDO PROVISIONAL</em></strong>)
-<br /></p></div>
+<h1 id="mapas-teselados">Mapas teselados</h1>
+<p>(<strong><em>BORRADOR/CONTENIDO PROVISIONAL</em></strong>)
+<br />
+<br /></p>
+<p>Los servicios de mapeado en la web (web mapping) y las aplicaciones SIG, requieren a menudo mapas contextuales sobre los que referir información.</p>
+<p>Las peticiones <em>GetMap</em> dirigidas a <a href="http://www.opengeospatial.org/standards/wms"><em>Servicios de Mapas Web</em> (WMS)</a>, es uno de los métodos de obtención de imágenes cartográficas y mapas de referencia más utilizado por estas aplicaciones.</p>
+<p>Mediante este método un servidor atiende la petición de una imagen que le solicita una aplicación cliente.</p>
+<p>Para componer la imagen solicitada, el servidor necesita que el cliente le traslade información relativa a la colección de capas geográficas que desea y su simbolización; el sistema geográfico de referencia a utilizar, las coordenadas que definen el marco geográfico del mapa solicitado, así como el formato gráfico de entrega.</p>
+<p>Para componer la imagen que le ha sido solicitada, el servidor requiere un tiempo de procesado con el fin de atender los requisitos específicos de cada usuario, por lo que este método no está especialmente diseñado para entornos en los que los tiempos de respuesta y el tamaño de ficheros son muy críticos.
+<br />
+<br /></p>
+<h3 id="teselas-piramidales">Teselas piramidales</h3>
+<p><br />
+Para optimizar la entrega de mapas en entornos donde se requiere un gran rendimiento, se ha creado una técnica que consiste en trocear el mapa a servir en pequeñas teselas. El usuario mediante este método recibe una colección de teselas a partir de las cuales compone un mosaico de la imagen solicitada, en tanto que el servidor puede atender peticiones paralelamente y de forma muy rápida a través de varios hilos.</p>
+<p>Para sistematizar el procedimiento, se ha considerado una estructura piramidal de imágenes en cuyo vértice se ubica una tesela de 256x256 píxeles que incluye la renderización de todo el mundo.</p>
+<p>A partir de esta imagen inicial o nivel 0, el siguiente nivel de zoom (1) duplica la dimensión de la imagen en ambas direcciones (512x512 px), estructurándola en 4 teselas de 256x256 px.</p>
+<p>El proceso se puede reiterar sucesivamente hasta un nivel 22, que se considera suficiente para la mayor parte de las aplicaciones.</p>
+<p><br />
+<img alt="Teselado" src="../../img/teselado.jpg" title="Teselado" />
+<br />
+<br /></p>
+<p>Estos servicios utilizan el Sistema Geográfico de Referencia <a href="https://epsg.io/3857"><em>WGS 84 / Pseudo-Mercator - Spherical Mercator</em> (EPSG:3857)</a>, conocido también como <em>Web Mercator</em>.
+<br />
+<br /></p>
+<h3 id="direccionamiento-xyz">Direccionamiento XYZ</h3>
+<p><br />
+A diferencia de los servicios WMS, los servicios de distribución de teselas, o <em>Tile Servers</em>, no requieren de una negociación previa, ya que el contenido y las coordenadas de localización de la tesela está preconfigurado de antemano.</p>
+<p>El direccionamiento de las teselas, se organiza siguiendo un esquema proio de coordenadas x,y al que se le añade el nivel de zoom (0-22) donde la primera tesela se corresponde con las coordenadas 0,0,0. Estos métodos de localización de teselas se conocen como direccionamiento XYZ.</p>
+<p>Aunque las propiedades y ambito geográfico de las teselas coinciden, existen tres esquemas distintos para identificar el direccionamiento xyz:</p>
+<ul>
+<li><a href="https://developers.google.com/maps/documentation/javascript/coordinates"><em>Google XYZ</em></a>: De uso muy generalizado, es utilizada por <a href="https://www.google.es/maps">Google Maps</a> y por la mayor parte de servicios globales de mapas.</li>
+<li><a href="https://wiki.osgeo.org/wiki/Tile_Map_Service_Specification"><em>Tile Map Service Specification</em></a> or TMS: Desarrollado por <a href="https://www.osgeo.org/">Open Source Geospatial Foundation</a> y utilizada generalmente en proyectos de software abierto.</li>
+<li><a href="https://msdn.microsoft.com/en-us/library/bb259689.aspx"><em>QuadTree</em></a>: De uso menos extendido, es utilizado en aplicaciones de mapas de Microsoft como  <a href="https://www.bing.com/maps">Bing</a></li>
+</ul>
+<blockquote>
+<p><em>Nota: Para más información puede consultar la web <a href="http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/">Tiles à la Google Maps: Coordinates, Tile Bounds and Projection</a> editada por MapTiler</em>
+<br />
+<br /></p>
+</blockquote>
+<h3 id="web-map-tile-service-wmts">Web Map Tile Service (WMTS)</h3>
+<p><br />
+Con objeto de dotar de más eficiencia a los servicios WMS, el <a href="http://www.opengeospatial.org/">Open Geospatial Consortium</a> ha definido para Internet un protocolo de servicios de mapas prerrenderizados denominado <a href="http://www.opengeospatial.org/standards/wmts">Web Map Tile Service (WMTS)</a>. Este servicio es capaz de atender peticiones de teselas de las mismas características y esquemas de direccionamiento que los utilizados por los servicios de teselas XYZ.</p>
+<p><br />
+<a title="WMTS Standard" href="http://www.opengeospatial.org/standards/wmts"><img src="../../img/ogc_wmts_standard.jpg" alt="WMTS Standard" /></a>
+<br /></p>
+<p><br /></p>
+<hr />
+<p><em>15 julio 2018</em></p></div>
         
     </div>
 
