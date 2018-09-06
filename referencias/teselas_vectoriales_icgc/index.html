@@ -153,19 +153,37 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Referencias <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../../referencias/mapas_teselados/">Mapas teselados</a>
+    <a href="../mapas_teselados/">Mapas teselados</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../referencias/servicios_de_teselas_vectoriales/">Servicios de teselas vectoriales</a>
+    <a href="../servicios_de_teselas_vectoriales/">Servicios de teselas vectoriales</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../teselas_vectoriales_carto/">Teselas vectoriales CARTO</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">Teselas vectoriales ICGC</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../teselas_vectoriales_os/">Teselas vectoriales OS</a>
 </li>
 
                         
@@ -174,19 +192,19 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Información <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../licencia/">Licencia</a>
+    <a href="../../informacion/licencia/">Licencia</a>
 </li>
 
                         
                             
-<li class="active">
-    <a href="./">About</a>
+<li >
+    <a href="../../informacion/mapabase_igo/">MapaBaseIGO</a>
 </li>
 
                         
@@ -203,12 +221,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../licencia/">
+                        <a rel="next" href="../teselas_vectoriales_carto/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li class="disabled">
-                        <a rel="prev" >
+                    <li >
+                        <a rel="prev" href="../teselas_vectoriales_os/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -221,20 +239,66 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#about">About</a></li>
+        <li class="first-level active"><a href="#teselas-vectoriales-icgc">Teselas vectoriales ICGC</a></li>
+            <li class="second-level"><a href="#mapas-topograficos-de-cataluna-15000">Mapas Topográficos de Cataluña 1:5.000</a></li>
+                
+                <li class="third-level"><a href="#polit">Polit</a></li>
+                <li class="third-level"><a href="#icgc5m">ICGC5M</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="about">About</h1>
-<p>(<strong><em>BORRADOR/CONTENIDO PROVISIONAL</em></strong>)
+<h1 id="teselas-vectoriales-icgc">Teselas vectoriales ICGC</h1>
+<p>(<strong><em>BORRADOR/CONTENIDO PROVISIONAL</em></strong>)</p>
+<p><br /></p>
+<p>El <a href="http://www.icgc.cat/es/">Institut Cartogràfic i Geològic de Catalunya</a> desarrolla distintos proyectos de innovación y prototipaje de productos y servicios en el ámbito de la geoinformación, que publica a través del <a href="http://betaportal.icgc.cat/">BETA PORTAL ICGC</a></p>
+<p>Algunos de estos proyectos tienen como objetivo la simbolización cartográfica a partir de teselas vectoriales.</p>
+<p>El estilizado se realiza con la librería JavaScript <a href="https://www.mapbox.com/help/define-mapbox-gl-js/">Mapbox GL JS</a> a partir de las teselas vectoriales que son servidas con el software <a href="https://github.com/klokantech/tileserver-gl">TileServer GL</a> de <em>klokantech</em>.</p>
+<p>Para confirgurar los proyectos cartográficso, el ICGC edita distintos ficheros JSON de estilizado, conformes con la <a href="https://www.mapbox.com/mapbox-gl-js/style-spec/">especificación de MapBox</a>, así como los ficheros <em>sprite</em> (bitmaps bidimensionales) y <em>glyphs</em> (glifos), que se necesitan para la representación de iconos y textos.</p>
+<p>Además de la información que distribuye el ICGC a través del <em>Beta Portal</em>, es posible acceder a los recursos almacenados en la cuenta de GitHub <a href="https://github.com/OpenICGC"><em>OpenICGC</em></a> y la página web <a href="https://openicgc.github.io/"><em>Recursos ICGC en abierto</em></a>.</p>
+<p>Actualmente el ICGC está desarrollando proyectos para las escalas 1:5.000 y 1:25.000.</p>
+<p>A partir de la información que distribuye este organismo, hemos hecho una selección de distintos proyectos de mapas teselados con objeto de dar una idea de la flexibilidad que ofrece la cartografía producida a partir de teselas vectoriales.
+<br />
 <br /></p>
-<p>Estas páginas recogen el trabajo realizado en el marco del proyecto <em>Mapa Base de Información Geográfica Oficial</em>, desarrollado por el Subgrupo de Trabajo, que para tal fin se ha constituido a propuesta de la <em>Comisión Especializada de Normas Geográficas</em> del <em>Consejo Superior Geográfico</em> de España.</p>
-<p>En el mismo colaboran 19 técnicos de 13 instituciones y organizaciones.</p>
-<p>Las actividades han dado comienzo el día 28 de junio de 2018, estando inicialmente previsto que se extiendan hasta el 30 de junio de 2019</p>
-<p><br/></p>
+<h2 id="mapas-topograficos-de-cataluna-15000">Mapas Topográficos de Cataluña 1:5.000</h2>
+<p><br /></p>
+<h3 id="polit"><a href="https://noguan.github.io/referencias/icgc_mvt_mtc5m_polit.cat.html">Polit</a></h3>
+<p><a title="Polit" href="https://noguan.github.io/referencias/icgc_mvt_mtc5m_polit.cat.html"><img src="../../img/polit.jpg" alt="Polit" /></a>
+<br />
+<br /></p>
+<p>Este proyecto utiliza los siguientes recursos:</p>
+<p>Servicios de teselas vectoriales:</p>
+<ul>
+<li>bt5m: <em>https://tilemaps.icgc.cat/tileserver/tileserver.php/bt5m_vector/{z}/{x}/{y}.pbf</em></li>
+<li>Toponimia: <em>https://tilemaps.icgc.cat/tileserver/tileserver.php/redtopo/{z}/{x}/{y}.pbf</em></li>
+<li>catpol: <em>https://tilemaps.icgc.cat/tileserver/tileserver.php/catpol4326/{z}/{x}/{y}.pbf</em></li>
+<li>openmaptiles: <em>https://free.tilehosting.com/data/v3.json?key=QLOqi8gs14T1s1yjnRMO</em></li>
+</ul>
+<p>Servicios de teselas ráster:  </p>
+<ul>
+<li>terrain: <em>https://tilemaps.icgc.cat/tileserver/tileserver.php/mapboxTerrain/{z}/{x}/{y}.png</em></li>
+</ul>
+<p>Fichero de estilo: <a href="https://tilemaps.icgc.cat/tileserver/styles/polit.json"><em>https://tilemaps.icgc.cat/tileserver/styles/polit.json</em></a><br />
+sprite: <em>https://tilemaps.icgc.cat/tileserver/sprites/maki</em><br />
+glyphs: <em>https://tilemaps.icgc.cat/tileserver/glyphs/{fontstack}/{range}.pbf</em>
+<br />
+<br /></p>
+<h3 id="icgc5m"><a href="https://noguan.github.io/referencias/icgc_mvt_mtc5m_icgc5m.cat.html">ICGC5M</a></h3>
+<p><a title="BICGC5M" href="https://noguan.github.io/referencias/icgc_mvt_mtc5m_icgc5m.cat.html"><img src="../../img/ICGC5M.jpg" alt="ICGC5M" /></a>
+<br />
+<br /></p>
+<p>Este proyecto utiliza los siguientes recursos:</p>
+<p>Servicios de teselas vectoriales:</p>
+<ul>
+<li>bt5m: <em>https://tilemaps.icgc.cat/tileserver/tileserver.php/bt5m_vector/{z}/{x}/{y}.pbf</em></li>
+</ul>
+<p>Fichero de estilo: <a href="https://tilemaps.icgc.cat/tileserver/styles/icgc5mv2.json"><em>https://tilemaps.icgc.cat/tileserver/styles/icgc5mv2.json</em></a><br />
+sprite: <em>https://tilemaps.icgc.cat/tileserver/sprites/maki</em><br />
+glyphs: <em>https://tilemaps.icgc.cat/tileserver/glyphs/{fontstack}/{range}.pbf</em></p>
+<p><a href="http://icgc.cat/content/download/719/2802/version/10/file/bt5mv20dic_04ca.pdf">Diccionario de datos de la Base Topográfica de Cataluña 1:5.000 (cat)</a></p>
+<p><br /></p>
 <hr />
-<p><em>15 julio 2018</em></p></div>
+<p><em>5 septiembre 2018</em></p></div>
         
     </div>
 

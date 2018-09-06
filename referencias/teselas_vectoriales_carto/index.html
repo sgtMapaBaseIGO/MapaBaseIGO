@@ -1,0 +1,1971 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+
+    <title></title>
+
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/base.css" rel="stylesheet">
+    <link href="../../css/cinder.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="../..">Mapa Base IGO</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Proyecto <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../proyecto/justificacion/">Justificación</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../proyecto/objetivo/">Objetivo</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../proyecto/directrices/">Directrices</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../proyecto/acciones/">Acciones</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../proyecto/handicaps/">Hándicaps</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Diseño <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../diseno/diseno01/">Diseño 01</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Recursos <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../recursos/recursos01/">Recursos 01</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Implementación <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../implementacion/implementacion01/">Implementación 01</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Referencias <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../mapas_teselados/">Mapas teselados</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../servicios_de_teselas_vectoriales/">Servicios de teselas vectoriales</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">Teselas vectoriales CARTO</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../teselas_vectoriales_icgc/">Teselas vectoriales ICGC</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../teselas_vectoriales_os/">Teselas vectoriales OS</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Información <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../informacion/licencia/">Licencia</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../informacion/mapabase_igo/">MapaBaseIGO</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fa fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../servicios_de_teselas_vectoriales/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../teselas_vectoriales_icgc/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#teselas-vectoriales-carto">Teselas vectoriales CARTO</a></li>
+            <li class="second-level"><a href="#cartostreets-v1-schema">carto.streets v1 schema</a></li>
+                
+                <li class="third-level"><a href="#landcover">landcover</a></li>
+                <li class="third-level"><a href="#place">place</a></li>
+                <li class="third-level"><a href="#water">water</a></li>
+                <li class="third-level"><a href="#water_name">water_name</a></li>
+                <li class="third-level"><a href="#waterway">waterway</a></li>
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="teselas-vectoriales-carto">Teselas vectoriales CARTO</h1>
+<p>(<strong><em>BORRADOR/CONTENIDO PROVISIONAL</em></strong>)</p>
+<p><br /></p>
+<p>Las teselas vectoriales de <a href="https://carto.com/"><em>CARTO</em></a> están construidas a partir de la base de datos geográfica <a href="https://www.openstreetmap.org"><em>OpenStreetMap</em></a>
+<br />
+<br /></p>
+<h2 id="cartostreets-v1-schema">carto.streets v1 schema</h2>
+<p><em>Consultar nota (1)</em></p>
+<h3 id="landcover">landcover</h3>
+<p><br />
+<code>Id</code>: landcover<br />
+<code>Descripción</code>: Landcover is used to describe the physical material at the surface of the earth. Land covers include grass, asphalt, trees, bare ground, water, etc.<br />
+<code>Geometría</code>: Polygon (MultiPolygon)<br />
+<code>Zoom mínimo</code>:  0<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo (<em>class</em>)</th>
+<th>Valor</th>
+<th>Descripción (OpenStreetMap)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>class</code></td>
+<td>string</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>farmland</td>
+<td>An area of farmland used for tillage and pasture (animals, crops, vegetables, flowers, fruit growing).</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>grass</td>
+<td>An area of mown and managed grass. Some view this as not a landuse, see the main page landuse=grass for information.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>ice</td>
+<td>Ice.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>rock</td>
+<td>A notable rock or group of rocks attached to the underlying bedrock.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>sand</td>
+<td>An area covered by sand with no or very little vegetation.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>wetland</td>
+<td>A natural area subject to inundation or with waterlogged ground.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>wood</td>
+<td>Forest. Sometimes considered to have restricted meaning "Woodland with no forestry".</td>
+</tr>
+<tr>
+<td><code>subclass</code></td>
+<td>string</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>(<em>farmland</em>)</td>
+<td>farmland</td>
+<td>An area of farmland used for tillage and pasture.</td>
+</tr>
+<tr>
+<td></td>
+<td>(<em>farmland</em>)</td>
+<td>orchard</td>
+<td>intentional planting of trees or shrubs maintained for food production.</td>
+</tr>
+<tr>
+<td></td>
+<td>(<em>farmland</em>)</td>
+<td>vineyard</td>
+<td>A piece of land where grapes are grown.</td>
+</tr>
+<tr>
+<td></td>
+<td>(<em>grass</em>)</td>
+<td>allotments</td>
+<td>A separate settlement, which is located outside an officially inhabited locality and has its own addressing.</td>
+</tr>
+<tr>
+<td></td>
+<td>(<em>grass</em>)</td>
+<td>garden</td>
+<td>A place where flowers and other plants are grown in a decorative and structured manner or for scientific purposes.</td>
+</tr>
+<tr>
+<td></td>
+<td>(<em>grass</em>)</td>
+<td>grass</td>
+<td>An area of mown and managed grass, e.g. a lawn in a park, the middle of a roundabout, part of a golf course, the side of the road etc. Maybe consider surface=grass or landcover=grass.</td>
+</tr>
+<tr>
+<td></td>
+<td>(<em>grass</em>)</td>
+<td>grassland</td>
+<td>Natural areas where the vegetation is dominated by grasses (Poaceae) and other herbaceous (non-woody) plants.</td>
+</tr>
+<tr>
+<td></td>
+<td>(<em>grass</em>)</td>
+<td>meadow</td>
+<td>Used to tag an area of land primarily vegetated by grass plus other non-woody plants, mainly used for hay (meadow) or for grazing animals (pasture).</td>
+</tr>
+<tr>
+<td></td>
+<td>(<em>grass</em>)</td>
+<td>park</td>
+<td>A park, usually municipal.</td>
+</tr>
+<tr>
+<td></td>
+<td>(<em>grass</em>)</td>
+<td>recreation_ground</td>
+<td>An open green space for general recreation, which often includes formal or informal pitches, nets and so on. Often municipally owned, sometimes part of colleges / companies or commercially operated.</td>
+</tr>
+<tr>
+<td></td>
+<td>(<em>ice</em>)</td>
+<td>glacier</td>
+<td>A permanent body of ice formed naturally from snow that is moving under its own weight.</td>
+</tr>
+<tr>
+<td></td>
+<td>(<em>ice</em>)</td>
+<td>ice_shelf</td>
+<td>Thick plates of ice (thickness of 100m and more).</td>
+</tr>
+<tr>
+<td></td>
+<td>(<em>rock</em>)</td>
+<td>bare_rock</td>
+<td>An area with sparse or no vegetation, so that the bedrock becomes visible.</td>
+</tr>
+<tr>
+<td></td>
+<td>(<em>rock</em>)</td>
+<td>scree</td>
+<td>Unconsolidated angular rocks formed by rockfall and weathering from adjacent rockfaces.</td>
+</tr>
+<tr>
+<td></td>
+<td>(<em>sand</em>)</td>
+<td>sand</td>
+<td>An area covered by sand with no or very little vegetation.</td>
+</tr>
+<tr>
+<td></td>
+<td>(<em>wetland</em>)</td>
+<td>wetland</td>
+<td>A natural area subject to inundation or with waterlogged ground.</td>
+</tr>
+<tr>
+<td></td>
+<td>(<em>wood</em>)</td>
+<td>forest</td>
+<td>Managed forest or woodland plantation (Other languages). Some use this to map an area of trees rather than the use of the land. See the OSM wiki page on Forest.</td>
+</tr>
+<tr>
+<td></td>
+<td>(<em>wood</em>)</td>
+<td>scrub</td>
+<td>Uncultivated land covered with bushes or stunted trees.</td>
+</tr>
+<tr>
+<td></td>
+<td>(<em>wood</em>)</td>
+<td>wood</td>
+<td>Forest. Sometimes considered to have restricted meaning "Woodland with no forestry".</td>
+</tr>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+<tr>
+<td><br /><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="place">place</h3>
+<p><br />
+<code>Id</code>: place<br />
+<code>Descripción</code>: Used to indicate that a particular location is known by a particular name, to indicate what sort of "place" it is. A place tag should exist for every significant human settlements (city, town, suburb, etc.) and also for notable unpopulated, named places.<br />
+<code>Geometría</code>: Point (Point)<br />
+<code>Zoom mínimo</code>:  0<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción (OpenStreetMap)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>capital</code></td>
+<td>number</td>
+<td>[admin_level-number]<br />2 country<br />3-5 state, province, region<br />4-8 district, county<br />6-8 municipality<br />6-9 city<br />7-10 town, village, hamlet<br />8-10 borough, suburb<br />8-11 quarter, neighbourhood, block</td>
+<td>The capital of a country or administrative divisions within countries.</td>
+</tr>
+<tr>
+<td><code>class</code></td>
+<td>string</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>city</td>
+<td>The largest urban settlement or settlements within the territory.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>continent</td>
+<td>One of the seven continents: Africa, Antarctica, Asia, Australia, Europe, North America, South America.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>country</td>
+<td>A nation state or other high-level national political/administrative area.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>hamlet</td>
+<td>A smaller rural community, typically with fewer than 100-200 inhabitants, and few infrastructure.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>hamlet</td>
+<td>A smaller rural community, typically with fewer than 100-200 inhabitants, and few infrastructure.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>island</td>
+<td>Any piece of land that is completely surrounded by water and isolated from other significant landmasses.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>neighbourhood</td>
+<td>A neighbourhood is a smaller named, geographically localised place within a suburb of a larger city or within a town or village.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>state</td>
+<td>A large sub-national political/administrative area.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>suburb</td>
+<td>A part of a town or city with a well-known name and often a distinct identity.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>town</td>
+<td>An important urban centre, between a village and a city in size.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>village</td>
+<td>A smaller distinct settlement, smaller than a town with few facilities available with people traveling to nearby towns to access these.</td>
+</tr>
+<tr>
+<td><code>iso_a2</code></td>
+<td>string</td>
+<td></td>
+<td>Two-letter country code ISO 3166-1 alpha-2.</td>
+</tr>
+<tr>
+<td><code>name</code></td>
+<td>string</td>
+<td></td>
+<td>The primary tag used for naming an element.</td>
+</tr>
+<tr>
+<td><code>name:ar</code></td>
+<td>string</td>
+<td></td>
+<td>Arabic name.</td>
+</tr>
+<tr>
+<td><code>name:az</code></td>
+<td>string</td>
+<td></td>
+<td>Azerbaijani name.</td>
+</tr>
+<tr>
+<td><code>name:be</code></td>
+<td>string</td>
+<td></td>
+<td>Belarusian name.</td>
+</tr>
+<tr>
+<td><code>name:bg</code></td>
+<td>string</td>
+<td></td>
+<td>Bulgarian name.</td>
+</tr>
+<tr>
+<td><code>name:br</code></td>
+<td>string</td>
+<td></td>
+<td>Breton name.</td>
+</tr>
+<tr>
+<td><code>name:bs</code></td>
+<td>string</td>
+<td></td>
+<td>Bosnian name.</td>
+</tr>
+<tr>
+<td><code>name:ca</code></td>
+<td>string</td>
+<td></td>
+<td>Catalan name.</td>
+</tr>
+<tr>
+<td><code>name:cs</code></td>
+<td>string</td>
+<td></td>
+<td>Czech name.</td>
+</tr>
+<tr>
+<td><code>name:cy</code></td>
+<td>string</td>
+<td></td>
+<td>Welsh name.</td>
+</tr>
+<tr>
+<td><code>name:da</code></td>
+<td>string</td>
+<td></td>
+<td>Danish name.</td>
+</tr>
+<tr>
+<td><code>name:de</code></td>
+<td>string</td>
+<td></td>
+<td>German name.</td>
+</tr>
+<tr>
+<td><code>name:el</code></td>
+<td>string</td>
+<td></td>
+<td>Greek name.</td>
+</tr>
+<tr>
+<td><code>name:en</code></td>
+<td>string</td>
+<td></td>
+<td>English name.</td>
+</tr>
+<tr>
+<td><code>name:eo</code></td>
+<td>string</td>
+<td></td>
+<td>Esperanto name.</td>
+</tr>
+<tr>
+<td><code>name:es</code></td>
+<td>string</td>
+<td></td>
+<td>Spanish name.</td>
+</tr>
+<tr>
+<td><code>name:et</code></td>
+<td>string</td>
+<td></td>
+<td>Estonian name.</td>
+</tr>
+<tr>
+<td><code>name:fi</code></td>
+<td>string</td>
+<td></td>
+<td>Finnish name.</td>
+</tr>
+<tr>
+<td><code>name:fr</code></td>
+<td>string</td>
+<td></td>
+<td>French name.</td>
+</tr>
+<tr>
+<td><code>name:fy</code></td>
+<td>string</td>
+<td></td>
+<td>Frisian name.</td>
+</tr>
+<tr>
+<td><code>name:ga</code></td>
+<td>string</td>
+<td></td>
+<td>Irish (Gaeltachts) name.</td>
+</tr>
+<tr>
+<td><code>name:gd</code></td>
+<td>string</td>
+<td></td>
+<td>Gaelic, Scottish Gaelic name.</td>
+</tr>
+<tr>
+<td><code>name:he</code></td>
+<td>string</td>
+<td></td>
+<td>Hebrew (modern) name.</td>
+</tr>
+<tr>
+<td><code>name:hr</code></td>
+<td>string</td>
+<td></td>
+<td>Croatian name.</td>
+</tr>
+<tr>
+<td><code>name:hu</code></td>
+<td>string</td>
+<td></td>
+<td>Hungarian name.</td>
+</tr>
+<tr>
+<td><code>name:hy</code></td>
+<td>string</td>
+<td></td>
+<td>Armenian name.</td>
+</tr>
+<tr>
+<td><code>name_int</code></td>
+<td>string</td>
+<td></td>
+<td>International name.</td>
+</tr>
+<tr>
+<td><code>name:is</code></td>
+<td>string</td>
+<td></td>
+<td>Icelandic name.</td>
+</tr>
+<tr>
+<td><code>name:it</code></td>
+<td>string</td>
+<td></td>
+<td>Italian name.</td>
+</tr>
+<tr>
+<td><code>name:ja</code></td>
+<td>string</td>
+<td></td>
+<td>Japanese name.</td>
+</tr>
+<tr>
+<td><code>name:ja_kana</code></td>
+<td>string</td>
+<td></td>
+<td>Japanese (Kana) name.</td>
+</tr>
+<tr>
+<td><code>name:ja_rm</code></td>
+<td>string</td>
+<td></td>
+<td>Japanese (romanizacion) name.</td>
+</tr>
+<tr>
+<td><code>name:ka</code></td>
+<td>string</td>
+<td></td>
+<td>Georgian name.</td>
+</tr>
+<tr>
+<td><code>name:kk</code></td>
+<td>string</td>
+<td></td>
+<td>Kazakh name.</td>
+</tr>
+<tr>
+<td><code>name:kn</code></td>
+<td>string</td>
+<td></td>
+<td>Kannada name.</td>
+</tr>
+<tr>
+<td><code>name:ko</code></td>
+<td>string</td>
+<td></td>
+<td>Korean name.</td>
+</tr>
+<tr>
+<td><code>name:la</code></td>
+<td>string</td>
+<td></td>
+<td>Latin name.</td>
+</tr>
+<tr>
+<td><code>name:latin</code></td>
+<td>string</td>
+<td></td>
+<td>Latin name.</td>
+</tr>
+<tr>
+<td><code>name:lb</code></td>
+<td>string</td>
+<td></td>
+<td>Luxembourgish name.</td>
+</tr>
+<tr>
+<td><code>name:lt</code></td>
+<td>string</td>
+<td></td>
+<td>Lithuanian name.</td>
+</tr>
+<tr>
+<td><code>name:lv</code></td>
+<td>string</td>
+<td></td>
+<td>Latvian name.</td>
+</tr>
+<tr>
+<td><code>name:mk</code></td>
+<td>string</td>
+<td></td>
+<td>Macedonian name.</td>
+</tr>
+<tr>
+<td><code>name:mt</code></td>
+<td>string</td>
+<td></td>
+<td>Maltese name.</td>
+</tr>
+<tr>
+<td><code>name:nl</code></td>
+<td>string</td>
+<td></td>
+<td>Dutch name.</td>
+</tr>
+<tr>
+<td><code>name:no</code></td>
+<td>string</td>
+<td></td>
+<td>Norwegian name.</td>
+</tr>
+<tr>
+<td><code>name:nonlatin</code></td>
+<td>string</td>
+<td></td>
+<td>Non latin name.</td>
+</tr>
+<tr>
+<td><code>name:pl</code></td>
+<td>string</td>
+<td></td>
+<td>Polish name.</td>
+</tr>
+<tr>
+<td><code>name:pt</code></td>
+<td>string</td>
+<td></td>
+<td>Portuguese name.</td>
+</tr>
+<tr>
+<td><code>name:rm</code></td>
+<td>string</td>
+<td></td>
+<td>Romansh name.</td>
+</tr>
+<tr>
+<td><code>name:ro</code></td>
+<td>string</td>
+<td></td>
+<td>Romanian, Moldavian, Moldovan name.</td>
+</tr>
+<tr>
+<td><code>name:ru</code></td>
+<td>string</td>
+<td></td>
+<td>Russian name.</td>
+</tr>
+<tr>
+<td><code>name:sk</code></td>
+<td>string</td>
+<td></td>
+<td>Slovak name.</td>
+</tr>
+<tr>
+<td><code>name:sl</code></td>
+<td>string</td>
+<td></td>
+<td>Slovenian name.</td>
+</tr>
+<tr>
+<td><code>name:sq</code></td>
+<td>string</td>
+<td></td>
+<td>Albanian name.</td>
+</tr>
+<tr>
+<td><code>name:sr</code></td>
+<td>string</td>
+<td></td>
+<td>Serbian (Cyrillic) name.</td>
+</tr>
+<tr>
+<td><code>name:sv</code></td>
+<td>string</td>
+<td></td>
+<td>Swedish name.</td>
+</tr>
+<tr>
+<td><code>name:th</code></td>
+<td>string</td>
+<td></td>
+<td>Thai name.</td>
+</tr>
+<tr>
+<td><code>name:tr</code></td>
+<td>string</td>
+<td></td>
+<td>Turkish name.</td>
+</tr>
+<tr>
+<td><code>name:uk</code></td>
+<td>string</td>
+<td></td>
+<td>Ukrainian name.</td>
+</tr>
+<tr>
+<td><code>name:zh</code></td>
+<td>string</td>
+<td></td>
+<td>Chinese name.</td>
+</tr>
+<tr>
+<td><code>rank</code></td>
+<td>number</td>
+<td></td>
+<td>Calculated address rank of this feature. Values are in the range 0 to 30 where 0 is most important and 30 is house/building level features.</td>
+</tr>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+<tr>
+<td><br /><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="water">water</h3>
+<p><br />
+<code>Id</code>: water<br />
+<code>Descripción</code>: Specification of a water body.<br />
+<code>Geometría</code>: Polygon (MultiPolygon)<br />
+<code>Zoom mínimo</code>:  0<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción (OpenStreetMap)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>class</code></td>
+<td>string</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>lake</td>
+<td>Body of relatively still fresh or salt water of considerable size, localized in a basin that is surrounded by land.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>ocean</td>
+<td>Ocean.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>river</td>
+<td>A natural flowing watercourse, usually freshwater, flowing towards an ocean, sea, lake or another river.</td>
+</tr>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+<tr>
+<td><br /><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="water_name">water_name</h3>
+<p><br />
+<code>Id</code>: water_name<br />
+<code>Descripción</code>: Specification of a water body.<br />
+<code>Geometría</code>: Point (Point)<br />
+<code>Zoom mínimo</code>:  0<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción (OpenStreetMap)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>class</code></td>
+<td>string</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>ocean</td>
+<td>Ocean.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>sea</td>
+<td>Sea.</td>
+</tr>
+<tr>
+<td><code>name</code></td>
+<td>string</td>
+<td></td>
+<td>The primary tag used for naming an element.</td>
+</tr>
+<tr>
+<td><code>name:ar</code></td>
+<td>string</td>
+<td></td>
+<td>Arabic name.</td>
+</tr>
+<tr>
+<td><code>name:az</code></td>
+<td>string</td>
+<td></td>
+<td>Azerbaijani name.</td>
+</tr>
+<tr>
+<td><code>name:be</code></td>
+<td>string</td>
+<td></td>
+<td>Belarusian name.</td>
+</tr>
+<tr>
+<td><code>name:bg</code></td>
+<td>string</td>
+<td></td>
+<td>Bulgarian name.</td>
+</tr>
+<tr>
+<td><code>name:br</code></td>
+<td>string</td>
+<td></td>
+<td>Breton name.</td>
+</tr>
+<tr>
+<td><code>name:bs</code></td>
+<td>string</td>
+<td></td>
+<td>Bosnian name.</td>
+</tr>
+<tr>
+<td><code>name:ca</code></td>
+<td>string</td>
+<td></td>
+<td>Catalan name.</td>
+</tr>
+<tr>
+<td><code>name:cs</code></td>
+<td>string</td>
+<td></td>
+<td>Czech name.</td>
+</tr>
+<tr>
+<td><code>name:cy</code></td>
+<td>string</td>
+<td></td>
+<td>Welsh name.</td>
+</tr>
+<tr>
+<td><code>name:da</code></td>
+<td>string</td>
+<td></td>
+<td>Danish name.</td>
+</tr>
+<tr>
+<td><code>name:de</code></td>
+<td>string</td>
+<td></td>
+<td>German name.</td>
+</tr>
+<tr>
+<td><code>name:el</code></td>
+<td>string</td>
+<td></td>
+<td>Greek name.</td>
+</tr>
+<tr>
+<td><code>name:en</code></td>
+<td>string</td>
+<td></td>
+<td>English name.</td>
+</tr>
+<tr>
+<td><code>name:eo</code></td>
+<td>string</td>
+<td></td>
+<td>Esperanto name.</td>
+</tr>
+<tr>
+<td><code>name:es</code></td>
+<td>string</td>
+<td></td>
+<td>Spanish name.</td>
+</tr>
+<tr>
+<td><code>name:et</code></td>
+<td>string</td>
+<td></td>
+<td>Estonian name.</td>
+</tr>
+<tr>
+<td><code>name:fi</code></td>
+<td>string</td>
+<td></td>
+<td>Finnish name.</td>
+</tr>
+<tr>
+<td><code>name:fr</code></td>
+<td>string</td>
+<td></td>
+<td>French name.</td>
+</tr>
+<tr>
+<td><code>name:fy</code></td>
+<td>string</td>
+<td></td>
+<td>Frisian name.</td>
+</tr>
+<tr>
+<td><code>name:ga</code></td>
+<td>string</td>
+<td></td>
+<td>Irish (Gaeltachts) name.</td>
+</tr>
+<tr>
+<td><code>name:gd</code></td>
+<td>string</td>
+<td></td>
+<td>Gaelic, Scottish Gaelic name.</td>
+</tr>
+<tr>
+<td><code>name:he</code></td>
+<td>string</td>
+<td></td>
+<td>Hebrew (modern) name.</td>
+</tr>
+<tr>
+<td><code>name:hr</code></td>
+<td>string</td>
+<td></td>
+<td>Croatian name.</td>
+</tr>
+<tr>
+<td><code>name:hu</code></td>
+<td>string</td>
+<td></td>
+<td>Hungarian name.</td>
+</tr>
+<tr>
+<td><code>name:hy</code></td>
+<td>string</td>
+<td></td>
+<td>Armenian name.</td>
+</tr>
+<tr>
+<td><code>name_int</code></td>
+<td>string</td>
+<td></td>
+<td>International name.</td>
+</tr>
+<tr>
+<td><code>name:is</code></td>
+<td>string</td>
+<td></td>
+<td>Icelandic name.</td>
+</tr>
+<tr>
+<td><code>name:it</code></td>
+<td>string</td>
+<td></td>
+<td>Italian name.</td>
+</tr>
+<tr>
+<td><code>name:ja</code></td>
+<td>string</td>
+<td></td>
+<td>Japanese name.</td>
+</tr>
+<tr>
+<td><code>name:ja_kana</code></td>
+<td>string</td>
+<td></td>
+<td>Japanese (Kana) name.</td>
+</tr>
+<tr>
+<td><code>name:ja_rm</code></td>
+<td>string</td>
+<td></td>
+<td>Japanese (romanizacion) name.</td>
+</tr>
+<tr>
+<td><code>name:ka</code></td>
+<td>string</td>
+<td></td>
+<td>Georgian name.</td>
+</tr>
+<tr>
+<td><code>name:kk</code></td>
+<td>string</td>
+<td></td>
+<td>Kazakh name.</td>
+</tr>
+<tr>
+<td><code>name:kn</code></td>
+<td>string</td>
+<td></td>
+<td>Kannada name.</td>
+</tr>
+<tr>
+<td><code>name:ko</code></td>
+<td>string</td>
+<td></td>
+<td>Korean name.</td>
+</tr>
+<tr>
+<td><code>name:la</code></td>
+<td>string</td>
+<td></td>
+<td>Latin name.</td>
+</tr>
+<tr>
+<td><code>name:latin</code></td>
+<td>string</td>
+<td></td>
+<td>Latin name.</td>
+</tr>
+<tr>
+<td><code>name:lb</code></td>
+<td>string</td>
+<td></td>
+<td>Luxembourgish name.</td>
+</tr>
+<tr>
+<td><code>name:lt</code></td>
+<td>string</td>
+<td></td>
+<td>Lithuanian name.</td>
+</tr>
+<tr>
+<td><code>name:lv</code></td>
+<td>string</td>
+<td></td>
+<td>Latvian name.</td>
+</tr>
+<tr>
+<td><code>name:mk</code></td>
+<td>string</td>
+<td></td>
+<td>Macedonian name.</td>
+</tr>
+<tr>
+<td><code>name:mt</code></td>
+<td>string</td>
+<td></td>
+<td>Maltese name.</td>
+</tr>
+<tr>
+<td><code>name:nl</code></td>
+<td>string</td>
+<td></td>
+<td>Dutch name.</td>
+</tr>
+<tr>
+<td><code>name:no</code></td>
+<td>string</td>
+<td></td>
+<td>Norwegian name.</td>
+</tr>
+<tr>
+<td><code>name:nonlatin</code></td>
+<td>string</td>
+<td></td>
+<td>Non latin name.</td>
+</tr>
+<tr>
+<td><code>name:pl</code></td>
+<td>string</td>
+<td></td>
+<td>Polish name.</td>
+</tr>
+<tr>
+<td><code>name:pt</code></td>
+<td>string</td>
+<td></td>
+<td>Portuguese name.</td>
+</tr>
+<tr>
+<td><code>name:rm</code></td>
+<td>string</td>
+<td></td>
+<td>Romansh name.</td>
+</tr>
+<tr>
+<td><code>name:ro</code></td>
+<td>string</td>
+<td></td>
+<td>Romanian, Moldavian, Moldovan name.</td>
+</tr>
+<tr>
+<td><code>name:ru</code></td>
+<td>string</td>
+<td></td>
+<td>Russian name.</td>
+</tr>
+<tr>
+<td><code>name:sk</code></td>
+<td>string</td>
+<td></td>
+<td>Slovak name.</td>
+</tr>
+<tr>
+<td><code>name:sl</code></td>
+<td>string</td>
+<td></td>
+<td>Slovenian name.</td>
+</tr>
+<tr>
+<td><code>name:sq</code></td>
+<td>string</td>
+<td></td>
+<td>Albanian name.</td>
+</tr>
+<tr>
+<td><code>name:sr</code></td>
+<td>string</td>
+<td></td>
+<td>Serbian (Cyrillic) name.</td>
+</tr>
+<tr>
+<td><code>name:sv</code></td>
+<td>string</td>
+<td></td>
+<td>Swedish name.</td>
+</tr>
+<tr>
+<td><code>name:th</code></td>
+<td>string</td>
+<td></td>
+<td>Thai name.</td>
+</tr>
+<tr>
+<td><code>name:tr</code></td>
+<td>string</td>
+<td></td>
+<td>Turkish name.</td>
+</tr>
+<tr>
+<td><code>name:uk</code></td>
+<td>string</td>
+<td></td>
+<td>Ukrainian name.</td>
+</tr>
+<tr>
+<td><code>name:zh</code></td>
+<td>string</td>
+<td></td>
+<td>Chinese name.</td>
+</tr>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+<tr>
+<td><br /><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="waterway">waterway</h3>
+<p><br />
+<code>Id</code>: waterway<br />
+<code>Descripción</code>: The waterway tag is used to mark rivers or other kind of waterways.<br />
+<code>Geometría</code>: Line (MultiLineString)<br />
+<code>Zoom mínimo</code>:  0<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción (OpenStreetMap)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>brunnel</code></td>
+<td>string</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>class</code></td>
+<td>string</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>canal</td>
+<td>An artificial open flow waterway used to carry useful water for transportation, waterpower, or irrigation.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>ditch</td>
+<td>An small artificial free flow waterway used for carrying superfluous water along paths or roads for drainage purposes.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>river</td>
+<td>For narrow rivers which will be rendered as a line.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>stream</td>
+<td>A naturally-formed waterway that is too narrow to be classed as a river. An active, able-bodied person should be able to jump over it if trees along it aren't too thick.</td>
+</tr>
+<tr>
+<td><code>name</code></td>
+<td>string</td>
+<td></td>
+<td>The primary tag used for naming an element.</td>
+</tr>
+<tr>
+<td><code>name:latin</code></td>
+<td>string</td>
+<td></td>
+<td>Latin name.</td>
+</tr>
+<tr>
+<td><code>name_de</code></td>
+<td>string</td>
+<td></td>
+<td>German name.</td>
+</tr>
+<tr>
+<td><code>name_en</code></td>
+<td>string</td>
+<td></td>
+<td>English name.</td>
+</tr>
+<tr>
+<td><code>name_int</code></td>
+<td>string</td>
+<td></td>
+<td>International name.</td>
+</tr>
+<tr>
+<td><code>name:ar</code></td>
+<td>string</td>
+<td></td>
+<td>Arabic name.</td>
+</tr>
+<tr>
+<td><code>name:az</code></td>
+<td>string</td>
+<td></td>
+<td>Azerbaijani name.</td>
+</tr>
+<tr>
+<td><code>name:be</code></td>
+<td>string</td>
+<td></td>
+<td>Belarusian name.</td>
+</tr>
+<tr>
+<td><code>name:bg</code></td>
+<td>string</td>
+<td></td>
+<td>Bulgarian name.</td>
+</tr>
+<tr>
+<td><code>name:br</code></td>
+<td>string</td>
+<td></td>
+<td>Breton name.</td>
+</tr>
+<tr>
+<td><code>name:bs</code></td>
+<td>string</td>
+<td></td>
+<td>Bosnian name.</td>
+</tr>
+<tr>
+<td><code>name:ca</code></td>
+<td>string</td>
+<td></td>
+<td>Catalan name.</td>
+</tr>
+<tr>
+<td><code>name:cs</code></td>
+<td>string</td>
+<td></td>
+<td>Czech name.</td>
+</tr>
+<tr>
+<td><code>name:cy</code></td>
+<td>string</td>
+<td></td>
+<td>Welsh name.</td>
+</tr>
+<tr>
+<td><code>name:da</code></td>
+<td>string</td>
+<td></td>
+<td>Danish name.</td>
+</tr>
+<tr>
+<td><code>name:de</code></td>
+<td>string</td>
+<td></td>
+<td>German name.</td>
+</tr>
+<tr>
+<td><code>name:el</code></td>
+<td>string</td>
+<td></td>
+<td>Greek name.</td>
+</tr>
+<tr>
+<td><code>name:en</code></td>
+<td>string</td>
+<td></td>
+<td>English name.</td>
+</tr>
+<tr>
+<td><code>name:eo</code></td>
+<td>string</td>
+<td></td>
+<td>Esperanto name.</td>
+</tr>
+<tr>
+<td><code>name:es</code></td>
+<td>string</td>
+<td></td>
+<td>Spanish name.</td>
+</tr>
+<tr>
+<td><code>name:et</code></td>
+<td>string</td>
+<td></td>
+<td>Estonian name.</td>
+</tr>
+<tr>
+<td><code>name:fi</code></td>
+<td>string</td>
+<td></td>
+<td>Finnish name.</td>
+</tr>
+<tr>
+<td><code>name:fr</code></td>
+<td>string</td>
+<td></td>
+<td>French name.</td>
+</tr>
+<tr>
+<td><code>name:fy</code></td>
+<td>string</td>
+<td></td>
+<td>Frisian name.</td>
+</tr>
+<tr>
+<td><code>name:ga</code></td>
+<td>string</td>
+<td></td>
+<td>Irish (Gaeltachts) name.</td>
+</tr>
+<tr>
+<td><code>name:gd</code></td>
+<td>string</td>
+<td></td>
+<td>Gaelic, Scottish Gaelic name.</td>
+</tr>
+<tr>
+<td><code>name:he</code></td>
+<td>string</td>
+<td></td>
+<td>Hebrew (modern) name.</td>
+</tr>
+<tr>
+<td><code>name:hr</code></td>
+<td>string</td>
+<td></td>
+<td>Croatian name.</td>
+</tr>
+<tr>
+<td><code>name:hu</code></td>
+<td>string</td>
+<td></td>
+<td>Hungarian name.</td>
+</tr>
+<tr>
+<td><code>name:hy</code></td>
+<td>string</td>
+<td></td>
+<td>Armenian name.</td>
+</tr>
+<tr>
+<td><code>name_int</code></td>
+<td>string</td>
+<td></td>
+<td>International name.</td>
+</tr>
+<tr>
+<td><code>name:is</code></td>
+<td>string</td>
+<td></td>
+<td>Icelandic name.</td>
+</tr>
+<tr>
+<td><code>name:it</code></td>
+<td>string</td>
+<td></td>
+<td>Italian name.</td>
+</tr>
+<tr>
+<td><code>name:ja</code></td>
+<td>string</td>
+<td></td>
+<td>Japanese name.</td>
+</tr>
+<tr>
+<td><code>name:ja_kana</code></td>
+<td>string</td>
+<td></td>
+<td>Japanese (Kana) name.</td>
+</tr>
+<tr>
+<td><code>name:ja_rm</code></td>
+<td>string</td>
+<td></td>
+<td>Japanese (romanizacion) name.</td>
+</tr>
+<tr>
+<td><code>name:ka</code></td>
+<td>string</td>
+<td></td>
+<td>Georgian name.</td>
+</tr>
+<tr>
+<td><code>name:kk</code></td>
+<td>string</td>
+<td></td>
+<td>Kazakh name.</td>
+</tr>
+<tr>
+<td><code>name:kn</code></td>
+<td>string</td>
+<td></td>
+<td>Kannada name.</td>
+</tr>
+<tr>
+<td><code>name:ko</code></td>
+<td>string</td>
+<td></td>
+<td>Korean name.</td>
+</tr>
+<tr>
+<td><code>name:la</code></td>
+<td>string</td>
+<td></td>
+<td>Latin name.</td>
+</tr>
+<tr>
+<td><code>name:latin</code></td>
+<td>string</td>
+<td></td>
+<td>Latin name.</td>
+</tr>
+<tr>
+<td><code>name:lb</code></td>
+<td>string</td>
+<td></td>
+<td>Luxembourgish name.</td>
+</tr>
+<tr>
+<td><code>name:lt</code></td>
+<td>string</td>
+<td></td>
+<td>Lithuanian name.</td>
+</tr>
+<tr>
+<td><code>name:lv</code></td>
+<td>string</td>
+<td></td>
+<td>Latvian name.</td>
+</tr>
+<tr>
+<td><code>name:mk</code></td>
+<td>string</td>
+<td></td>
+<td>Macedonian name.</td>
+</tr>
+<tr>
+<td><code>name:mt</code></td>
+<td>string</td>
+<td></td>
+<td>Maltese name.</td>
+</tr>
+<tr>
+<td><code>name:nl</code></td>
+<td>string</td>
+<td></td>
+<td>Dutch name.</td>
+</tr>
+<tr>
+<td><code>name:no</code></td>
+<td>string</td>
+<td></td>
+<td>Norwegian name.</td>
+</tr>
+<tr>
+<td><code>name:nonlatin</code></td>
+<td>string</td>
+<td></td>
+<td>Non latin name.</td>
+</tr>
+<tr>
+<td><code>name:pl</code></td>
+<td>string</td>
+<td></td>
+<td>Polish name.</td>
+</tr>
+<tr>
+<td><code>name:pt</code></td>
+<td>string</td>
+<td></td>
+<td>Portuguese name.</td>
+</tr>
+<tr>
+<td><code>name:rm</code></td>
+<td>string</td>
+<td></td>
+<td>Romansh name.</td>
+</tr>
+<tr>
+<td><code>name:ro</code></td>
+<td>string</td>
+<td></td>
+<td>Romanian, Moldavian, Moldovan name.</td>
+</tr>
+<tr>
+<td><code>name:ru</code></td>
+<td>string</td>
+<td></td>
+<td>Russian name.</td>
+</tr>
+<tr>
+<td><code>name:sk</code></td>
+<td>string</td>
+<td></td>
+<td>Slovak name.</td>
+</tr>
+<tr>
+<td><code>name:sl</code></td>
+<td>string</td>
+<td></td>
+<td>Slovenian name.</td>
+</tr>
+<tr>
+<td><code>name:sq</code></td>
+<td>string</td>
+<td></td>
+<td>Albanian name.</td>
+</tr>
+<tr>
+<td><code>name:sr</code></td>
+<td>string</td>
+<td></td>
+<td>Serbian (Cyrillic) name.</td>
+</tr>
+<tr>
+<td><code>name:sv</code></td>
+<td>string</td>
+<td></td>
+<td>Swedish name.</td>
+</tr>
+<tr>
+<td><code>name:th</code></td>
+<td>string</td>
+<td></td>
+<td>Thai name.</td>
+</tr>
+<tr>
+<td><code>name:tr</code></td>
+<td>string</td>
+<td></td>
+<td>Turkish name.</td>
+</tr>
+<tr>
+<td><code>name:uk</code></td>
+<td>string</td>
+<td></td>
+<td>Ukrainian name.</td>
+</tr>
+<tr>
+<td><code>name:zh</code></td>
+<td>string</td>
+<td></td>
+<td>Chinese name.</td>
+</tr>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>(1) <em>Dado que no hemos encontrado publicado oficialmente el esquema "</em>carto.streets v1<em>", la estructura que se refleja en esta página se ha construido a partir del análisis de las teselas vectoriales que ofrece la empresa <a href="https://carto.com/"><em>CARTO</em></a>, por lo que la información puede ser incompleta o haber variado desde la fecha en que se realizó el estudio.<br />
+Por este motivo, el modelo que aquí se expresa no tiene carácter oficial, ofreciéndose únicamente a título indicativo</em>.</p>
+<p><br />
+<em>5 septiembre 2018</em></p></div>
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+    </footer>
+
+    <script src="../../js/jquery-1.10.2.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+    var base_url = '../..';
+    </script>
+    <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+    <script src="../../js/base.js"></script>
+    <script src="../../search/require.js"></script>
+    <script src="../../search/search.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        From here you can search these documents. Enter your search terms below.
+                    </p>
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                        </div>
+                    </form>
+                    <div id="mkdocs-search-results"></div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+
+</html>

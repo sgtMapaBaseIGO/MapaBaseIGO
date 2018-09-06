@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+
+    <title></title>
+
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/base.css" rel="stylesheet">
+    <link href="../../css/cinder.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="../..">Mapa Base IGO</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Proyecto <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../proyecto/justificacion/">Justificación</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../proyecto/objetivo/">Objetivo</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../proyecto/directrices/">Directrices</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../proyecto/acciones/">Acciones</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../proyecto/handicaps/">Hándicaps</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Diseño <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../diseno/diseno01/">Diseño 01</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Recursos <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../recursos/recursos01/">Recursos 01</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Implementación <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../implementacion/implementacion01/">Implementación 01</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Referencias <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../mapas_teselados/">Mapas teselados</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../servicios_de_teselas_vectoriales/">Servicios de teselas vectoriales</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../teselas_vectoriales_carto/">Teselas vectoriales CARTO</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../teselas_vectoriales_icgc/">Teselas vectoriales ICGC</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">Teselas vectoriales OS</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Información <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../informacion/licencia/">Licencia</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../informacion/mapabase_igo/">MapaBaseIGO</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fa fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../teselas_vectoriales_icgc/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../../informacion/licencia/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#teselas-vectoriales-ordnance-survey">Teselas vectoriales Ordnance Survey</a></li>
+            <li class="second-level"><a href="#os-open-zoomstack-vt-schema">OS Open Zoomstack (VT schema)</a></li>
+                
+                <li class="third-level"><a href="#airports">airports</a></li>
+                <li class="third-level"><a href="#boundaries">boundaries</a></li>
+                <li class="third-level"><a href="#buildings">buildings</a></li>
+                <li class="third-level"><a href="#contours">contours</a></li>
+                <li class="third-level"><a href="#etl">etl</a></li>
+                <li class="third-level"><a href="#foreshore">foreshore</a></li>
+                <li class="third-level"><a href="#greenspaces">greenspaces</a></li>
+                <li class="third-level"><a href="#names">names</a></li>
+                <li class="third-level"><a href="#national-parks">national-parks</a></li>
+                <li class="third-level"><a href="#rail">rail</a></li>
+                <li class="third-level"><a href="#railwaystation">railwaystation</a></li>
+                <li class="third-level"><a href="#roads">roads</a></li>
+                <li class="third-level"><a href="#sea">sea</a></li>
+                <li class="third-level"><a href="#sites">sites</a></li>
+                <li class="third-level"><a href="#surfacewater">surfacewater</a></li>
+                <li class="third-level"><a href="#waterlines">waterlines</a></li>
+                <li class="third-level"><a href="#woodland">woodland</a></li>
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="teselas-vectoriales-ordnance-survey">Teselas vectoriales Ordnance Survey</h1>
+<p>(<strong><em>BORRADOR/CONTENIDO PROVISIONAL</em></strong>)</p>
+<p><br /></p>
+<p><a href="https://www.ordnancesurvey.co.uk/">Ordnance Survey</a> es la agencia cartográfica del Reino Unido. Recientemente, y como una aproximación a uno de sus objetivos generales denominado <a href="https://www.ordnancesurvey.co.uk/about/news/2018/mastermap-announcement.html"><em>Open MasterMap</em></a>, dirigido a la libre distribución de sus datos geográficos, este organismo ha puesto en marcha el proyecto <a href="https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-zoomstack.html"><em>OS Open Zoomstack trial</em></a> con el fin de recopilar opiniones de sus usuarios.</p>
+<p><em>OS Open Zoomstack</em> es una mapa vectorial desarrollado desde un nivel nacional de detalle, hasta el nivel de calle.</p>
+<p>Se oferta en tres formatos: <em>GeoPackage</em>, <em>PostGIS Export File</em> y <em>Teselas Vectoriales</em>, siguiendo la especificación <a href="https://www.mapbox.com/vector-tiles/specification/"><em>MVT (Mapbox Vector Tile)</em></a>, así como a través de una API de teselas vectoriales. También se distribuyen ficheros de estilos para su simbolización.</p>
+<p>La distribución de la información mediante teselas vectoriales sigue el siguiente esquema (*):
+<br />
+<br /></p>
+<h2 id="os-open-zoomstack-vt-schema">OS Open Zoomstack (VT schema)</h2>
+<p><em>Consultar nota (1)</em></p>
+<h3 id="airports">airports</h3>
+<p><br />
+<code>Id</code>: airports<br />
+<code>Descripción</code>:<br />
+<code>Geometría</code>: Point (Point)<br />
+<code>Zoom mínimo</code>: 10<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>name</code></td>
+<td>string</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+<tr>
+<td><br /><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="boundaries">boundaries</h3>
+<p><br />
+<code>Id</code>: boundaries<br />
+<code>Descripción</code>:<br />
+<code>Geometría</code>: Line (MultiLineString)<br />
+<code>Zoom mínimo</code>: 05<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>type</code></td>
+<td>string (domain)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>National</td>
+<td></td>
+</tr>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+<tr>
+<td><br /><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="buildings">buildings</h3>
+<p><br />
+<code>Id</code>: buildings<br />
+<code>Descripción</code>:<br />
+<code>Geometría</code>: Polygon (MultiPolygon)<br />
+<code>Zoom mínimo</code>: 05<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+<tr>
+<td><br /><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="contours">contours</h3>
+<p><br />
+<code>Id</code>: contours<br />
+<code>Descripción</code>:<br />
+<code>Geometría</code>: Line (MultiLineString)<br />
+<code>Zoom mínimo</code>: 09<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>height</code></td>
+<td>number (integer)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>type</code></td>
+<td>string (domain)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Index</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Normal</td>
+<td></td>
+</tr>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+<tr>
+<td><br /><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="etl">etl</h3>
+<p><br />
+<code>Id</code>: etl<br />
+<code>Descripción</code>:<br />
+<code>Geometría</code>: Line (MultiLineString)<br />
+<code>Zoom mínimo</code>: 12<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+<tr>
+<td><br /><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="foreshore">foreshore</h3>
+<p><br />
+<code>Id</code>: foreshore<br />
+<code>Descripción</code>:<br />
+<code>Geometría</code>: Polygon (MultiPolygon)<br />
+<code>Zoom mínimo</code>: 09<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+<tr>
+<td><br /><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="greenspaces">greenspaces</h3>
+<p><br />
+<code>Id</code>: greenspaces<br />
+<code>Descripción</code>:<br />
+<code>Geometría</code>: Polygon (MultiPolygon)<br />
+<code>Zoom mínimo</code>: 10<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>function</code></td>
+<td>string (domain)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Allotments Or Community Growing Spaces</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Bowling Green</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Cemetery</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Golf Course</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Other Sports Facility</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Play Spaces</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Playing Field</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Public Park or Garden</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Religious Grounds</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Tennis Court</td>
+<td></td>
+</tr>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+<tr>
+<td><br /><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="names">names</h3>
+<p><br />
+<code>Id</code>: names<br />
+<code>Descripción</code>:<br />
+<code>Geometría</code>: Point (Point)<br />
+<code>Zoom mínimo</code>: 05<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>name</code></td>
+<td>string</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>type</code></td>
+<td>string (domain)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Capital</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>City</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Country</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>National-Park</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Town</td>
+<td></td>
+</tr>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+<tr>
+<td><br /><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="national-parks">national-parks</h3>
+<p><br />
+<code>Id</code>: national-parks<br />
+<code>Descripción</code>:<br />
+<code>Geometría</code>: Polygon (MultiPolygon)<br />
+<code>Zoom mínimo</code>: 05<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+<tr>
+<td><br /><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="rail">rail</h3>
+<p><br />
+<code>Id</code>: rail<br />
+<code>Descripción</code>:<br />
+<code>Geometría</code>: Line (MultiLineString)<br />
+<code>Zoom mínimo</code>: 10<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>type</code></td>
+<td>string (domain)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Multi Track</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Narrow Gauge</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Single Track</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>tunnel</td>
+<td></td>
+</tr>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+<tr>
+<td><br /><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="railwaystation">railwaystation</h3>
+<p><br />
+<code>Id</code>: railwaystation<br />
+<code>Descripción</code>:<br />
+<code>Geometría</code>: Point (Point)<br />
+<code>Zoom mínimo</code>: 12<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>name</code></td>
+<td>string</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>type</code></td>
+<td>string (domain)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Light Rapid Transit Station</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>London Underground Station</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Railway Station</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Railway Station And London Underground Station</td>
+<td></td>
+</tr>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+<tr>
+<td><br /><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="roads">roads</h3>
+<p><br />
+<code>Id</code>: roads<br />
+<code>Descripción</code>:<br />
+<code>Geometría</code>: Line (MultiLineString)<br />
+<code>Zoom mínimo</code>: 05<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>type</code></td>
+<td>string (domain)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>A Road</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>B Road</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Local</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Minor</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Motorway</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Primary</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Restricted</td>
+<td></td>
+</tr>
+<tr>
+<td><code>level</code></td>
+<td>number (integer)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td><code>name</code></td>
+<td>string</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>number</code></td>
+<td>string</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+<tr>
+<td><br /><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="sea">sea</h3>
+<p><br />
+<code>Id</code>: sea<br />
+<code>Descripción</code>:<br />
+<code>Geometría</code>: Polygon (MultiPolygon)<br />
+<code>Zoom mínimo</code>: 00<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+<tr>
+<td><br /><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="sites">sites</h3>
+<p><br />
+<code>Id</code>: sites<br />
+<code>Descripción</code>:<br />
+<code>Geometría</code>: Polygon (MultiPolygon)<br />
+<code>Zoom mínimo</code>: 11<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>type</code></td>
+<td>string (domain)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Air Transport</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Education</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Medical Care</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Road Transport</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Water Transport</td>
+<td></td>
+</tr>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+<tr>
+<td><br /><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="surfacewater">surfacewater</h3>
+<p><br />
+<code>Id</code>: surfacewater<br />
+<code>Descripción</code>:<br />
+<code>Geometría</code>: Polygon (MultiPolygon)<br />
+<code>Zoom mínimo</code>: 06<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+<tr>
+<td><br /><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="waterlines">waterlines</h3>
+<p><br />
+<code>Id</code>: waterlines<br />
+<code>Descripción</code>:<br />
+<code>Geometría</code>: Line (MultiLineString)<br />
+<code>Zoom mínimo</code>: 08<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>type</code></td>
+<td>string (domain)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>MHW</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>MLW</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Surface</td>
+<td></td>
+</tr>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+<tr>
+<td><br /><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="woodland">woodland</h3>
+<p><br />
+<code>Id</code>: woodland<br />
+<code>Descripción</code>:<br />
+<code>Geometría</code>: Polygon (MultiPolygon)<br />
+<code>Zoom mínimo</code>: 06<br />
+<code>Zoom máximo</code>: 14<br />
+<code>Campos</code>:  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>_col</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "x" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_row</code></td>
+<td>Integer</td>
+<td></td>
+<td>Coordenada "y" de la tesela para el nivel de zoom.</td>
+</tr>
+<tr>
+<td><code>_zoom</code></td>
+<td>Integer</td>
+<td></td>
+<td>Nivel de zoom.</td>
+</tr>
+<tr>
+<td><br /><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_1"></h3>
+<hr />
+<p>(1) <em>Dado que no hemos encontrado publicado oficialmente el esquema "</em>OS Open Zoomstack<em>", la estructura que se refleja en esta página se ha construido a partir del análisis de las teselas vectoriales que ofrece el proyecto <a href="https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-zoomstack.html"><em>OS Open Zoomstack trial</em></a>, por lo que la información puede ser incompleta o haber variado desde la fecha en que se realizó el estudio.<br />
+Por este motivo, el modelo que aquí se expresa no tiene carácter oficial, ofreciéndose únicamente a título indicativo</em>.</p>
+<p><br />
+<em>5 septiembre 2018</em></p></div>
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+    </footer>
+
+    <script src="../../js/jquery-1.10.2.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+    var base_url = '../..';
+    </script>
+    <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+    <script src="../../js/base.js"></script>
+    <script src="../../search/require.js"></script>
+    <script src="../../search/search.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        From here you can search these documents. Enter your search terms below.
+                    </p>
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                        </div>
+                    </form>
+                    <div id="mkdocs-search-results"></div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+
+</html>
