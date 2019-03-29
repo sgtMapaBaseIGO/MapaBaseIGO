@@ -1,0 +1,21 @@
+/*
+Canal
+Una vía de agua de flujo abierto artificial utilizada para transportar agua útil para el transporte, la energía hidráulica o el riego.
+
+Etiquetas relacionadas:
+waterway=river
+waterway=riverbank
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["waterway"="canal"];  
+  relation
+    ["waterway"="canal"];
+);
+out body;
+>;
+out skel qt;
+

@@ -1,0 +1,20 @@
+/*
+Capa de calles. 
+En OSM la etiqueta 'highway = living_street' se utiliza para etiquetar calles 
+u otras implementaciones de espacio compartido.
+Este tipo de vías tienen límites de velocidad más bajos, 
+y reglas especiales de tráfico y estacionamiento 
+en comparación con las calles marcadas con uso residencial.
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["highway"="living_street"];
+  relation
+    ["highway"="living_street"];
+);
+out body;
+>;
+out skel qt;

@@ -1,0 +1,19 @@
+/*
+Vías de tranvía.
+
+En OSM se utiliza para vías que se usan principalmente o 
+exclusivamente para tranvías, o donde las vías de tranvía se colocan dentro de una carretera normal abierta a todo el tráfico.
+
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["railway"="tram"];
+  relation
+    ["railway"="tram"];
+);
+out body;
+>;
+out skel qt;

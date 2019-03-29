@@ -1,0 +1,14 @@
+/*
+Capa de unidades administrativas, países.
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["admin_level"="2"];
+  relation
+	["admin_level"="2"];
+);
+out body;
+>;
+out skel qt;

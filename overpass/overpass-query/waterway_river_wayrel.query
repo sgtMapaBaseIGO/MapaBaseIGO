@@ -1,0 +1,19 @@
+/*
+Río
+El flujo lineal de un río, en la dirección del flujo.
+Flujo lineal, vías fluviales naturales más grandes, en la dirección del flujo. 
+Tenga en cuenta que las formas lineales deben formar una descripción enrutable completa del curso de agua.
+
+Formato de salida OSM-XML
+*/
+
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["waterway"="river"];  
+  relation
+    ["waterway"="river"];
+);
+out body;
+>;
+out skel qt;

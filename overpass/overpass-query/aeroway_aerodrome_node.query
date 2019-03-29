@@ -1,0 +1,14 @@
+/*
+Aeródromo
+La etiqueta aeroway = aerodrome se utiliza para obtener todos los detalles de un aeródromo. 
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  node
+    ["aeroway"="aerodrome"];
+);
+out body;
+>;
+out skel qt;

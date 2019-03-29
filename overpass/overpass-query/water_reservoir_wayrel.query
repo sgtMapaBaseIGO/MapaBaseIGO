@@ -1,0 +1,18 @@
+/*
+Embalse
+Un embalse o un lago artificial para almacenar agua.
+Generalmente formado por una presa sobre un curso de agua natural, 
+el agua retrocede hasta un valle natural o depresión.
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200];
+(
+  way
+    ["water"="reservoir"];  
+  relation
+    ["water"="reservoir"];
+);
+out body;
+>;
+out skel qt;

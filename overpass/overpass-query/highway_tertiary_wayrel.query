@@ -1,0 +1,23 @@
+/*
+Carreteras terciarias
+Las carreteras terciarias son carreteras que conectan asentamientos más pequeños y,
+dentro de grandes asentamientos, para carreteras que conectan centros locales. 
+En términos de la red de transporte, las carreteras "terciarias" de OpenStreetMap comúnmente también conectan las calles menores 
+con las carreteras más importantes.
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["highway"="tertiary"];
+  way
+    ["highway"="tertiary_link"];
+  relation
+    ["highway"="tertiary"];
+  relation
+    ["highway"="tertiary_link"];	
+);
+out body;
+>;
+out skel qt;

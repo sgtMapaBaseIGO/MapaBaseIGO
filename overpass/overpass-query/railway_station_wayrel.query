@@ -1,0 +1,23 @@
+/*
+Estación de tren.
+
+Las estaciones ferroviarias (incluidas la línea principal, 
+el tren ligero, el metro, etc.) son lugares donde los clientes 
+pueden acceder a servicios ferroviarios 
+o donde se cargan y descargan mercancías.
+
+Otras etiquetas:
+public_transport=station
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["railway"="station"];
+  relation
+    ["railway"="station"];	
+);
+out body;
+>;
+out skel qt;

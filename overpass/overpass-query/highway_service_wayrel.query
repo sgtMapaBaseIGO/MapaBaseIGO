@@ -1,0 +1,17 @@
+/*
+Carreteras de acceso
+
+Carreteras de acceso a un edificio, estación de servicio, playa, zona industrial,...
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["highway"="service"];
+  relation
+    ["highway"="service"];
+);
+out body;
+>;
+out skel qt;

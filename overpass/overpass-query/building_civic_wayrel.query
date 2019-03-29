@@ -1,0 +1,67 @@
+/*
+Civil building:
+bakehouse, kindergarten, civic, government, hospital, school, stadium, train_station, transportation, university, grandstand, public, toilets
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  // query part for: “building=bakehouse"
+  way["building"="bakehouse"];
+  relation["building"="bakehouse"];
+  
+  // query part for: “building=kindergarten"
+  way["building"="kindergarten"];
+  relation["building"="kindergarten"];
+  
+  // query part for: “building=civic"
+  way["building"="civic"];
+  relation["building"="civic"];
+ 
+  // query part for: “building=government"
+  way["building"="government"];
+  relation["building"="government"];
+  
+  // query part for: “building=hospital"
+  way["building"="hospital"];
+  relation["building"="hospital"];  
+  
+  // query part for: “building=school"
+  way["building"="school"];
+  relation["building"="school"];
+  
+  // query part for: “building=stadium"
+  way["building"="stadium"];
+  relation["building"="stadium"];
+  
+  // query part for: “building=train_station"
+  way["building"="train_station"];
+  relation["building"="train_station"];
+
+  // query part for: “building=transportation"
+  way["building"="transportation"];
+  relation["building"="transportation"];
+
+  // query part for: “building=university"
+  way["building"="university"];
+  relation["building"="university"];
+  
+  
+  // query part for: “building=grandstand"
+  way["building"="grandstand"];
+  relation["building"="grandstand"];
+  
+  // query part for: “building=public"
+  way["building"="public"];
+  relation["building"="public"];
+  
+  // query part for: “building=toilets"
+  way["building"="toilets"];
+  relation["building"="toilets"];
+  
+);
+out body;
+>;
+out skel qt;
+
+

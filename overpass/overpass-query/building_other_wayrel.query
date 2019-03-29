@@ -1,0 +1,126 @@
+/*
+Other building:
+Barn, bridge, bunker, carport, conservatory, construction, cowshed, digester, farm_auxiliary, garage, garages, garbage_shed, greenhouse, hangar, hut, pavilion, 
+parking, riding_hall, roof, shed, sports_hall, stable, sty, transformer_tower, service, ruins, water_tower, 
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  // query part for: “building=barn"
+  way["building"="barn"];
+  relation["building"="barn"];
+  
+  // query part for: “building=bridge"
+  way["building"="bridge"];
+  relation["building"="bridge"];
+  
+  // query part for: “building=bunker"
+  way["building"="bunker"];
+  relation["building"="bunker"];
+ 
+  // query part for: “building=carport"
+  way["building"="carport"];
+  relation["building"="carport"];
+  
+  // query part for: “building=conservatory"
+  way["building"="conservatory"];
+  relation["building"="conservatory"];  
+  
+  // query part for: “building=construction"
+  way["building"="construction"];
+  relation["building"="construction"];
+  
+  // query part for: “building=cowshed"
+  way["building"="cowshed"];
+  relation["building"="cowshed"];
+  
+  // query part for: “building=digester"
+  way["building"="digester"];
+  relation["building"="digester"];
+
+  // query part for: “building=farm_auxiliary"
+  way["building"="farm_auxiliary"];
+  relation["building"="farm_auxiliary"];
+
+  // query part for: “building=garage"
+  way["building"="garage"];
+  relation["building"="garage"];
+  
+  
+  // query part for: “building=garages"
+  way["building"="garages"];
+  relation["building"="garages"];
+  
+  // query part for: “building=garbage_shed"
+  way["building"="garbage_shed"];
+  relation["building"="garbage_shed"];
+  
+  // query part for: “building=greenhouse"
+  way["building"="greenhouse"];
+  relation["building"="greenhouse"];
+  
+  // query part for: “building=hangar"
+  way["building"="hangar"];
+  relation["building"="hangar"];
+  
+  // query part for: “building=hut"
+  way["building"="hut"];
+  relation["building"="hut"];
+  
+  // query part for: “building=pavilion"
+  way["building"="pavilion"];
+  relation["building"="pavilion"];
+  
+  // query part for: “building=parking"
+  way["building"="parking"];
+  relation["building"="parking"];
+  
+  // query part for: “building=riding_hall"
+  way["building"="riding_hall"];
+  relation["building"="riding_hall"];
+ 
+  // query part for: “building=roof"
+  way["building"="roof"];
+  relation["building"="roof"];
+  
+  // query part for: “building=shed"
+  way["building"="shed"];
+  relation["building"="shed"];
+  
+  // query part for: “building=sports_hall"
+  way["building"="sports_hall"];
+  relation["building"="sports_hall"];
+  
+  // query part for: “building=stable"
+  way["building"="stable"];
+  relation["building"="stable"];
+  
+  // query part for: “building=sty"
+  way["building"="sty"];
+  relation["building"="sty"];
+  
+  
+  // query part for: “building=transformer_tower"
+  way["building"="transformer_tower"];
+  relation["building"="transformer_tower"];
+  
+  // query part for: “building=service"
+  way["building"="service"];
+  relation["building"="service"];  
+
+  // query part for: “building= ruins"
+  way["building"="ruins"];
+  relation["building"="ruins"];
+  
+  // query part for: “building= water_tower"
+  way["building"="water_tower"];
+  relation["building"="water_tower"]; 
+
+  
+);
+out body;
+>;
+out skel qt;
+
+

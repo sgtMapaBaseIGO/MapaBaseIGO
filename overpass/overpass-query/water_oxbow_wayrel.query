@@ -1,0 +1,18 @@
+/*
+Lago
+
+Lago en forma de U que se forma cuando se corta un meandro ancho del vástago principal de un río, 
+creando un cuerpo de agua independiente.
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["water"="oxbow"];  
+  relation
+    ["water"="oxbow"];
+);
+out body;
+>;
+out skel qt;

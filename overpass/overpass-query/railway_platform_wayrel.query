@@ -1,0 +1,20 @@
+/*
+Plataforma ferroviaria
+
+Debido a que hay muchos ejemplos en los que se utiliza una plataforma para autobuses, tranvías y trenes al mismo tiempo, 
+esta función se ha complementado con la etiqueta 'public_transport=platform'.
+
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["railway"="platform"];
+  relation
+    ["railway"="platform"];	
+);
+out body;
+>;
+out skel qt;
+

@@ -1,0 +1,26 @@
+/*
+Capa de autopistas. 
+La etiqueta highway = autopista se usa
+para identificar las carreteras de mayor rendimiento dentro de un territorio. 
+Típicamente tienen al menos dos carriles en cada dirección de tráfico con cierto grado de separación;
+Tenga caminos de acceso solo para fines de servicio, 
+como un número limitado de caminos de acceso a propiedades no residenciales, 
+caminos de servicio a infraestructura o caminos o bahías de áreas de descanso, 
+que pueden ser más típicos en entornos regionales o rurales
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["highway"="motorway"];
+  way	
+	["highway"="motorway_link"];
+  relation
+    ["highway"="motorway"];
+  relation	
+	["highway"="motorway_link"];
+);
+out body;
+>;
+out skel qt;

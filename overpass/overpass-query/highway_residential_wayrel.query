@@ -1,0 +1,19 @@
+/*
+Carreteras residenciales
+La etiqueta residencial se usa para accesos de carreteras o alrededor de áreas residenciales, 
+pero que no son autopistas clasificadas o no clasificadas.
+
+Esta es una etiqueta útil si no se está seguro de usar residencial o no clasificado para calles en ciudades:
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["highway"="residential"];
+  relation
+    ["highway"="residential"];
+);
+out body;
+>;
+out skel qt;

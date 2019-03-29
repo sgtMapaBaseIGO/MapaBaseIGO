@@ -1,0 +1,20 @@
+/*
+Río
+Un río tal como lo define su área.
+
+Etiquetas relacionadas:
+waterway=river
+waterway=riverbank
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["waterway"="riverbank"];  
+  relation
+    ["waterway"="riverbank"];
+);
+out body;
+>;
+out skel qt;

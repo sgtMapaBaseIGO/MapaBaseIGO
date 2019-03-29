@@ -1,0 +1,18 @@
+/*
+Laguna
+Cuerpo de agua de mar poco profunda o agua salobre separada del mar por algún tipo de barrera.
+
+Es mejor especificar la salinidad del agua con sal = sí / no.
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["water"="lagoon"];  
+  relation
+    ["water"="lagoon"];
+);
+out body;
+>;
+out skel qt;

@@ -1,0 +1,23 @@
+/*
+Capa de parques nacionales. En OSM se define como área de tierra relativamente grande declarada por un gobierno.
+Deben reservarse para la recreación y el disfrute humanos, 
+así como para la protección del medio ambiente natural
+y/o patrimonio cultural de una zona.
+
+Tags similares:
+leisure=nature_reserve
+boundary=protected_area
+leisure=park 
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+	["boundary"="national_park"];
+  relation
+    ["boundary"="national_park"]);
+);
+out body;
+>;
+out skel qt;

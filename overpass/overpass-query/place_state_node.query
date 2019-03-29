@@ -1,0 +1,18 @@
+/*
+Un área política / administrativa subnacional grande.
+
+Una entidad política subnacional de alto nivel (estado federado) en varios países grandes como Estados Unidos ("Estado"), 
+Australia ("Estado"), Canadá ("Provincia"). 
+También puede ser aplicable en otros países e idiomas, "Provincia", "Estado", "Tierra"; 
+si usted debe usarlo depende de usted y de los cartógrafos en su propio país.
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  node
+    ["place"="state"];
+);
+out body;
+>;
+out skel qt;

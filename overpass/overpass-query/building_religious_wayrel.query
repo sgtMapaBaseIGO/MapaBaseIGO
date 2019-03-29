@@ -1,0 +1,46 @@
+/*
+Religious building:
+Religious, cathedral, chapel, church, mosque, temple, synagogue, shrine
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  // query part for: “building=religious"
+  way["building"="religious"];
+  relation["building"="religious"];
+  
+  // query part for: “building=cathedral"
+  way["building"="cathedral"];
+  relation["building"="cathedral"];
+  
+  // query part for: “building=chapel"
+  way["building"="chapel"];
+  relation["building"="chapel"];
+ 
+  // query part for: “building=church"
+  way["building"="church"];
+  relation["building"="church"];
+  
+  // query part for: “building=mosque"
+  way["bulding"="yes"]["building"="mosque"];
+  relation["bulding"="yes"]["building"="mosque"];  
+  
+  // query part for: “building=temple"
+  way["building"="temple"];
+  relation["building"="temple"];
+  
+  // query part for: “building=synagogue"
+  way["building"="synagogue"];
+  relation["building"="synagogue"];
+  
+  // query part for: “building=shrine"
+  way["building"="shrine"];
+  relation["building"="shrine"];
+
+);
+out body;
+>;
+out skel qt;
+
+

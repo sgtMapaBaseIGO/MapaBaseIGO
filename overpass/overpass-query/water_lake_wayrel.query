@@ -1,0 +1,18 @@
+/*
+Lago
+Un cuerpo de agua relativamente fresca o salada de considerable tamaño, localizado en una cuenca rodeada de tierra.
+Los lagos creados de forma artificial se identifican con la etiqueta water = pond o water = reservoir.
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["water"="lake"];  
+  relation
+    ["water"="lake"];
+);
+out body;
+>;
+out skel qt;
+

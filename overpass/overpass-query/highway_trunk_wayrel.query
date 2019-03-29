@@ -1,0 +1,23 @@
+/*
+Trunk. 
+Carreteras importantes que no son autopistas
+Use highway = trunk para carreteras de alto rendimiento 
+o de gran importancia que no cumplan con el requisito de autopista. 
+En diferentes países, el rendimiento o la importancia se utilizan como el criterio que define el troncal.
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["highway"="trunk"];
+  way
+    ["highway"="trunk_link"];
+  relation
+    ["highway"="trunk"];
+  relation
+    ["highway"="trunk_link"];	
+);
+out body;
+>;
+out skel qt;

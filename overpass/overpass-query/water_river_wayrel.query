@@ -1,0 +1,20 @@
+/*
+Río
+El área cubierta de agua de un río. 
+
+Etiquetas relacionadas:
+waterway=river
+waterway=riverbank
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["water"="river"];  
+  relation
+    ["water"="river"];
+);
+out body;
+>;
+out skel qt;

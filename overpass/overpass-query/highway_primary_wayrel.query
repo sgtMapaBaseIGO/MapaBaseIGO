@@ -1,0 +1,24 @@
+/*
+Carreteras 'primary'
+Una carretera importante que une las ciudades grandes, 
+en los países desarrollados, normalmente con 2 carriles. 
+En áreas con peor infraestructura, 
+la calidad de las carreteras puede ser mucho peor. 
+El tráfico en ambas direcciones generalmente no está separado por una barrera central.
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["highway"="primary"];
+  way
+    ["highway"="primary_link"];
+  relation
+    ["highway"="primary"];
+  relation
+    ["highway"="primary_link"];
+);
+out body;
+>;
+out skel qt;

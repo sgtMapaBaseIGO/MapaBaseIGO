@@ -1,0 +1,20 @@
+/*
+Agua
+Un cuerpo de agua, como un lago o estanque.
+
+Para los lasgos además la etiqueta: 
+water=lake
+
+Formato de salida OSM-XML
+*/
+
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["natural"="water"];
+  relation
+    ["natural"="water"];
+);
+out body;
+>;
+out skel qt;

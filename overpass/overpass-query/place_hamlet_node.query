@@ -1,0 +1,18 @@
+/*
+Un área política / administrativa subnacional grande.
+
+Use place=hamlet for an isolated settlement, typically with less than 100-200 inhabitants, although this may vary by country. 
+For a larger isolated settlement consider using place=village or place=town; 
+for smaller ones consider using place=isolated_dwelling. For an unoccupied place consider place=locality. 
+For a named area within a larger populated place, such as a town, city or village consider using place=suburb or place=neighbourhood. 
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  node
+    ["place"="hamlet"];
+);
+out body;
+>;
+out skel qt;

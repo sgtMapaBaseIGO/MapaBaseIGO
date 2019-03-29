@@ -1,0 +1,16 @@
+/*
+Helipuerto
+Helipuerto es un aeródromo especial para el uso exclusivo de helicópteros.
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  node
+    ["aeroway"="heliport"];
+  node
+    ["aeroway"="helipad"];
+);
+out body;
+>;
+out skel qt;

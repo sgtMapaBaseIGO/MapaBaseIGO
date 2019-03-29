@@ -1,0 +1,25 @@
+/*
+Capa de uso residencial
+Área con edificios predominantemente residenciales, como casas o edificios de apartamentos. 
+Si hay un área pequeña (una empresa / propiedad) de uso comercial (o similar) dentro de un área de otro modo residencial,
+se puede decidir usar landuse = residencial para el esquema de toda el área más grande como una solución preliminar. 
+Más tarde, se puede dibujar un área separada etiquetada con landuse = commercial para ese establecimiento comercial.
+
+
+Tags relacionados:
+place=neighbourhood
+place=suburb
+
+Formato de salida OSM-XML
+*/
+
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["landuse"="residential"];
+  relation
+    ["landuse"="residential"];	
+);
+out body;
+>;
+out skel qt;

@@ -1,0 +1,15 @@
+/*
+Etiquetas de ciudad
+La etiqueta de ciudad se utiliza para identificar el asentamiento o asentamientos más grandes dentro de un territorio, 
+incluidas las capitales nacionales, estatales y provinciales, y otras conurbaciones importantes.
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  node
+    ["place"="city"];
+);
+out body;
+>;
+out skel qt;

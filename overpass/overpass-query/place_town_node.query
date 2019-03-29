@@ -1,0 +1,20 @@
+/*
+Pueblos 
+
+OSM define pueblo como centro urbano importante, que sea más grande que un pueblo pequeño y más grande que una ciudad, 
+en función del tamaño.
+Se utiliza la etiqueta place = town para identificar 
+un centro urbano importante que sea más grande que un place = village,
+más pequeño que un place = city, y no un place = suburbio. 
+
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  node
+    ["place"="town"];
+);
+out body;
+>;
+out skel qt;

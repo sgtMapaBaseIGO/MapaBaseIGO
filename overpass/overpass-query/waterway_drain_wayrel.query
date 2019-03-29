@@ -1,0 +1,16 @@
+/*
+Corriente
+Un canal de formación natural que es demasiado estrecho para ser clasificado como un río.
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["waterway"="stream"];  
+  relation
+    ["waterway"="stream"];
+);
+out body;
+>;
+out skel qt;

@@ -1,0 +1,23 @@
+/*
+Carreteras secundarias
+Una carretera que no forma parte de una ruta importante, 
+pero que sin embargo forma un enlace en la red nacional de rutas. 
+En algunos países tiene 2 carriles y el tráfico en ambas direcciones suele estar separado por una línea central en la carretera. 
+En zonas con peor infraestructura, la calidad de las carreteras puede ser mucho peor.
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["highway"="secondary"];
+  way
+    ["highway"="secondary_link"];	
+  relation
+    ["highway"="secondary"];
+  relation
+    ["highway"="secondary_link"];	
+);
+out body;
+>;
+out skel qt;

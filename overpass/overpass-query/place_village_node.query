@@ -1,0 +1,19 @@
+/*
+Pueblo pequeño (village)
+Un asentamiento distinto más pequeño, 
+más pequeño que una ciudad,
+con pocas instalaciones disponible,
+con personas que viajan a ciudades cercanas para acceder a ellas.
+
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  node
+    ["place"="village"];
+);
+out body;
+>;
+out skel qt;
+

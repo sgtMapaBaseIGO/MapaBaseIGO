@@ -1,0 +1,26 @@
+/*
+Capa de áreas protegidas. 
+En OSM se utiliza para marcar los límites de las áreas protegidas, 
+incluidos los parques nacionales, 
+las áreas de protección marina, 
+los sitios de patrimonio, 
+áreas silvestres, 
+áreas indígenas y otras similares.
+
+Tags similares:
+boundary=national_park
+leisure=nature_reserve
+leisure=national_reserve (Tag utilizado en Suiza) 
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["boundary"="protected_area"];
+  relation
+    ["boundary"="protected_area"];	
+);
+out body;
+>;
+out skel qt;

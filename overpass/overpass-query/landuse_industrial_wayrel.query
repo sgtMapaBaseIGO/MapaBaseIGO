@@ -1,0 +1,19 @@
+/*
+Capa de uso industrial
+Zonas utilizadas para fines industriales. Los terrenos industriales pueden incluir edificios como talleres,
+fábricas o almacenes y su infraestructura asociada (aparcamientos, vías de servicio, patios, etc.). 
+Ocasionalmente, varios inquilinos industriales pueden ocupar una propiedad, 
+en cuyo caso la propiedad en sí puede ser conocida como un parque industrial.
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["landuse"="industrial"];
+  relation
+    ["landuse"="industrial"];	
+);
+out body;
+>;
+out skel qt;

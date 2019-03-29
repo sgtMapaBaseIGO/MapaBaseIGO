@@ -1,0 +1,42 @@
+/*
+Commercial building:
+Commercial, office, industrial, retail, supermarket, warehouse, kiosk
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  // query part for: “building=commercial"
+  way["building"="commercial"];
+  relation["building"="commercial"];
+  
+  // query part for: “building=office"
+  way["building"="office"];
+  relation["building"="office"];
+  
+  // query part for: “building=industrial"
+  way["building"="industrial"];
+  relation["building"="industrial"];
+ 
+  // query part for: “building=retail"
+  way["building"="retail"];
+  relation["building"="retail"];
+  
+  // query part for: “building=supermarket"
+  way["building"="supermarket"];
+  relation["building"="supermarket"];  
+  
+  // query part for: “building=warehouse"
+  way["building"="warehouse"];
+  relation["building"="warehouse"];
+  
+  // query part for: “building=kiosk"
+  way["building"="kiosk"];
+  relation["building"="kiosk"];
+
+);
+out body;
+>;
+out skel qt;
+
+

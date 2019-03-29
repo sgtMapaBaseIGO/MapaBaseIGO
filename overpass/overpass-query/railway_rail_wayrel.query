@@ -1,0 +1,21 @@
+/*
+Carriles de una vía de ancho estándar.
+
+Se utiliza para trenes de pasajeros o de carga.
+Es la clasificaciín ferroviaria más grande.
+Para otras clasificaciones ferroviarias más pequeñas,
+como subterráneos / tranvías / monorraíles, líneas preservadas y otras etiquetas relacionadas con el ferrocarril,
+railway=*
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["railway"="rail"];
+  relation
+    ["railway"="rail"];	
+);
+out body;
+>;
+out skel qt;

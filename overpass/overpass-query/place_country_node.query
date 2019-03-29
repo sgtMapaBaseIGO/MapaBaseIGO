@@ -1,0 +1,13 @@
+/*
+Etiquetas con el nombre de los países.
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  node
+    ["place"="country"];
+);
+out body;
+>;
+out skel qt;

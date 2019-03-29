@@ -1,0 +1,17 @@
+/*
+Track. 
+Caminos en zona rural
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["highway"="track"];
+  relation
+    ["highway"="track"];
+	
+);
+out body;
+>;
+out skel qt;

@@ -1,0 +1,21 @@
+/*
+Capa de uso forestal
+Existen diferencias importantes en la forma en que algunos usuarios de Openstreetmap usan esta etiqueta y natural = wood. 
+Algunos usan esta etiqueta para la tierra principalmente administrada para la producción de madera,
+otros los utilizan para bosques que de alguna manera son mantenidos por humanos, algunos para cualquier bosque.
+
+Otros tags:
+natural=wood
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["landuse"="forest"];
+  relation
+    ["landuse"="forest"];	
+);
+out body;
+>;
+out skel qt;

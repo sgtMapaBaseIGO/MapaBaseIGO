@@ -1,0 +1,17 @@
+/*
+Building=yes
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  // query part for: “building=yes"
+  way["building"="yes"];
+  relation["building"="yes"][source"="*"];
+    
+);
+out body;
+>;
+out skel qt;
+
+

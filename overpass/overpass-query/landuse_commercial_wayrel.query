@@ -1,0 +1,16 @@
+/*
+Capa de uso comercial. Zonas de uso comercial.
+
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["landuse"="commercial"];
+  relation
+    ["landuse"="commercial"];	
+);
+out body;
+>;
+out skel qt;

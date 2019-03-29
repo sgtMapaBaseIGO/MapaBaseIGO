@@ -1,0 +1,22 @@
+/*
+Capa de carreteras peatonales
+Es una carretera o un área principal o exclusivamente para peatones 
+en los que se puede autorizar el tráfico de algunos vehículos (
+por ejemplo, emergencia, taxi, entrega, ...). 
+Por lo general, se encuentran en áreas comerciales, centros urbanos, 
+lugares con atracciones turísticas y áreas de recreación / cívicas, 
+donde se proporcionan grandes extensiones de superficie dura para que caminen los peatones.
+
+Formato de salida OSM-XML
+*/
+
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["highway"="pedestrian"];
+  relation
+    ["highway"="pedestrian"];
+);
+out body;
+>;
+out skel qt;
