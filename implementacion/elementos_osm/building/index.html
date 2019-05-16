@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="shortcut icon" href="../../../img/favicon.ico">
+
+    
+    <title>building - Mapa Base IGO</title>
+    
+
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/3.003/css/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../../../css/base.min.css" rel="stylesheet">
+    <link href="../../../css/cinder.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../css/highlight.min.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.28/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="../../..">Mapa Base IGO</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../../..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Proyecto <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../../proyecto/justificacion/">Justificación</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../proyecto/objetivo/">Objetivo</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../proyecto/directrices/">Directrices</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../proyecto/acciones/">Acciones</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../proyecto/handicaps/">Hándicaps</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Diseño <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Esquema</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../diseno/esquema/cuadro_resumen/">Cuadro resumen (en edición)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Simbolización</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../diseno/simbolizacion/mapa_general/">Mapa General (en construcción)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Recursos <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Medio físico</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/medio_fisico/batimetria/">Batimetría</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../recursos/medio_fisico/bioma/">Bioma</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../recursos/medio_fisico/tierra_firme/">Tierra firme (en edición)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Cubierta terrestre</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/cubierta_terrestre/nodisponible/">(No disponible)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Población/Edificaciones/Parcelas</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/poblacion_edificaciones_parcelas/nodisponible/">(No disponible)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Comunicaciones/Infraestructuras</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/comunicaciones_infraestructuras/nodisponible/">(No disponible)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Servicios/Instalaciones</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/servicios_instalaciones/nodisponible/">(No disponible)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Sociedad/Cultura</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/sociedad_cultura/nodisponible/">(No disponible)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Límites político-administrativos</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/limites_politicoadministrativos/nodisponible/">(No disponible)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Gestión del territorio</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/gestion_del_territorio/nodisponible/">(No disponible)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Callejero/Pks</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/callejero_pks/nodisponible/">(No disponible)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Nombres geográficos/Toponimia</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/nombres_geograficos_toponimia/nodisponible/">(No disponible)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Referencias geográficas</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/referencias_geograficas/nodisponible/">(No disponible)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Implementación <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../descarga_bd_osm/">Descarga BD OSM</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../extraccion_objetos_osm/">Extracción de objetos OSM</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Elementos OSM</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../admin_level/">admin_level</a>
+</li>
+
+        
+            
+<li >
+    <a href="../aeroway/">aeroway</a>
+</li>
+
+        
+            
+<li >
+    <a href="../boundary/">boundary</a>
+</li>
+
+        
+            
+<li class="active">
+    <a href="./">building</a>
+</li>
+
+        
+            
+<li >
+    <a href="../highway/">highway</a>
+</li>
+
+        
+            
+<li >
+    <a href="../landuse/">landuse</a>
+</li>
+
+        
+            
+<li >
+    <a href="../leisure/">leisure</a>
+</li>
+
+        
+            
+<li >
+    <a href="../natural/">natural</a>
+</li>
+
+        
+            
+<li >
+    <a href="../place/">place</a>
+</li>
+
+        
+            
+<li >
+    <a href="../railway/">railway</a>
+</li>
+
+        
+            
+<li >
+    <a href="../water/">water</a>
+</li>
+
+        
+            
+<li >
+    <a href="../waterway/">waterway</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Referencias <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../../referencias/mapas_teselados/">Mapas teselados</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../referencias/servicios_de_teselas_vectoriales/">Servicios de teselas vectoriales</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../referencias/teselas_vectoriales_carto/">Teselas vectoriales CARTO</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../referencias/teselas_vectoriales_icgc/">Teselas vectoriales ICGC</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../referencias/teselas_vectoriales_os/">Teselas vectoriales OS</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Información <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../../informacion/licencia/">Licencia</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../informacion/mapabase_igo/">MapaBaseIGO</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../boundary/">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../highway/">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#elementos-osm-building">Elementos OSM: building</a></li>
+            <li class="second-level"><a href="#building">building</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="elementos-osm-building">Elementos OSM: building</h1>
+<p><br /></p>
+<h3 id="building">building</h3>
+<p><em>La etiqueta building se utiliza para marcar un objeto dado como un edificio. El uso más básico es building=yes, pero el valor se puede usar para clasificar el tipo de construcción.</em><br />
+<br />
+Nombres: <code>building_wayrel</code><br />
+Filtros: <em>Tag <code>building</code> exist</em><br />
+Geometrías: <code>multilinestring</code>, <code>multipolygon</code><br />
+Atributos:  </p>
+<table>
+<thead>
+<tr>
+<th>Atributo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:building"><code>building</code></a></td>
+<td>string</td>
+<td></td>
+<td>Existe/Tipo de edificio</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dapartments">apartments</a></td>
+<td>Apartamentos</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dbarn">barn</a></td>
+<td>Granero/Almacén agrícola</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dbakehouse">bakehouse</a></td>
+<td>Panadería</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dbridge">bridge</a></td>
+<td>Puente edificado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dbungalow">bungalow</a></td>
+<td>Bungaló</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dbunker">bunker</a></td>
+<td>Búnker</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dcabin">cabin</a></td>
+<td>Cabaña</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dcarport">carport</a></td>
+<td>Marquesina</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dcathedral">cathedral</a></td>
+<td>Catedral</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dchapel">chapel</a></td>
+<td>Capilla</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dchurch">church</a></td>
+<td>Iglesia</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dcivic">civic</a></td>
+<td>Edificio municipal</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dcommercial">commercial</a></td>
+<td>Edificio comercial</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dconservatory">conservatory</a></td>
+<td>Invernadero acristalado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dconstruction">construction</a></td>
+<td>Edificio en construcción</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dcowshed">cowshed</a></td>
+<td>Vaquería</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dapartments">detached</a></td>
+<td>Vivienda aislada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/w/index.php?title=Tag:building%3Ddigester&amp;action=edit&amp;redlink=1">digester</a></td>
+<td>Digestor</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Ddormitory">dormitory</a></td>
+<td>Residencia</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dfarm">farm</a></td>
+<td>Granja</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dfarm_auxiliary">farm_auxiliary</a></td>
+<td>Edificio de uso agrícola</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dgovernment">government</a></td>
+<td>Edificio gubernamental</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dgarage">garage</a></td>
+<td>Cochera</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dgarages">garages</a></td>
+<td>Garaje</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/w/index.php?title=Tag:building%3Dgarbage_shed&amp;action=edit&amp;redlink=1">garbage_shed</a></td>
+<td>Cobertizo para basura</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dgrandstand">grandstand</a></td>
+<td>Graderío</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dgreenhouse">greenhouse</a></td>
+<td>Invernadero</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dhangar">hangar</a></td>
+<td>Hangar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dhospital">hospital</a></td>
+<td>Hospital</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dhotel">hotel</a></td>
+<td>Hotel</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dhouse">house</a></td>
+<td>Vivienda</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dhouseboat">houseboat</a></td>
+<td>Barco vivienda</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dhut">hut</a></td>
+<td>Choza</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dindustrial">industrial</a></td>
+<td>Edificio industrial</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dkindergarten">kindergarten</a></td>
+<td>Jardín de infancia</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dkiosk">kiosk</a></td>
+<td>Quiosco</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dmosque">mosque</a></td>
+<td>Mezquita</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Doffice">office</a></td>
+<td>Edifico de oficinas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dparking">parking</a></td>
+<td>Edificio de parking</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dpavilion">pavilion</a></td>
+<td>Palacio de deportes</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dpublic">public</a></td>
+<td>Edificio público</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/w/index.php?title=Tag:building%3Dreligious">religious</a></td>
+<td>edificio religioso</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dresidential">residential</a></td>
+<td>Edificio residencial</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dretail">retail</a></td>
+<td>Comercio</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Driding_hall">riding_hall</a></td>
+<td>edificio para equitación</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Droof">roof</a></td>
+<td>Techado/Cubierta</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Druins">ruins</a></td>
+<td>Ruinas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dschool">school</a></td>
+<td>Colegio/Escuela</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dservice">service</a></td>
+<td>Cuarto de máquinas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dshed">shed</a></td>
+<td>Caseta</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dshrine">shrine</a></td>
+<td>Santuario</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dsports_hall">sports_hall</a></td>
+<td>Pabellón deportivo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dstable">stable</a></td>
+<td>Establo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dstadium">stadium</a></td>
+<td>Estadio</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dstatic_caravan">static_caravan</a></td>
+<td>Mobile home</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dsty">sty</a></td>
+<td>Pocilga</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dsupermarket">supermarket</a></td>
+<td>Supermercado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dsynagogue">synagogue</a></td>
+<td>Sinagoga</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dtemple">temple</a></td>
+<td>Templo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dterrace">terrace</a></td>
+<td>Urbanización/Adosados</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dtoilets">toilets</a></td>
+<td>Aseos</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dtrain_station">train_station</a></td>
+<td>Estación de ferrocarril</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dtransformer_tower">transformer_tower</a></td>
+<td>Torre de transformador</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dtransportation">transportation</a></td>
+<td>Estación de transporte</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Duniversity">university</a></td>
+<td>Edificio universitario</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Proposed_features">user defined</a></td>
+<td>Definido por el usuario</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dwarehouse">warehouse</a></td>
+<td>Almacén</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:building%3Dwater_tower">water_tower</a></td>
+<td>Torre de depósito</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">yes</a></td>
+<td>Se utiliza este valor cuando no es posible determinar un valor más específico</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:building:levels"><code>building:levels</code></a></td>
+<td>int</td>
+<td></td>
+<td>Número de plantas</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:building:use"><code>building:use</code></a></td>
+<td>string</td>
+<td></td>
+<td>Uso</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:name"><code>name</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Multilingual_names#Spain"><code>name:es</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre en español</td>
+</tr>
+<tr>
+<td><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><br /></p>
+<hr />
+<p><em>13 mayo 2019</em></p></div>
+        
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+        
+        
+        
+    </footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../../../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+    var base_url = '../../..';
+    </script>
+    <!-- <script data-main="../../../mkdocs/js/search.js" src="../../../mkdocs/js/require.js"></script> -->
+    <script src="../../../js/base.js"></script>
+    <script src="../../../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        From here you can search these documents. Enter your search terms below.
+                    </p>
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                        </div>
+                    </form>
+                    <div id="mkdocs-search-results"></div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+
+</html>

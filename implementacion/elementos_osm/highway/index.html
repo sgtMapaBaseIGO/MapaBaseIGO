@@ -1,0 +1,3992 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="shortcut icon" href="../../../img/favicon.ico">
+
+    
+    <title>highway - Mapa Base IGO</title>
+    
+
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/3.003/css/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../../../css/base.min.css" rel="stylesheet">
+    <link href="../../../css/cinder.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../css/highlight.min.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.28/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="../../..">Mapa Base IGO</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../../..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Proyecto <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../../proyecto/justificacion/">Justificación</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../proyecto/objetivo/">Objetivo</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../proyecto/directrices/">Directrices</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../proyecto/acciones/">Acciones</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../proyecto/handicaps/">Hándicaps</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Diseño <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Esquema</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../diseno/esquema/cuadro_resumen/">Cuadro resumen (en edición)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Simbolización</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../diseno/simbolizacion/mapa_general/">Mapa General (en construcción)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Recursos <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Medio físico</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/medio_fisico/batimetria/">Batimetría</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../recursos/medio_fisico/bioma/">Bioma</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../recursos/medio_fisico/tierra_firme/">Tierra firme (en edición)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Cubierta terrestre</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/cubierta_terrestre/nodisponible/">(No disponible)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Población/Edificaciones/Parcelas</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/poblacion_edificaciones_parcelas/nodisponible/">(No disponible)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Comunicaciones/Infraestructuras</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/comunicaciones_infraestructuras/nodisponible/">(No disponible)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Servicios/Instalaciones</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/servicios_instalaciones/nodisponible/">(No disponible)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Sociedad/Cultura</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/sociedad_cultura/nodisponible/">(No disponible)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Límites político-administrativos</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/limites_politicoadministrativos/nodisponible/">(No disponible)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Gestión del territorio</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/gestion_del_territorio/nodisponible/">(No disponible)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Callejero/Pks</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/callejero_pks/nodisponible/">(No disponible)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Nombres geográficos/Toponimia</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/nombres_geograficos_toponimia/nodisponible/">(No disponible)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Referencias geográficas</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../recursos/referencias_geograficas/nodisponible/">(No disponible)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Implementación <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../descarga_bd_osm/">Descarga BD OSM</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../extraccion_objetos_osm/">Extracción de objetos OSM</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Elementos OSM</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../admin_level/">admin_level</a>
+</li>
+
+        
+            
+<li >
+    <a href="../aeroway/">aeroway</a>
+</li>
+
+        
+            
+<li >
+    <a href="../boundary/">boundary</a>
+</li>
+
+        
+            
+<li >
+    <a href="../building/">building</a>
+</li>
+
+        
+            
+<li class="active">
+    <a href="./">highway</a>
+</li>
+
+        
+            
+<li >
+    <a href="../landuse/">landuse</a>
+</li>
+
+        
+            
+<li >
+    <a href="../leisure/">leisure</a>
+</li>
+
+        
+            
+<li >
+    <a href="../natural/">natural</a>
+</li>
+
+        
+            
+<li >
+    <a href="../place/">place</a>
+</li>
+
+        
+            
+<li >
+    <a href="../railway/">railway</a>
+</li>
+
+        
+            
+<li >
+    <a href="../water/">water</a>
+</li>
+
+        
+            
+<li >
+    <a href="../waterway/">waterway</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Referencias <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../../referencias/mapas_teselados/">Mapas teselados</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../referencias/servicios_de_teselas_vectoriales/">Servicios de teselas vectoriales</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../referencias/teselas_vectoriales_carto/">Teselas vectoriales CARTO</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../referencias/teselas_vectoriales_icgc/">Teselas vectoriales ICGC</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../referencias/teselas_vectoriales_os/">Teselas vectoriales OS</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Información <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../../informacion/licencia/">Licencia</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../../informacion/mapabase_igo/">MapaBaseIGO</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../building/">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../landuse/">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#elementos-osm-highway">Elementos OSM: highway</a></li>
+            <li class="second-level"><a href="#highway_living_street">highway_living_street</a></li>
+                
+            <li class="second-level"><a href="#highway_motorway">highway_motorway</a></li>
+                
+            <li class="second-level"><a href="#highway_pedestrian">highway_pedestrian</a></li>
+                
+            <li class="second-level"><a href="#highway_primary">highway_primary</a></li>
+                
+            <li class="second-level"><a href="#highway_raceway">highway_raceway</a></li>
+                
+            <li class="second-level"><a href="#highway_residential">highway_residential</a></li>
+                
+            <li class="second-level"><a href="#highway_secondary">highway_secondary</a></li>
+                
+            <li class="second-level"><a href="#highway_service">highway_service</a></li>
+                
+            <li class="second-level"><a href="#highway_tertiary">highway_tertiary</a></li>
+                
+            <li class="second-level"><a href="#highway_track">highway_track</a></li>
+                
+            <li class="second-level"><a href="#highway_trunk">highway_trunk</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="elementos-osm-highway">Elementos OSM: highway</h1>
+<p><br /></p>
+<h3 id="highway_living_street">highway_living_street</h3>
+<p><em>La etiqueta highway=living_street se usa para etiquetar calles u otras implementaciones de espacio compartido. Este tipo de vías tienen límites de velocidad más bajos y reglas especiales de tráfico y estacionamiento en comparación con las calles urbanas. En estas calles los peatones tienen el mismo derecho de paso que otros usuarios de la vía. Los límites de velocidad implícitos establecidos en la legislación varían desde la "velocidad de marcha" hasta los 20 km/h en algunos países. El límite de velocidad se señaliza de forma explícita.</em><br />
+<br />
+Nombres: <code>highway_living_street_wayrel</code><br />
+Filtros: <code>highway=living_street</code><br />
+Geometrías: <code>multilinestring</code>, <code>multipolygon</code><br />
+Atributos:  </p>
+<table>
+<thead>
+<tr>
+<th>Atributo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:access"><code>access</code></a></td>
+<td>string</td>
+<td></td>
+<td>Acceso</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dagricultural">agricultural</a></td>
+<td>Acceso limitado a vehículos agrícolas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dcustomers">customers</a></td>
+<td>Acceso autorizado a clientes</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Ddelivery">delivery</a></td>
+<td>Acceso autorizado para entregas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Ddesignated">designated</a></td>
+<td>Acceso autorizado en función del modo de transporte</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Ddestination">destination</a></td>
+<td>Acceso permitido según destino</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Ddiscouraged">discouraged</a></td>
+<td>Acceso desaconsejado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Ddismount">dismount</a></td>
+<td>Uso solo desmontado del vehículo/animal</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dforestry">forestry</a></td>
+<td>Acceso limitado a vehículos forestales</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dno">no</a></td>
+<td>Acceso no autorizado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dpermissive">permissive</a></td>
+<td>Acceso permitido</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dprivate">private</a></td>
+<td>Acceso privado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/w/index.php?title=Tag:access%3Dunknown&amp;action=edit&amp;redlink=1">unknown</a></td>
+<td>Limitaciones de acceso desconocidas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Duse_sidepath">use_sidepath</a></td>
+<td>Uso obligatorio de carril paralelo para ciclistas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dyes">yes</a></td>
+<td>Acceso público</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:highway"><code>highway</code></a></td>
+<td>string</td>
+<td></td>
+<td>Vía</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:highway%3Dliving_street">living_street</a></td>
+<td>Vía urbana residencial</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:lanes"><code>lanes</code></a></td>
+<td>int</td>
+<td></td>
+<td>Número de carriles</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:maxspeed"><code>maxspeed</code></a></td>
+<td>int/string</td>
+<td></td>
+<td>Velocidad máxima</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:name"><code>name</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Multilingual_names#Spain"><code>name:es</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre en español</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:surface"><code>surface</code></a></td>
+<td>string</td>
+<td></td>
+<td>Tipo de superficie</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">artificial_turf</a></td>
+<td>Césped artificial</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dasphalt">asphalt</a></td>
+<td>Asfalto</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">carpet</a></td>
+<td>Moqueta</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">clay</a></td>
+<td>Tierra batida</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcobblestone">cobblestone</a></td>
+<td>Adoquines</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcompacted">compacted</a></td>
+<td>Compactada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete">concrete</a></td>
+<td>Hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:lanes">concrete:lanes</a></td>
+<td>Rodadas hormigonadas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:plates">concrete:plates</a></td>
+<td>Placas de hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">decoturf</a></td>
+<td>Césped decorativo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Ddirt">dirt</a></td>
+<td>Tierra</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dearth">earth</a></td>
+<td>Suelo natural</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dfine_gravel">fine_gravel</a></td>
+<td>Grava fina</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass">grass</a></td>
+<td>Hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass_paver">grass_paver</a></td>
+<td>Pavimento hueco y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgravel">gravel</a></td>
+<td>Grava</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">gravel_turf</a></td>
+<td>Grava y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dground">ground</a></td>
+<td>Suelo transitado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">ice</a></td>
+<td>Hielo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmetal">metal</a></td>
+<td>Metal</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">metal_grid</a></td>
+<td>Rejilla metálica</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmud">mud</a></td>
+<td>Suelo embarrado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaved">paved</a></td>
+<td>Pavimento</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaving_stones">paving_stones</a></td>
+<td>Piezas regulares</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpebblestone">pebblestone</a></td>
+<td>Canto rodado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">salt</a></td>
+<td>Superficie salada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsand">sand</a></td>
+<td>Arena</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsett">sett</a></td>
+<td>Piedra natural cortada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">snow</a></td>
+<td>Nieve</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">tartan</a></td>
+<td>Tartan</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunhewn_cobblestone">unhewn_cobblestone</a></td>
+<td>Piedra natural sin cortar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunpaved">unpaved</a></td>
+<td>Sin pavimentar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">User defined</a></td>
+<td>definido por el usuario</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dwood">wood</a></td>
+<td>Madera</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">woodchips</a></td>
+<td>Astillas de madera</td>
+</tr>
+<tr>
+<td><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="highway_motorway">highway_motorway</h3>
+<p><em>Autopistas y autovías. La etiqueta highway=motorway se utiliza para identificar las carreteras de mayor rendimiento dentro de un territorio. Típicamente tienen al menos dos carriles en cada dirección de tráfico con cierto grado de separación. Disponen de vías de acceso para fines de servicio y accesos a áreas de descanso</em>.<br />
+<br />
+Nombres: <code>highway_motorway_wayrel</code><br />
+Filtros: <code>highway=motorway</code>,<code>highway=motorway_link</code><br />
+Geometrías: <code>multilinestring</code>, <code>multipolygon</code><br />
+Atributos:  </p>
+<table>
+<thead>
+<tr>
+<th>Atributo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:bridge"><code>bridge</code></a></td>
+<td>string</td>
+<td></td>
+<td>Puente</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>yes</td>
+<td>Sí</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:highway"><code>highway</code></a></td>
+<td>string</td>
+<td></td>
+<td>Vía</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:highway%3Dmotorway">motorway</a></td>
+<td>Autopista/Autovía</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:lanes"><code>lanes</code></a></td>
+<td>int</td>
+<td></td>
+<td>Número de carriles</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:maxspeed"><code>maxspeed</code></a></td>
+<td>int/string</td>
+<td></td>
+<td>Velocidad máxima</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:name"><code>name</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Multilingual_names#Spain"><code>name:es</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre en español</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:surface"><code>surface</code></a></td>
+<td>string</td>
+<td></td>
+<td>Tipo de superficie</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">artificial_turf</a></td>
+<td>Césped artificial</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dasphalt">asphalt</a></td>
+<td>Asfalto</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">carpet</a></td>
+<td>Moqueta</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">clay</a></td>
+<td>Tierra batida</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcobblestone">cobblestone</a></td>
+<td>Adoquines</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcompacted">compacted</a></td>
+<td>Compactada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete">concrete</a></td>
+<td>Hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:lanes">concrete:lanes</a></td>
+<td>Rodadas hormigonadas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:plates">concrete:plates</a></td>
+<td>Placas de hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">decoturf</a></td>
+<td>Césped decorativo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Ddirt">dirt</a></td>
+<td>Tierra</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dearth">earth</a></td>
+<td>Suelo natural</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dfine_gravel">fine_gravel</a></td>
+<td>Grava fina</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass">grass</a></td>
+<td>Hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass_paver">grass_paver</a></td>
+<td>Pavimento hueco y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgravel">gravel</a></td>
+<td>Grava</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">gravel_turf</a></td>
+<td>Grava y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dground">ground</a></td>
+<td>Suelo transitado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">ice</a></td>
+<td>Hielo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmetal">metal</a></td>
+<td>Metal</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">metal_grid</a></td>
+<td>Rejilla metálica</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmud">mud</a></td>
+<td>Suelo embarrado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaved">paved</a></td>
+<td>Pavimento</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaving_stones">paving_stones</a></td>
+<td>Piezas regulares</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpebblestone">pebblestone</a></td>
+<td>Canto rodado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">salt</a></td>
+<td>Superficie salada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsand">sand</a></td>
+<td>Arena</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsett">sett</a></td>
+<td>Piedra natural cortada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">snow</a></td>
+<td>Nieve</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">tartan</a></td>
+<td>Tartan</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunhewn_cobblestone">unhewn_cobblestone</a></td>
+<td>Piedra natural sin cortar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunpaved">unpaved</a></td>
+<td>Sin pavimentar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">User defined</a></td>
+<td>definido por el usuario</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dwood">wood</a></td>
+<td>Madera</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">woodchips</a></td>
+<td>Astillas de madera</td>
+</tr>
+<tr>
+<td><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="highway_pedestrian">highway_pedestrian</h3>
+<p><em>Vías peatonales. Una highway=pedestrian es una carretera o un área de uso exclusivo para peatones, en las que se puede autorizar el tráfico de algunos vehículos (por ejemplo, emergencia, taxi, entrega, ...). Por lo general, se encuentran en áreas comerciales, centros urbanos, lugares con atracciones turísticas y áreas recreativas/cívicas donde se existen grandes extensiones de superficie dura para que los peatones caminen.</em><br />
+<br />
+Nombres: <code>highway_pedestrian_wayrel</code><br />
+Filtros: <code>highway=pedestrian</code><br />
+Geometrías: <code>multilinestring</code>, <code>multipolygon</code><br />
+Atributos:  </p>
+<table>
+<thead>
+<tr>
+<th>Atributo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:bicicle"><code>bicycle</code></a></td>
+<td>string</td>
+<td></td>
+<td>Acceso bicicletas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>yes</td>
+<td>Uso permitido a bicicletas</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:foot"><code>foot</code></a></td>
+<td>string</td>
+<td></td>
+<td>Acceso peatonal</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Ddesignated">designated</a></td>
+<td>Vía especialmente diseñada para uso peatonal</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>no</td>
+<td>Uso peatonal no autorizado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dpermissive">permissive</a></td>
+<td>Uso peatonal permitido por el propietario</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>yes</td>
+<td>Uso permitido a peatones</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:highway"><code>highway</code></a></td>
+<td>string</td>
+<td></td>
+<td>Vía</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:highway%3Dpedestrian">pedestrian</a></td>
+<td>Vía peatonal</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:name"><code>name</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Multilingual_names#Spain"><code>name:es</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre en español</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:surface"><code>surface</code></a></td>
+<td>string</td>
+<td></td>
+<td>Tipo de superficie</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">artificial_turf</a></td>
+<td>Césped artificial</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dasphalt">asphalt</a></td>
+<td>Asfalto</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">carpet</a></td>
+<td>Moqueta</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">clay</a></td>
+<td>Tierra batida</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcobblestone">cobblestone</a></td>
+<td>Adoquines</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcompacted">compacted</a></td>
+<td>Compactada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete">concrete</a></td>
+<td>Hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:lanes">concrete:lanes</a></td>
+<td>Rodadas hormigonadas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:plates">concrete:plates</a></td>
+<td>Placas de hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">decoturf</a></td>
+<td>Césped decorativo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Ddirt">dirt</a></td>
+<td>Tierra</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dearth">earth</a></td>
+<td>Suelo natural</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dfine_gravel">fine_gravel</a></td>
+<td>Grava fina</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass">grass</a></td>
+<td>Hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass_paver">grass_paver</a></td>
+<td>Pavimento hueco y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgravel">gravel</a></td>
+<td>Grava</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">gravel_turf</a></td>
+<td>Grava y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dground">ground</a></td>
+<td>Suelo transitado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">ice</a></td>
+<td>Hielo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmetal">metal</a></td>
+<td>Metal</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">metal_grid</a></td>
+<td>Rejilla metálica</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmud">mud</a></td>
+<td>Suelo embarrado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaved">paved</a></td>
+<td>Pavimento</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaving_stones">paving_stones</a></td>
+<td>Piezas regulares</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpebblestone">pebblestone</a></td>
+<td>Canto rodado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">salt</a></td>
+<td>Superficie salada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsand">sand</a></td>
+<td>Arena</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsett">sett</a></td>
+<td>Piedra natural cortada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">snow</a></td>
+<td>Nieve</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">tartan</a></td>
+<td>Tartan</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunhewn_cobblestone">unhewn_cobblestone</a></td>
+<td>Piedra natural sin cortar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunpaved">unpaved</a></td>
+<td>Sin pavimentar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">User defined</a></td>
+<td>definido por el usuario</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dwood">wood</a></td>
+<td>Madera</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">woodchips</a></td>
+<td>Astillas de madera</td>
+</tr>
+<tr>
+<td><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="highway_primary">highway_primary</h3>
+<p><em>Carreteras importantes que unen ciudades grandes. En países desarrollados normalmente con 2 carriles, si bien en áreas con peor infraestructura la calidad de las carreteras puede ser mucho peor. Normalmente no cuentan con una barrera central de separación entre ambas direcciones.</em><br />
+<br />
+Nombres: <code>highway_primary_wayrel</code><br />
+Filtros: <code>highway=primary</code>,<code>highway=primary_link</code><br />
+Geometrías: <code>multilinestring</code>, <code>multipolygon</code><br />
+Atributos:  </p>
+<table>
+<thead>
+<tr>
+<th>Atributo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:access"><code>access</code></a></td>
+<td>string</td>
+<td></td>
+<td>Acceso</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dagricultural">agricultural</a></td>
+<td>Acceso limitado a vehículos agrícolas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dcustomers">customers</a></td>
+<td>Acceso autorizado a clientes</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Ddelivery">delivery</a></td>
+<td>Acceso autorizado para entregas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Ddesignated">designated</a></td>
+<td>Acceso autorizado en función del modo de transporte</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Ddestination">destination</a></td>
+<td>Acceso permitido según destino</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Ddiscouraged">discouraged</a></td>
+<td>Acceso desaconsejado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Ddismount">dismount</a></td>
+<td>Uso solo desmontado del vehículo/animal</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dforestry">forestry</a></td>
+<td>Acceso limitado a vehículos forestales</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dno">no</a></td>
+<td>Acceso no autorizado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dpermissive">permissive</a></td>
+<td>Acceso permitido</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dprivate">private</a></td>
+<td>Acceso privado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/w/index.php?title=Tag:access%3Dunknown&amp;action=edit&amp;redlink=1">unknown</a></td>
+<td>Limitaciones de acceso desconocidas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Duse_sidepath">use_sidepath</a></td>
+<td>Uso obligatorio de carril paralelo para ciclistas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dyes">yes</a></td>
+<td>Acceso público</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:bridge"><code>bridge</code></a></td>
+<td>string</td>
+<td></td>
+<td>Puente</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>yes</td>
+<td>Sí</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:highway"><code>highway</code></a></td>
+<td>string</td>
+<td></td>
+<td>Vía</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:highway%3Dprimary">primary</a></td>
+<td>Carretera primaria</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:lanes"><code>lanes</code></a></td>
+<td>int</td>
+<td></td>
+<td>Número de carriles</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:maxspeed"><code>maxspeed</code></a></td>
+<td>int/string</td>
+<td></td>
+<td>Velocidad máxima</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:name"><code>name</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Multilingual_names#Spain"><code>name:es</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre en español</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:surface"><code>surface</code></a></td>
+<td>string</td>
+<td></td>
+<td>Tipo de superficie</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">artificial_turf</a></td>
+<td>Césped artificial</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dasphalt">asphalt</a></td>
+<td>Asfalto</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">carpet</a></td>
+<td>Moqueta</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">clay</a></td>
+<td>Tierra batida</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcobblestone">cobblestone</a></td>
+<td>Adoquines</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcompacted">compacted</a></td>
+<td>Compactada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete">concrete</a></td>
+<td>Hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:lanes">concrete:lanes</a></td>
+<td>Rodadas hormigonadas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:plates">concrete:plates</a></td>
+<td>Placas de hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">decoturf</a></td>
+<td>Césped decorativo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Ddirt">dirt</a></td>
+<td>Tierra</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dearth">earth</a></td>
+<td>Suelo natural</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dfine_gravel">fine_gravel</a></td>
+<td>Grava fina</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass">grass</a></td>
+<td>Hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass_paver">grass_paver</a></td>
+<td>Pavimento hueco y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgravel">gravel</a></td>
+<td>Grava</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">gravel_turf</a></td>
+<td>Grava y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dground">ground</a></td>
+<td>Suelo transitado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">ice</a></td>
+<td>Hielo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmetal">metal</a></td>
+<td>Metal</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">metal_grid</a></td>
+<td>Rejilla metálica</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmud">mud</a></td>
+<td>Suelo embarrado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaved">paved</a></td>
+<td>Pavimento</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaving_stones">paving_stones</a></td>
+<td>Piezas regulares</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpebblestone">pebblestone</a></td>
+<td>Canto rodado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">salt</a></td>
+<td>Superficie salada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsand">sand</a></td>
+<td>Arena</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsett">sett</a></td>
+<td>Piedra natural cortada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">snow</a></td>
+<td>Nieve</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">tartan</a></td>
+<td>Tartan</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunhewn_cobblestone">unhewn_cobblestone</a></td>
+<td>Piedra natural sin cortar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunpaved">unpaved</a></td>
+<td>Sin pavimentar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">User defined</a></td>
+<td>definido por el usuario</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dwood">wood</a></td>
+<td>Madera</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">woodchips</a></td>
+<td>Astillas de madera</td>
+</tr>
+<tr>
+<td><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="highway_raceway">highway_raceway</h3>
+<p><em>Pistas para carreras motorizadas: automóviles, motos y karts. Para pistas de ciclismo, atletismo, hípica, galgos, etc., se utiliza leisure=track.</em><br />
+<br />
+Nombres: <code>highway_raceway_wayrel</code><br />
+Filtros: <code>highway=raceway</code><br />
+Geometrías: <code>multilinestring</code>, <code>multipolygon</code><br />
+Atributos:  </p>
+<table>
+<thead>
+<tr>
+<th>Atributo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:access"><code>access</code></a></td>
+<td>string</td>
+<td></td>
+<td>Acceso</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dagricultural">agricultural</a></td>
+<td>Acceso limitado a vehículos agrícolas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dcustomers">customers</a></td>
+<td>Acceso autorizado a clientes</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Ddelivery">delivery</a></td>
+<td>Acceso autorizado para entregas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Ddesignated">designated</a></td>
+<td>Acceso autorizado en función del modo de transporte</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Ddestination">destination</a></td>
+<td>Acceso permitido según destino</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Ddiscouraged">discouraged</a></td>
+<td>Acceso desaconsejado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Ddismount">dismount</a></td>
+<td>Uso solo desmontado del vehículo/animal</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dforestry">forestry</a></td>
+<td>Acceso limitado a vehículos forestales</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dno">no</a></td>
+<td>Acceso no autorizado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dpermissive">permissive</a></td>
+<td>Acceso permitido</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dprivate">private</a></td>
+<td>Acceso privado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/w/index.php?title=Tag:access%3Dunknown&amp;action=edit&amp;redlink=1">unknown</a></td>
+<td>Limitaciones de acceso desconocidas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Duse_sidepath">use_sidepath</a></td>
+<td>Uso obligatorio de carril paralelo para ciclistas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:access%3Dyes">yes</a></td>
+<td>Acceso público</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:highway"><code>highway</code></a></td>
+<td>string</td>
+<td></td>
+<td>Vía</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:highway%3Draceway">raceway</a></td>
+<td>Circuito</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:leisure"><code>leisure</code></a></td>
+<td>string</td>
+<td></td>
+<td>Ocio</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:leisure%3Dtrack">track</a></td>
+<td>Pista para carreras no motorizadas</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:name"><code>name</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Multilingual_names#Spain"><code>name:es</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre en español</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:surface"><code>surface</code></a></td>
+<td>string</td>
+<td></td>
+<td>Tipo de superficie</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">artificial_turf</a></td>
+<td>Césped artificial</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dasphalt">asphalt</a></td>
+<td>Asfalto</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">carpet</a></td>
+<td>Moqueta</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">clay</a></td>
+<td>Tierra batida</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcobblestone">cobblestone</a></td>
+<td>Adoquines</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcompacted">compacted</a></td>
+<td>Compactada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete">concrete</a></td>
+<td>Hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:lanes">concrete:lanes</a></td>
+<td>Rodadas hormigonadas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:plates">concrete:plates</a></td>
+<td>Placas de hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">decoturf</a></td>
+<td>Césped decorativo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Ddirt">dirt</a></td>
+<td>Tierra</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dearth">earth</a></td>
+<td>Suelo natural</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dfine_gravel">fine_gravel</a></td>
+<td>Grava fina</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass">grass</a></td>
+<td>Hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass_paver">grass_paver</a></td>
+<td>Pavimento hueco y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgravel">gravel</a></td>
+<td>Grava</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">gravel_turf</a></td>
+<td>Grava y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dground">ground</a></td>
+<td>Suelo transitado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">ice</a></td>
+<td>Hielo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmetal">metal</a></td>
+<td>Metal</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">metal_grid</a></td>
+<td>Rejilla metálica</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmud">mud</a></td>
+<td>Suelo embarrado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaved">paved</a></td>
+<td>Pavimento</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaving_stones">paving_stones</a></td>
+<td>Piezas regulares</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpebblestone">pebblestone</a></td>
+<td>Canto rodado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">salt</a></td>
+<td>Superficie salada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsand">sand</a></td>
+<td>Arena</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsett">sett</a></td>
+<td>Piedra natural cortada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">snow</a></td>
+<td>Nieve</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">tartan</a></td>
+<td>Tartan</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunhewn_cobblestone">unhewn_cobblestone</a></td>
+<td>Piedra natural sin cortar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunpaved">unpaved</a></td>
+<td>Sin pavimentar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">User defined</a></td>
+<td>definido por el usuario</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dwood">wood</a></td>
+<td>Madera</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">woodchips</a></td>
+<td>Astillas de madera</td>
+</tr>
+<tr>
+<td><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="highway_residential">highway_residential</h3>
+<p><em>Calles o carreteras utilizadas generalmente para tráfico local dentro de una población, asentamiento o zona residencial.</em><br />
+<br />
+Nombres: <code>highway_residential_wayrel</code><br />
+Filtros: <code>highway=residential</code><br />
+Geometrías: <code>multilinestring</code>, <code>multipolygon</code><br />
+Atributos:  </p>
+<table>
+<thead>
+<tr>
+<th>Atributo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:bridge"><code>bridge</code></a></td>
+<td>string</td>
+<td></td>
+<td>Puente</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>yes</td>
+<td>Sí</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:highway"><code>highway</code></a></td>
+<td>string</td>
+<td></td>
+<td>Vía</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:highway%3Dresidential">residential</a></td>
+<td>Vía urbana</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:maxspeed"><code>maxspeed</code></a></td>
+<td>int/string</td>
+<td></td>
+<td>Velocidad máxima</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:name"><code>name</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Multilingual_names#Spain"><code>name:es</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre en español</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:surface"><code>surface</code></a></td>
+<td>string</td>
+<td></td>
+<td>Tipo de superficie</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">artificial_turf</a></td>
+<td>Césped artificial</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dasphalt">asphalt</a></td>
+<td>Asfalto</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">carpet</a></td>
+<td>Moqueta</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">clay</a></td>
+<td>Tierra batida</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcobblestone">cobblestone</a></td>
+<td>Adoquines</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcompacted">compacted</a></td>
+<td>Compactada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete">concrete</a></td>
+<td>Hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:lanes">concrete:lanes</a></td>
+<td>Rodadas hormigonadas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:plates">concrete:plates</a></td>
+<td>Placas de hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">decoturf</a></td>
+<td>Césped decorativo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Ddirt">dirt</a></td>
+<td>Tierra</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dearth">earth</a></td>
+<td>Suelo natural</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dfine_gravel">fine_gravel</a></td>
+<td>Grava fina</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass">grass</a></td>
+<td>Hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass_paver">grass_paver</a></td>
+<td>Pavimento hueco y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgravel">gravel</a></td>
+<td>Grava</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">gravel_turf</a></td>
+<td>Grava y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dground">ground</a></td>
+<td>Suelo transitado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">ice</a></td>
+<td>Hielo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmetal">metal</a></td>
+<td>Metal</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">metal_grid</a></td>
+<td>Rejilla metálica</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmud">mud</a></td>
+<td>Suelo embarrado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaved">paved</a></td>
+<td>Pavimento</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaving_stones">paving_stones</a></td>
+<td>Piezas regulares</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpebblestone">pebblestone</a></td>
+<td>Canto rodado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">salt</a></td>
+<td>Superficie salada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsand">sand</a></td>
+<td>Arena</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsett">sett</a></td>
+<td>Piedra natural cortada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">snow</a></td>
+<td>Nieve</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">tartan</a></td>
+<td>Tartan</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunhewn_cobblestone">unhewn_cobblestone</a></td>
+<td>Piedra natural sin cortar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunpaved">unpaved</a></td>
+<td>Sin pavimentar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">User defined</a></td>
+<td>definido por el usuario</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dwood">wood</a></td>
+<td>Madera</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">woodchips</a></td>
+<td>Astillas de madera</td>
+</tr>
+<tr>
+<td><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="highway_secondary">highway_secondary</h3>
+<p><em>Carreteras que no forman parte de una ruta importante pero sirven de enlace en la red nacional de rutas. En algunos países tienen 2 carriles y el tráfico en ambas direcciones suele estar separado por una línea central en la carretera. En zonas con peor infraestructura la calidad de las carreteras puede ser mucho peor.</em><br />
+<br />
+Nombres: <code>highway_secondary_wayrel</code><br />
+Filtros: <code>highway=secondary</code>,<code>highway=secondary_link</code><br />
+Geometrías: <code>multilinestring</code>, <code>multipolygon</code><br />
+Atributos:  </p>
+<table>
+<thead>
+<tr>
+<th>Atributo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:bridge"><code>bridge</code></a></td>
+<td>string</td>
+<td></td>
+<td>Puente</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>yes</td>
+<td>Sí</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:highway"><code>highway</code></a></td>
+<td>string</td>
+<td></td>
+<td>Vía</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:highway%3Dsecondary">secondary</a></td>
+<td>Carretera secundaria</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:maxspeed"><code>maxspeed</code></a></td>
+<td>int/string</td>
+<td></td>
+<td>Velocidad máxima</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:name"><code>name</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Multilingual_names#Spain"><code>name:es</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre en español</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:surface"><code>surface</code></a></td>
+<td>string</td>
+<td></td>
+<td>Tipo de superficie</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">artificial_turf</a></td>
+<td>Césped artificial</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dasphalt">asphalt</a></td>
+<td>Asfalto</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">carpet</a></td>
+<td>Moqueta</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">clay</a></td>
+<td>Tierra batida</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcobblestone">cobblestone</a></td>
+<td>Adoquines</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcompacted">compacted</a></td>
+<td>Compactada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete">concrete</a></td>
+<td>Hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:lanes">concrete:lanes</a></td>
+<td>Rodadas hormigonadas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:plates">concrete:plates</a></td>
+<td>Placas de hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">decoturf</a></td>
+<td>Césped decorativo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Ddirt">dirt</a></td>
+<td>Tierra</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dearth">earth</a></td>
+<td>Suelo natural</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dfine_gravel">fine_gravel</a></td>
+<td>Grava fina</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass">grass</a></td>
+<td>Hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass_paver">grass_paver</a></td>
+<td>Pavimento hueco y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgravel">gravel</a></td>
+<td>Grava</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">gravel_turf</a></td>
+<td>Grava y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dground">ground</a></td>
+<td>Suelo transitado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">ice</a></td>
+<td>Hielo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmetal">metal</a></td>
+<td>Metal</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">metal_grid</a></td>
+<td>Rejilla metálica</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmud">mud</a></td>
+<td>Suelo embarrado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaved">paved</a></td>
+<td>Pavimento</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaving_stones">paving_stones</a></td>
+<td>Piezas regulares</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpebblestone">pebblestone</a></td>
+<td>Canto rodado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">salt</a></td>
+<td>Superficie salada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsand">sand</a></td>
+<td>Arena</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsett">sett</a></td>
+<td>Piedra natural cortada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">snow</a></td>
+<td>Nieve</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">tartan</a></td>
+<td>Tartan</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunhewn_cobblestone">unhewn_cobblestone</a></td>
+<td>Piedra natural sin cortar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunpaved">unpaved</a></td>
+<td>Sin pavimentar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">User defined</a></td>
+<td>definido por el usuario</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dwood">wood</a></td>
+<td>Madera</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">woodchips</a></td>
+<td>Astillas de madera</td>
+</tr>
+<tr>
+<td><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="highway_service">highway_service</h3>
+<p><em>Vías de servicio. Generalmente para el acceso a un edificio, estación de servicio, playa, camping, polígono industrial, parque empresarial, etc. También se usa comúnmente para el acceso a estacionamientos, entradas de vehículos y callejones.</em><br />
+<br />
+Nombres: <code>highway_service_wayrel</code><br />
+Filtros: <code>highway=service</code><br />
+Geometrías: <code>multilinestring</code>, <code>multipolygon</code><br />
+Atributos:  </p>
+<table>
+<thead>
+<tr>
+<th>Atributo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:highway"><code>highway</code></a></td>
+<td>string</td>
+<td></td>
+<td>Vía</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:highway%3Dservice">service</a></td>
+<td>Vía de servicio</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:name"><code>name</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Multilingual_names#Spain"><code>name:es</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre en español</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:surface"><code>surface</code></a></td>
+<td>string</td>
+<td></td>
+<td>Tipo de superficie</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">artificial_turf</a></td>
+<td>Césped artificial</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dasphalt">asphalt</a></td>
+<td>Asfalto</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">carpet</a></td>
+<td>Moqueta</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">clay</a></td>
+<td>Tierra batida</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcobblestone">cobblestone</a></td>
+<td>Adoquines</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcompacted">compacted</a></td>
+<td>Compactada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete">concrete</a></td>
+<td>Hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:lanes">concrete:lanes</a></td>
+<td>Rodadas hormigonadas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:plates">concrete:plates</a></td>
+<td>Placas de hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">decoturf</a></td>
+<td>Césped decorativo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Ddirt">dirt</a></td>
+<td>Tierra</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dearth">earth</a></td>
+<td>Suelo natural</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dfine_gravel">fine_gravel</a></td>
+<td>Grava fina</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass">grass</a></td>
+<td>Hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass_paver">grass_paver</a></td>
+<td>Pavimento hueco y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgravel">gravel</a></td>
+<td>Grava</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">gravel_turf</a></td>
+<td>Grava y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dground">ground</a></td>
+<td>Suelo transitado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">ice</a></td>
+<td>Hielo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmetal">metal</a></td>
+<td>Metal</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">metal_grid</a></td>
+<td>Rejilla metálica</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmud">mud</a></td>
+<td>Suelo embarrado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaved">paved</a></td>
+<td>Pavimento</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaving_stones">paving_stones</a></td>
+<td>Piezas regulares</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpebblestone">pebblestone</a></td>
+<td>Canto rodado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">salt</a></td>
+<td>Superficie salada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsand">sand</a></td>
+<td>Arena</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsett">sett</a></td>
+<td>Piedra natural cortada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">snow</a></td>
+<td>Nieve</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">tartan</a></td>
+<td>Tartan</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunhewn_cobblestone">unhewn_cobblestone</a></td>
+<td>Piedra natural sin cortar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunpaved">unpaved</a></td>
+<td>Sin pavimentar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">User defined</a></td>
+<td>definido por el usuario</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dwood">wood</a></td>
+<td>Madera</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">woodchips</a></td>
+<td>Astillas de madera</td>
+</tr>
+<tr>
+<td><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="highway_tertiary">highway_tertiary</h3>
+<p><em>Las carreteras terciarias son carreteras que conectan asentamientos más pequeños y dentro de grandes asentamientos conectan centros locales. En términos de la red de transporte, las carreteras "terciarias" de OpenStreetMap comúnmente también conectan las calles menores con las carreteras más importantes.</em><br />
+<br />
+Nombres: <code>highway_tertiary_wayrel</code><br />
+Filtros: <code>highway=tertiary</code>,<code>highway=tertiary_link</code><br />
+Geometrías: <code>multilinestring</code>, <code>multipolygon</code><br />
+Atributos:  </p>
+<table>
+<thead>
+<tr>
+<th>Atributo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:bridge"><code>bridge</code></a></td>
+<td>string</td>
+<td></td>
+<td>Puente</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>yes</td>
+<td>Sí</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:highway"><code>highway</code></a></td>
+<td>string</td>
+<td></td>
+<td>Vía</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:highway%3Dtertiary">tertiary</a></td>
+<td>Carretera terciaria</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:maxspeed"><code>maxspeed</code></a></td>
+<td>int/string</td>
+<td></td>
+<td>Velocidad máxima</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:name"><code>name</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Multilingual_names#Spain"><code>name:es</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre en español</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:surface"><code>surface</code></a></td>
+<td>string</td>
+<td></td>
+<td>Tipo de superficie</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">artificial_turf</a></td>
+<td>Césped artificial</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dasphalt">asphalt</a></td>
+<td>Asfalto</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">carpet</a></td>
+<td>Moqueta</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">clay</a></td>
+<td>Tierra batida</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcobblestone">cobblestone</a></td>
+<td>Adoquines</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcompacted">compacted</a></td>
+<td>Compactada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete">concrete</a></td>
+<td>Hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:lanes">concrete:lanes</a></td>
+<td>Rodadas hormigonadas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:plates">concrete:plates</a></td>
+<td>Placas de hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">decoturf</a></td>
+<td>Césped decorativo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Ddirt">dirt</a></td>
+<td>Tierra</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dearth">earth</a></td>
+<td>Suelo natural</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dfine_gravel">fine_gravel</a></td>
+<td>Grava fina</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass">grass</a></td>
+<td>Hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass_paver">grass_paver</a></td>
+<td>Pavimento hueco y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgravel">gravel</a></td>
+<td>Grava</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">gravel_turf</a></td>
+<td>Grava y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dground">ground</a></td>
+<td>Suelo transitado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">ice</a></td>
+<td>Hielo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmetal">metal</a></td>
+<td>Metal</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">metal_grid</a></td>
+<td>Rejilla metálica</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmud">mud</a></td>
+<td>Suelo embarrado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaved">paved</a></td>
+<td>Pavimento</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaving_stones">paving_stones</a></td>
+<td>Piezas regulares</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpebblestone">pebblestone</a></td>
+<td>Canto rodado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">salt</a></td>
+<td>Superficie salada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsand">sand</a></td>
+<td>Arena</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsett">sett</a></td>
+<td>Piedra natural cortada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">snow</a></td>
+<td>Nieve</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">tartan</a></td>
+<td>Tartan</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunhewn_cobblestone">unhewn_cobblestone</a></td>
+<td>Piedra natural sin cortar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunpaved">unpaved</a></td>
+<td>Sin pavimentar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">User defined</a></td>
+<td>definido por el usuario</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dwood">wood</a></td>
+<td>Madera</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">woodchips</a></td>
+<td>Astillas de madera</td>
+</tr>
+<tr>
+<td><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="highway_track">highway_track</h3>
+<p><em>Caminos para uso principalmente agrícola o forestal, a menudo sin pavimentar. Puede aplicarse también a pistas pavimentadas que son adecuadas para vehículos de doble tracción como tractores o vehículos todo terreno.</em><br />
+<br />
+Nombres: <code>highway_track_wayrel</code><br />
+Filtros: <code>highway=track</code><br />
+Geometrías: <code>multilinestring</code>, <code>multipolygon</code><br />
+Atributos:  </p>
+<table>
+<thead>
+<tr>
+<th>Atributo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:highway"><code>highway</code></a></td>
+<td>string</td>
+<td></td>
+<td>Vía</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:highway%3Dtrack">track</a></td>
+<td>camino/Pista forestal</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:name"><code>name</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Multilingual_names#Spain"><code>name:es</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre en español</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:surface"><code>surface</code></a></td>
+<td>string</td>
+<td></td>
+<td>Tipo de superficie</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">artificial_turf</a></td>
+<td>Césped artificial</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dasphalt">asphalt</a></td>
+<td>Asfalto</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">carpet</a></td>
+<td>Moqueta</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">clay</a></td>
+<td>Tierra batida</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcobblestone">cobblestone</a></td>
+<td>Adoquines</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcompacted">compacted</a></td>
+<td>Compactada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete">concrete</a></td>
+<td>Hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:lanes">concrete:lanes</a></td>
+<td>Rodadas hormigonadas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:plates">concrete:plates</a></td>
+<td>Placas de hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">decoturf</a></td>
+<td>Césped decorativo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Ddirt">dirt</a></td>
+<td>Tierra</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dearth">earth</a></td>
+<td>Suelo natural</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dfine_gravel">fine_gravel</a></td>
+<td>Grava fina</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass">grass</a></td>
+<td>Hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass_paver">grass_paver</a></td>
+<td>Pavimento hueco y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgravel">gravel</a></td>
+<td>Grava</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">gravel_turf</a></td>
+<td>Grava y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dground">ground</a></td>
+<td>Suelo transitado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">ice</a></td>
+<td>Hielo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmetal">metal</a></td>
+<td>Metal</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">metal_grid</a></td>
+<td>Rejilla metálica</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmud">mud</a></td>
+<td>Suelo embarrado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaved">paved</a></td>
+<td>Pavimento</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaving_stones">paving_stones</a></td>
+<td>Piezas regulares</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpebblestone">pebblestone</a></td>
+<td>Canto rodado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">salt</a></td>
+<td>Superficie salada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsand">sand</a></td>
+<td>Arena</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsett">sett</a></td>
+<td>Piedra natural cortada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">snow</a></td>
+<td>Nieve</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">tartan</a></td>
+<td>Tartan</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunhewn_cobblestone">unhewn_cobblestone</a></td>
+<td>Piedra natural sin cortar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunpaved">unpaved</a></td>
+<td>Sin pavimentar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">User defined</a></td>
+<td>definido por el usuario</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dwood">wood</a></td>
+<td>Madera</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">woodchips</a></td>
+<td>Astillas de madera</td>
+</tr>
+<tr>
+<td><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="highway_trunk">highway_trunk</h3>
+<p><em>Carreteras importantes que no son autopistas. Se utiliza highway=trunk para carreteras de alto rendimiento o de gran importancia que no cumplen con el requisito de autopista.</em><br />
+<br />
+Nombres: <code>highway_trunk_wayrel</code><br />
+Filtros: <code>highway=trunk</code>,<code>highway=trunk_link</code><br />
+Geometrías: <code>multilinestring</code>, <code>multipolygon</code><br />
+Atributos:  </p>
+<table>
+<thead>
+<tr>
+<th>Atributo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:bridge"><code>bridge</code></a></td>
+<td>string</td>
+<td></td>
+<td>Puente</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>yes</td>
+<td>Sí</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:highway"><code>highway</code></a></td>
+<td>string</td>
+<td></td>
+<td>Vía</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:highway%3Dtrunk">trunk</a></td>
+<td>Carretera pincipal</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:lanes"><code>lanes</code></a></td>
+<td>int</td>
+<td></td>
+<td>Número de carriles</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:maxspeed"><code>maxspeed</code></a></td>
+<td>int/string</td>
+<td></td>
+<td>Velocidad máxima</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:name"><code>name</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Multilingual_names#Spain"><code>name:es</code></a></td>
+<td>string</td>
+<td></td>
+<td>Nombre en español</td>
+</tr>
+<tr>
+<td><a href="https://wiki.openstreetmap.org/wiki/Key:surface"><code>surface</code></a></td>
+<td>string</td>
+<td></td>
+<td>Tipo de superficie</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">artificial_turf</a></td>
+<td>Césped artificial</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dasphalt">asphalt</a></td>
+<td>Asfalto</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">carpet</a></td>
+<td>Moqueta</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">clay</a></td>
+<td>Tierra batida</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcobblestone">cobblestone</a></td>
+<td>Adoquines</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcompacted">compacted</a></td>
+<td>Compactada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete">concrete</a></td>
+<td>Hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:lanes">concrete:lanes</a></td>
+<td>Rodadas hormigonadas</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dconcrete:plates">concrete:plates</a></td>
+<td>Placas de hormigón</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">decoturf</a></td>
+<td>Césped decorativo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Ddirt">dirt</a></td>
+<td>Tierra</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dearth">earth</a></td>
+<td>Suelo natural</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dfine_gravel">fine_gravel</a></td>
+<td>Grava fina</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass">grass</a></td>
+<td>Hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass_paver">grass_paver</a></td>
+<td>Pavimento hueco y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgravel">gravel</a></td>
+<td>Grava</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">gravel_turf</a></td>
+<td>Grava y hierba</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dground">ground</a></td>
+<td>Suelo transitado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">ice</a></td>
+<td>Hielo</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmetal">metal</a></td>
+<td>Metal</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">metal_grid</a></td>
+<td>Rejilla metálica</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dmud">mud</a></td>
+<td>Suelo embarrado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaved">paved</a></td>
+<td>Pavimento</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpaving_stones">paving_stones</a></td>
+<td>Piezas regulares</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dpebblestone">pebblestone</a></td>
+<td>Canto rodado</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">salt</a></td>
+<td>Superficie salada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsand">sand</a></td>
+<td>Arena</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dsett">sett</a></td>
+<td>Piedra natural cortada</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">snow</a></td>
+<td>Nieve</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">tartan</a></td>
+<td>Tartan</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunhewn_cobblestone">unhewn_cobblestone</a></td>
+<td>Piedra natural sin cortar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dunpaved">unpaved</a></td>
+<td>Sin pavimentar</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">User defined</a></td>
+<td>definido por el usuario</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="https://wiki.openstreetmap.org/wiki/Tag:surface%3Dwood">wood</a></td>
+<td>Madera</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><a href="">woodchips</a></td>
+<td>Astillas de madera</td>
+</tr>
+<tr>
+<td><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><br /></p>
+<hr />
+<p><em>13 mayo 2019</em></p></div>
+        
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+        
+        
+        
+    </footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../../../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+    var base_url = '../../..';
+    </script>
+    <!-- <script data-main="../../../mkdocs/js/search.js" src="../../../mkdocs/js/require.js"></script> -->
+    <script src="../../../js/base.js"></script>
+    <script src="../../../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        From here you can search these documents. Enter your search terms below.
+                    </p>
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                        </div>
+                    </form>
+                    <div id="mkdocs-search-results"></div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+
+</html>
