@@ -8,11 +8,8 @@ Formato de salida OSM-XML
 */
 [out:xml][timeout:259200][maxsize:70000000000];
 (
-  way
-    ["highway"="raceway"];
-  relation
-    ["highway"="raceway"];
+  way["highway"="raceway"];
+  relation["highway"="raceway"];
 );
-out body;
->;
-out skel qt;
+(._;>;);
+out;

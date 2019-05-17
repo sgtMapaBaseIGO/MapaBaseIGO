@@ -119,8 +119,7 @@ Formato de salida OSM-XML
 
   
 );
-out body;
->;
-out skel qt;
+(._;>;);
+out;
 
 

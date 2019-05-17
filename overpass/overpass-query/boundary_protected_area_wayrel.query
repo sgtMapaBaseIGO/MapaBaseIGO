@@ -21,6 +21,5 @@ Formato de salida OSM-XML
   relation
     ["boundary"="protected_area"];	
 );
-out body;
->;
-out skel qt;
+(._;>;);
+out;

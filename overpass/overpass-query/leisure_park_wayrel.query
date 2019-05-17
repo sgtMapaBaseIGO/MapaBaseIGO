@@ -13,6 +13,5 @@ Formato de salida OSM-XML
   relation
     ["leisure"="park"];
 );
-out body;
->;
-out skel qt;
+(._;>;);
+out;

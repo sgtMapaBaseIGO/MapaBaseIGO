@@ -35,8 +35,7 @@ Formato de salida OSM-XML
   relation["building"="kiosk"];
 
 );
-out body;
->;
-out skel qt;
+(._;>;);
+out;
 
 

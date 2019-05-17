@@ -16,6 +16,5 @@ Formato de salida OSM-XML
   relation
     ["railway"="rail"];	
 );
-out body;
->;
-out skel qt;
+(._;>;);
+out;

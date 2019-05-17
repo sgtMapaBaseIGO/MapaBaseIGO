@@ -15,6 +15,5 @@ Formato de salida OSM-XML
   node
     ["place"="town"];
 );
-out body;
->;
-out skel qt;
+(._;>;);
+out;

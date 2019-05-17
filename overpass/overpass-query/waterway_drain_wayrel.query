@@ -7,10 +7,9 @@ Formato de salida OSM-XML
 [out:xml][timeout:259200][maxsize:70000000000];
 (
   way
-    ["waterway"="stream"];  
+    ["waterway"="drain"];
   relation
-    ["waterway"="stream"];
+    ["waterway"="drain"];
 );
-out body;
->;
-out skel qt;
+(._;>;);
+out;

@@ -21,6 +21,5 @@ Formato de salida OSM-XML
   relation
     ["leisure"="nature_reserve"];	
 );
-out body;
->;
-out skel qt;
+(._;>;);
+out;

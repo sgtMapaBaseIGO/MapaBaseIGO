@@ -1,0 +1,65 @@
+/*
+Building accommodation:
+Apartments, farm, hotel, house, detached, residential, dormitory, terrace, houseboat, bungalow, static_caravan, cabin.
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  // query part for: “building=apartments"
+  way["building"="apartments"];
+  relation["building"="apartments"];
+  
+  // query part for: “building=farm”
+  way["building"="farm"];
+  relation["building"="farm"];
+  
+  // query part for: “building=hotel"
+  way["building"="hotel"];
+  relation["bulding"="yes"]["building"="hotel"];
+ 
+  // query part for: “building=house"
+  way["building"="house"];
+  relation["building"="house"];
+  
+  // query part for: “building=detached"
+  way["building"="detached"];
+  relation["building"="detached"];  
+  
+  // query part for: “building=residential"
+  way["building"="residential"];
+  relation["building"="residential"];
+
+  // query part for: “building=dormitory"
+  way["building"="dormitory"];
+  relation["building"="dormitory"];
+  
+  // query part for: “building=terrace"
+  way["building"="terrace"];
+  relation["building"="terrace"];
+  
+  // query part for: “building=houseboat"
+  way["building"="houseboat"];
+  relation["building"="houseboat"];
+  
+  // query part for: “building=bungalow"
+  way["building"="bungalow"];
+  relation["building"="bungalow"];
+  
+  // query part for: “building=static_caravan"
+  way["building"="static_caravan"];
+  relation["building"="static_caravan"];
+  
+  // query part for: “building=static_caravan"
+  way["building"="cabin"];
+  relation["building"="cabin"];
+  
+  // query part for: “building=cabin"
+  way["building"="cabin"];
+  relation["building"="cabin"];
+  
+);
+(._;>;);
+out;
+
+

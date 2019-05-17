@@ -9,6 +9,5 @@ Formato de salida OSM-XML
   node
     ["aeroway"="aerodrome"];
 );
-out body;
->;
-out skel qt;
+(._;>;);
+out;

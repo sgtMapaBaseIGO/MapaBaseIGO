@@ -15,6 +15,5 @@ Formato de salida OSM-XML
   relation
     ["highway"="living_street"];
 );
-out body;
->;
-out skel qt;
+(._;>;);
+out;

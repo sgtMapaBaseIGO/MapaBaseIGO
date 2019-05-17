@@ -19,6 +19,5 @@ Formato de salida OSM-XML
   relation
     ["highway"="primary_link"];
 );
-out body;
->;
-out skel qt;
+(._;>;);
+out;

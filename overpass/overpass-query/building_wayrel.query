@@ -1,0 +1,10 @@
+[maxsize:85899345920]
+[out:xml]
+[timeout:259200]
+;
+(
+  way["building"];
+  relation["building"];
+);
+(._;>;);
+out;

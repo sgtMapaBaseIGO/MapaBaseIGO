@@ -8,9 +8,12 @@ Formato de salida OSM-XML
 (
   way
     ["landuse"="commercial"];
+  way
+    ["landuse"="retail"];	
   relation
-    ["landuse"="commercial"];	
+    ["landuse"="commercial"];
+  relation
+    ["landuse"="retail"];	
 );
-out body;
->;
-out skel qt;
+(._;>;);
+out;

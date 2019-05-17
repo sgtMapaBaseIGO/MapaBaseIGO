@@ -16,8 +16,7 @@ Formato de salida OSM-XML
   way
 	["boundary"="national_park"];
   relation
-    ["boundary"="national_park"]);
+    ["boundary"="national_park"];
 );
-out body;
->;
-out skel qt;
+(._;>;);
+out;

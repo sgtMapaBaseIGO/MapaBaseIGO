@@ -12,6 +12,5 @@ Formato de salida OSM-XML
   relation
     ["highway"="service"];
 );
-out body;
->;
-out skel qt;
+(._;>;);
+out;

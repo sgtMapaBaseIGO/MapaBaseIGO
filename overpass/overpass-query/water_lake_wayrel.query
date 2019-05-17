@@ -12,7 +12,6 @@ Formato de salida OSM-XML
   relation
     ["water"="lake"];
 );
-out body;
->;
-out skel qt;
+(._;>;);
+out;
 

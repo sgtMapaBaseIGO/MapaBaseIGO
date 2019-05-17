@@ -21,6 +21,5 @@ Formato de salida OSM-XML
   relation	
 	["highway"="motorway_link"];
 );
-out body;
->;
-out skel qt;
+(._;>;);
+out;

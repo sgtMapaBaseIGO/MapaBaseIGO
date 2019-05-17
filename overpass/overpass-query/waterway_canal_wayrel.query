@@ -15,7 +15,6 @@ Formato de salida OSM-XML
   relation
     ["waterway"="canal"];
 );
-out body;
->;
-out skel qt;
+(._;>;);
+out;
 

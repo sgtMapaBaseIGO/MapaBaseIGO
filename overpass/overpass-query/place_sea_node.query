@@ -8,6 +8,5 @@ Formato de salida OSM-XML
   node
     ["place"="sea"];
 );
-out body;
->;
-out skel qt;
+(._;>;);
+out;

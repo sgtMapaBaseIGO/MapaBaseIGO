@@ -60,8 +60,7 @@ Formato de salida OSM-XML
   relation["building"="toilets"];
   
 );
-out body;
->;
-out skel qt;
+(._;>;);
+out;
 
 

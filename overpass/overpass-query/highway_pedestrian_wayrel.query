@@ -17,6 +17,5 @@ Formato de salida OSM-XML
   relation
     ["highway"="pedestrian"];
 );
-out body;
->;
-out skel qt;
+(._;>;);
+out;
