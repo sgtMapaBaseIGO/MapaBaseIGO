@@ -1,0 +1,15 @@
+/*
+Aeródromo
+La etiqueta aeroway = runway se utiliza para obtener la zona rectangular que utilizan los aviones para aterrizar y despegar
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["aeroway"="runway"];
+  relation
+    ["aeroway"="runway"];
+);
+(._;>;);
+out;

@@ -1,0 +1,15 @@
+/*
+Aeródromo
+La etiqueta aeroway = taxiway se utiliza para obtener los caminos en el aeropuerto que nos permiten conectar la terminal con las pista, hangares, etc.
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["aeroway"="taxiway"];
+  relation
+    ["aeroway"="taxiway"];
+);
+(._;>;);
+out;

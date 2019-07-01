@@ -1,0 +1,15 @@
+/*
+Carriles bici en zona urbana y rutas de bici. 
+En OSM la etiqueta 'highway = cycleway' se utiliza para etiquetar carriles bici.
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["highway"="cycleway"];
+  relation
+    ["highway"="cycleway"];
+);
+(._;>;);
+out;

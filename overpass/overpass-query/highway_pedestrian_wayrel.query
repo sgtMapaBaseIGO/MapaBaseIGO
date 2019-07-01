@@ -16,6 +16,10 @@ Formato de salida OSM-XML
     ["highway"="pedestrian"];
   relation
     ["highway"="pedestrian"];
+  way
+    ["highway"="footway"];
+  relation
+    ["highway"="footway"];
 );
 (._;>;);
 out;

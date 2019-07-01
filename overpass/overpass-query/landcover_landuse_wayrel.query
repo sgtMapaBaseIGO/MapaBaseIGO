@@ -1,0 +1,45 @@
+/*
+Parques
+Un parque es un área de espacio abierto para uso recreativo, 
+generalmente diseñado y en estado seminatural con áreas cubiertas de hierba, árboles y arbustos. 
+
+Formato de salida OSM-XML
+*/
+
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["landuse"="farm"];
+  way
+    ["landuse"="farmland"];
+  way
+    ["landuse"="grass"];
+  way
+    ["landuse"="grassland"];
+  way
+    ["landuse"="forest"];
+  way
+    ["landuse"="village_green"];
+  way
+    ["landuse"="recreation_ground"];
+  way
+    ["landuse"="park"];
+  relation
+    ["landuse"="farm"];
+  relation
+    ["landuse"="farmland"];
+  relation
+    ["landuse"="grass"];
+  relation
+    ["landuse"="grassland"];
+  relation
+    ["landuse"="forest"];
+  relation
+    ["landuse"="village_green"];
+  relation
+    ["landuse"="recreation_ground"];
+  relation
+    ["landuse"="park"];
+);
+(._;>;);
+out;

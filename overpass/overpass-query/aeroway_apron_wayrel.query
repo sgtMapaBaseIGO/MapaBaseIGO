@@ -1,0 +1,15 @@
+/*
+Aeródromo
+La etiqueta aeroway = apron se utiliza para obtener la zona dónde aparcan los aviones
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["aeroway"="apron"];
+  relation
+    ["aeroway"="apron"];
+);
+(._;>;);
+out;

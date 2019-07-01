@@ -10,7 +10,11 @@ Formato de salida OSM-XML
     ["highway"="track"];
   relation
     ["highway"="track"];
-	
+
+  way
+    ["highway"="bridleway"];
+  relation
+    ["highway"="bridleway"];
 );
 (._;>;);
 out;

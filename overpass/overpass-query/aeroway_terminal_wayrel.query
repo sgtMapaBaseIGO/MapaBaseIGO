@@ -1,0 +1,15 @@
+/*
+Aeródromo
+La etiqueta aeroway = terminal se utiliza para obtener la zona de la terminal
+
+Formato de salida OSM-XML
+*/
+[out:xml][timeout:259200][maxsize:70000000000];
+(
+  way
+    ["aeroway"="terminal"];
+  relation
+    ["aeroway"="terminal"];
+);
+(._;>;);
+out;
