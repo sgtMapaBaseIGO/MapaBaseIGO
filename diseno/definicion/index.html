@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="../../img/favicon.ico">
 
     
-    <title>Acciones - Mapa Base IGO</title>
+    <title>Definición de teselas vectoriales - Mapa Base IGO</title>
     
 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -73,37 +73,37 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Proyecto <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../justificacion/">Justificación</a>
+    <a href="../../proyecto/justificacion/">Justificación</a>
 </li>
 
                         
                             
 <li >
-    <a href="../directrices/">Directrices</a>
+    <a href="../../proyecto/directrices/">Directrices</a>
 </li>
 
                         
                             
 <li >
-    <a href="../objetivos/">Objetivos</a>
-</li>
-
-                        
-                            
-<li class="active">
-    <a href="./">Acciones</a>
+    <a href="../../proyecto/objetivos/">Objetivos</a>
 </li>
 
                         
                             
 <li >
-    <a href="../handicaps/">Hándicaps</a>
+    <a href="../../proyecto/acciones/">Acciones</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../proyecto/handicaps/">Hándicaps</a>
 </li>
 
                         
@@ -172,19 +172,19 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Diseño <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
-<li >
-    <a href="../../diseno/definicion/">Definición de teselas vectoriales</a>
+<li class="active">
+    <a href="./">Definición de teselas vectoriales</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../diseno/simbologia/">Simbología</a>
+    <a href="../simbologia/">Simbología</a>
 </li>
 
                         
@@ -288,12 +288,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../objetivos/">
+                        <a rel="next" href="../../preparacion/procesado/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../handicaps/">
+                        <a rel="prev" href="../simbologia/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -307,61 +307,256 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#acciones">Acciones</a></li>
-            <li class="second-level"><a href="#preparacion">Preparación</a></li>
-                
-            <li class="second-level"><a href="#diseno">Diseño</a></li>
-                
-            <li class="second-level"><a href="#implementacion">Implementación</a></li>
+        <li class="first-level active"><a href="#esquema-teselas-vectoriales">Esquema Teselas vectoriales</a></li>
+            <li class="second-level"><a href="#informacion-geografica-oficial-igo">Información Geográfica Oficial (IGO)</a></li>
                 
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="acciones">Acciones</h1>
-<p><br /></p>
-<p>La ejecución del proyecto se plasmará en una secuencia de acciones agrupadas en tres ámbitos: preparación, diseño e implementación
-<br />
+<h1 id="esquema-teselas-vectoriales">Esquema Teselas vectoriales</h1>
+<p><br />
 <br /></p>
-<h2 id="preparacion">Preparación</h2>
-<p><br /></p>
-<p>1.1 <strong>DEFINICIÓN DE ELEMENTOS GEOGRÁFICOS</strong></p>
-<p>Definición de los elementos geográficos que intervienen en la representación para cada nivel de detalle (zoom 0-19), características geométricas y atributos necesarios para su simbolización.
-<br />
+<p>La tabla adjunta muestra los elementos que componen las teselas vectoriales de los distintos niveles de detalle, construidos a partir de distintas fuentes de datos institucionales, por lo que esta información tiene la condición de información geográfica oficial.
 <br /></p>
-<p>1.2 <strong>IDENTIFICACIÓN DE FUENTES DE DATOS</strong></p>
-<p>Relación de las fuentes de información existentes para cada elemento, atendiendo a su escala de representación y atributos asociados, con indicación del proceso de captura.
-<br />
-<br /></p>
-<p>1.3 <strong>PROCESADO DE INFORMACIÓN GEOGRÁFICA</strong></p>
-<p>Diseño de los procesos necesarios para adaptar la información original, a los requisitos técnicos que se contemplan para la generación de las teselas vectoriales.
-<br />
-<br /></p>
-<h2 id="diseno">Diseño</h2>
-<p><br /></p>
-<p>2.1 <strong>DEFINICIÓN DE TESELAS VECTORIALES</strong></p>
-<p>Definición de los elementos geográficos que compondrán cada una de las teselas vectoriales para cada nivel de zoom y características de la tesela.
-<br />
-<br /></p>
-<p>2.2 <strong>SIMBOLOGÍA</strong></p>
-<p>Definición de la simbología a utilizar para la representación de cada uno de los elementos geográficos y textuales, para cada nivel de zoom.
-<br />
-<br /></p>
-<h2 id="implementacion">Implementación</h2>
-<p><br /></p>
-<p>3.1 <strong>PRODUCCIÓN DE TESELAS VECTORIALES</strong></p>
-<p>Propuesta para la producción de las teselas vectoriales con utilización de software libre. Si procede se incluirán propuestas de producción con distintas soluciones de software.
-<br />
-<br /></p>
-<p>3.2 <strong>PUBLICACIÓN DE TESELAS VECTORIALES</strong></p>
-<p>Propuesta para la configuración de un servicio de publicación/distribución on line de teselas vectoriales.
-<br />
-<br /></p>
-<p>3.3 <strong>SIMBOLIZACIÓN</strong></p>
-<p>Edición de ficheros JSON para la simbolización de las teselas vectoriales.
-<br />
-<br/></p>
-<hr /></div>
+<h3 id="informacion-geografica-oficial-igo">Información Geográfica Oficial (IGO)</h3>
+<table>
+<thead>
+<tr>
+<th>Capa</th>
+<th align="left">Elemento</th>
+<th align="right">Rango zoom</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>aerodromo_igo</strong></td>
+<td align="left">aerodromo_pol</td>
+<td align="right">12-18</td>
+</tr>
+<tr>
+<td><strong>aerodromo_igo</strong></td>
+<td align="left">aerodromo_pto</td>
+<td align="right">11-18</td>
+</tr>
+<tr>
+<td><strong>aparcamiento_igo</strong></td>
+<td align="left">aparcamiento_pol</td>
+<td align="right">15-18</td>
+</tr>
+<tr>
+<td><strong>aparcamiento_igo</strong></td>
+<td align="left">aparcamiento_pto</td>
+<td align="right">15-18</td>
+</tr>
+<tr>
+<td><strong>area_de_servicio_igo</strong></td>
+<td align="left">area_de_servicio_pol</td>
+<td align="right">15-18</td>
+</tr>
+<tr>
+<td><strong>area_de_servicio_igo</strong></td>
+<td align="left">area_de_servicio_pto</td>
+<td align="right">15-18</td>
+</tr>
+<tr>
+<td><strong>autopista_igo</strong></td>
+<td align="left">autopista_lin</td>
+<td align="right">6-18</td>
+</tr>
+<tr>
+<td><strong>autovia_igo</strong></td>
+<td align="left">autovia_lin</td>
+<td align="right">6-18</td>
+</tr>
+<tr>
+<td><strong>camino_igo</strong></td>
+<td align="left">camino_lin</td>
+<td align="right">11-18</td>
+</tr>
+<tr>
+<td><strong>capital_municipio_igo</strong></td>
+<td align="left">capital_municipio_pto</td>
+<td align="right">9-18</td>
+</tr>
+<tr>
+<td><strong>carretera_nacional_igo</strong></td>
+<td align="left">carretera_nacional_lin</td>
+<td align="right">7-18</td>
+</tr>
+<tr>
+<td><strong>carretera_otros_igo</strong></td>
+<td align="left">carretera_otros_lin</td>
+<td align="right">12-18</td>
+</tr>
+<tr>
+<td><strong>carretera_pk_igo</strong></td>
+<td align="left">carretera_pk_pto</td>
+<td align="right">17-18</td>
+</tr>
+<tr>
+<td><strong>carretera_primaria_igo</strong></td>
+<td align="left">carretera_primaria_lin</td>
+<td align="right">7-18</td>
+</tr>
+<tr>
+<td><strong>carretera_secundaria_igo</strong></td>
+<td align="left">carretera_secundaria_lin</td>
+<td align="right">7-18</td>
+</tr>
+<tr>
+<td><strong>carretera_terciaria_igo</strong></td>
+<td align="left">carretera_terciaria_lin</td>
+<td align="right">7-18</td>
+</tr>
+<tr>
+<td><strong>edificio_igo</strong></td>
+<td align="left">edificio_pol</td>
+<td align="right">16-18</td>
+</tr>
+<tr>
+<td><strong>enp_igo</strong></td>
+<td align="left">enp_pol</td>
+<td align="right">6-18</td>
+</tr>
+<tr>
+<td><strong>estacion_autobus_igo</strong></td>
+<td align="left">estacion_autobus_pol</td>
+<td align="right">13-18</td>
+</tr>
+<tr>
+<td><strong>estacion_autobus_igo</strong></td>
+<td align="left">estacion_autobus_pto</td>
+<td align="right">13-18</td>
+</tr>
+<tr>
+<td><strong>estacion_ffcc_igo</strong></td>
+<td align="left">estacion_ffcc_pto</td>
+<td align="right">13-18</td>
+</tr>
+<tr>
+<td><strong>ferrocarril_igo</strong></td>
+<td align="left">ferrocarril_lin</td>
+<td align="right">8-18</td>
+</tr>
+<tr>
+<td><strong>ferrocarril_igo</strong></td>
+<td align="left">ferrocarril_pk_pto</td>
+<td align="right">13-18</td>
+</tr>
+<tr>
+<td><strong>ferrocarril_igo</strong></td>
+<td align="left">ferrocarril_pol</td>
+<td align="right">13-18</td>
+</tr>
+<tr>
+<td><strong>hidrografia_igo</strong></td>
+<td align="left">hidrografia_lin</td>
+<td align="right">8-18</td>
+</tr>
+<tr>
+<td><strong>hidrografia_igo</strong></td>
+<td align="left">hidrografia_pol</td>
+<td align="right">13-18</td>
+</tr>
+<tr>
+<td><strong>lamina_agua_igo</strong></td>
+<td align="left">lamina_agua_pol</td>
+<td align="right">8-18</td>
+</tr>
+<tr>
+<td><strong>linea_costa_igo</strong></td>
+<td align="left">linea_costa_lin</td>
+<td align="right">13-18</td>
+</tr>
+<tr>
+<td><strong>linea_limite_igo</strong></td>
+<td align="left">linea_limite_lin</td>
+<td align="right">5-18</td>
+</tr>
+<tr>
+<td><strong>mfe50_igo</strong></td>
+<td align="left">mfe50_pol</td>
+<td align="right">6-18</td>
+</tr>
+<tr>
+<td><strong>ngbe_division_administrativa_igo</strong></td>
+<td align="left">ngbe_division_administrativa_pto</td>
+<td align="right">3-18</td>
+</tr>
+<tr>
+<td><strong>ngbe_hidrografia_igo</strong></td>
+<td align="left">ngbe_hidrografia_pto</td>
+<td align="right">6-18</td>
+</tr>
+<tr>
+<td><strong>ngbe_orografia_igo</strong></td>
+<td align="left">ngbe_orografia_pto</td>
+<td align="right">13-18</td>
+</tr>
+<tr>
+<td><strong>ngbe_poblaciones_construcciones_igo</strong></td>
+<td align="left">ngbe_poblaciones_construcciones_pto</td>
+<td align="right">7-18</td>
+</tr>
+<tr>
+<td><strong>ngbe_igo</strong></td>
+<td align="left">ngbe_pto</td>
+<td align="right">13-18</td>
+</tr>
+<tr>
+<td><strong>ngbe_transporte_igo</strong></td>
+<td align="left">ngbe_transporte_pto</td>
+<td align="right">13-18</td>
+</tr>
+<tr>
+<td><strong>paso_a_nivel_igo</strong></td>
+<td align="left">paso_a_nivel_pto</td>
+<td align="right">13-18</td>
+</tr>
+<tr>
+<td><strong>peaje_igo</strong></td>
+<td align="left">peaje_pol</td>
+<td align="right">15-18</td>
+</tr>
+<tr>
+<td><strong>peaje_igo</strong></td>
+<td align="left">peaje_pto</td>
+<td align="right">15-18</td>
+</tr>
+<tr>
+<td><strong>portal_igo</strong></td>
+<td align="left">portal_pto</td>
+<td align="right">17-18</td>
+</tr>
+<tr>
+<td><strong>rutas_gps_igo</strong></td>
+<td align="left">rutas_gps_lin</td>
+<td align="right">15-18</td>
+</tr>
+<tr>
+<td><strong>sendero_igo</strong></td>
+<td align="left">sendero_lin</td>
+<td align="right">15-18</td>
+</tr>
+<tr>
+<td><strong>tierra_firme_igo</strong></td>
+<td align="left">tierra_firme_pol</td>
+<td align="right">0-18</td>
+</tr>
+<tr>
+<td><strong>via_servicio_igo</strong></td>
+<td align="left">via_servicio_lin</td>
+<td align="right">12-18</td>
+</tr>
+<tr>
+<td><strong>via_urbana_igo</strong></td>
+<td align="left">via_urbana_lin</td>
+<td align="right">12-18</td>
+</tr>
+</tbody>
+</table>
+<p><br /></p></div>
         
         
     </div>

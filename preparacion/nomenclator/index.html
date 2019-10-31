@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+
+    
+    <title>Nomenclátor - Mapa Base IGO</title>
+    
+
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/3.003/css/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../../css/base.min.css" rel="stylesheet">
+    <link href="../../css/cinder.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.min.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.28/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="../..">Mapa Base IGO</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Proyecto <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../proyecto/justificacion/">Justificación</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../proyecto/directrices/">Directrices</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../proyecto/objetivos/">Objetivos</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../proyecto/acciones/">Acciones</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../proyecto/handicaps/">Hándicaps</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Preparación <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Definición de elementos geográficos</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../callejero/">Callejero</a>
+</li>
+
+        
+            
+<li >
+    <a href="../hidrografia/">Hidrografía</a>
+</li>
+
+        
+            
+<li >
+    <a href="../lineas_limite/">Líneas límite</a>
+</li>
+
+        
+            
+<li class="active">
+    <a href="./">Nomenclátor</a>
+</li>
+
+        
+            
+<li >
+    <a href="../suelo/">Suelo</a>
+</li>
+
+        
+            
+<li >
+    <a href="../transporte/">Transporte</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+<li >
+    <a href="../procesado/">Procesado de información geográfica</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Diseño <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../diseno/definicion/">Definición de teselas vectoriales</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../diseno/simbologia/">Simbología</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Implementación <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../implementacion/produccion/">Producción de teselas vectoriales</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../implementacion/publicacion/">Publicación de teselas vectoriales</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../implementacion/simbolizacion/">Simbolización</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Información <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../informacion/licencia/">Licencia</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../informacion/mapabase_igo/">MapaBaseIGO</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Referencias</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../referencias/mapas_teselados/">Mapas teselados</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../referencias/servicios_de_teselas_vectoriales/">Servicios de teselas vectoriales</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../referencias/teselas_vectoriales_carto/">Teselas vectoriales CARTO</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../referencias/teselas_vectoriales_icgc/">Teselas vectoriales ICGC</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../referencias/teselas_vectoriales_os/">Teselas vectoriales OS</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../lineas_limite/">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../suelo/">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#nomenclator">Nomenclátor</a></li>
+            <li class="second-level"><a href="#capital_municipio">capital_municipio</a></li>
+                
+            <li class="second-level"><a href="#ngbe_division_administrativa">ngbe_division_administrativa</a></li>
+                
+            <li class="second-level"><a href="#ngbe_hidrografia">ngbe_hidrografia</a></li>
+                
+            <li class="second-level"><a href="#ngbe_orografia">ngbe_orografia</a></li>
+                
+            <li class="second-level"><a href="#ngbe_poblaciones_construcciones">ngbe_poblaciones_construcciones</a></li>
+                
+            <li class="second-level"><a href="#ngbe_transporte">ngbe_transporte</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="nomenclator">Nomenclátor</h1>
+<p><br /></p>
+<h3 id="capital_municipio">capital_municipio</h3>
+<p>Ubicación geográfica y datos básicos de las capitales de los municipios de España, recopilados en el «Nomenclátor Geográfico de Municipios y Entidades de Población» que mantiene el <a href="https://www.ign.es"><em>Instituto Geográfico Nacional (IGN)</em></a> y distribuye el <a href="https://www.cnig.es"><em>Centro Nacional de Información Geográfica (CNIG)</em></a> como Información Geográfica de Referencia.<br />
+<br />
+Archivo: <strong><code>capital_municipio_pto</code></strong><br />
+Geometría: <code>punto</code><br />
+Fuente de datos: <code>Nomenclator_Municipios_EntidadesDePoblacion.mdb</code> <em>(IGN/CNIG. IGR Nomenclátor Geográfico de Municipios y Entidades de Población)</em><br />
+Filtrado:</p>
+<table>
+<thead>
+<tr>
+<th>Clasificación</th>
+<th>Condición</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>clase</code>: capital_municipio</td>
+<td>Tabla:MUNICIPIOS (todos los registros)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Atributos:  </p>
+<table>
+<thead>
+<tr>
+<th>Atributo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Observaciones</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>clase</code></td>
+<td>string</td>
+<td>capital_municipio</td>
+<td></td>
+</tr>
+<tr>
+<td><code>municipio</code></td>
+<td>string</td>
+<td>MUNICIPIOS:[NOMBRE_ACTUAL]</td>
+<td></td>
+</tr>
+<tr>
+<td><code>nombre</code></td>
+<td>string</td>
+<td>MUNICIPIOS:[CAPITAL]</td>
+<td></td>
+</tr>
+<tr>
+<td><code>poblacion_capital</code></td>
+<td>string</td>
+<td>MUNICIPIOS:[POBLACION]</td>
+<td></td>
+</tr>
+<tr>
+<td><code>provincia</code></td>
+<td>string</td>
+<td>MUNICIPIOS:[PROVINCIA]</td>
+<td></td>
+</tr>
+<tr>
+<td><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="ngbe_division_administrativa">ngbe_division_administrativa</h3>
+<p>Referencias de los nombres geográficos relativos a divisiones administrativas que están incluidos en el «Nomenclátor Geográfico Básico de España» (NGBE), mantenido por el <a href="https://www.ign.es"><em>Instituto Geográfico Nacional (IGN)</em></a> y distribuido como Información Geográfica de Referencia por el <a href="https://www.cnig.es"><em>Centro Nacional de Información Geográfica (CNIG)</em></a>,<br />
+<br />
+Archivo: <strong><code>ngbe_division_administrativa_pto</code></strong><br />
+Geometría: <code>punto</code><br />
+Fuente de datos: <code>NGBE.accdb</code> <em>(IGN/CNIG. IGR Nomenclátor Geográfico Básico de España)</em><br />
+Filtrado:</p>
+<table>
+<thead>
+<tr>
+<th>Clasificación</th>
+<th>Condición</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>clase</code>: ciudad_estatuto_autonomia</td>
+<td>cod_d=División administrativa.Ciudad con estatuto de autonomía</td>
+</tr>
+<tr>
+<td><code>clase</code>: comarca_administrativa</td>
+<td>cod_d=División administrativa.Comarca administrativa</td>
+</tr>
+<tr>
+<td><code>clase</code>: comunidad_autonoma</td>
+<td>cod_d=División administrativa.Comunidad Autónoma</td>
+</tr>
+<tr>
+<td><code>clase</code>: eatim</td>
+<td>cod_d=División administrativa.EATIM</td>
+</tr>
+<tr>
+<td><code>clase</code>: estado</td>
+<td>cod_d=División administrativa.Estado</td>
+</tr>
+<tr>
+<td><code>clase</code>: isla_administrativa</td>
+<td>cod_d=División administrativa.Isla administrativa</td>
+</tr>
+<tr>
+<td><code>clase</code>: jurisdiccion</td>
+<td>cod_d=División administrativa.Jurisdicción</td>
+</tr>
+<tr>
+<td><code>clase</code>: municipio</td>
+<td>cod_d=División administrativa.Municipio</td>
+</tr>
+<tr>
+<td><code>clase</code>: provincia</td>
+<td>cod_d=División administrativa.Provincia</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Atributos:  </p>
+<table>
+<thead>
+<tr>
+<th>Atributo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Observaciones</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>clase</code></td>
+<td>string</td>
+<td></td>
+<td>Clase de objeto</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>ciudad_estatuto_autonomia</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>comarca_administrativa</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>comunidad_autonoma</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>eatim</td>
+<td>Entidad de ámbito territorial inferior al municipio</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>estado</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>isla_administrativa</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>jurisdiccion</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>municipio</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>provincia</td>
+<td></td>
+</tr>
+<tr>
+<td><code>nombre</code></td>
+<td>string</td>
+<td>[nombre]</td>
+<td></td>
+</tr>
+<tr>
+<td><code>nombre_alt</code></td>
+<td>string</td>
+<td>[nombre2]</td>
+<td>Nombre alternativo</td>
+</tr>
+<tr>
+<td><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="ngbe_hidrografia">ngbe_hidrografia</h3>
+<p>Referencias de los nombres geográficos de los distintos elementos de naturaleza hidrográfica continental y orográfica marítima y costera que se encuentran  incluidos en el «Nomenclátor Geográfico Básico de España» (NGBE) que es mantenido por el <a href="https://www.ign.es"><em>Instituto Geográfico Nacional (IGN)</em></a> y distribuido como Información Geográfica de Referencia por el <a href="https://www.cnig.es"><em>Centro Nacional de Información Geográfica (CNIG)</em></a>,<br />
+<br />
+Archivo: <strong><code>ngbe_hidrografia_pto</code></strong><br />
+Geometría: <code>punto</code><br />
+Fuente de datos: <code>NGBE.accdb</code> <em>(IGN/CNIG. IGR Nomenclátor Geográfico Básico de España)</em><br />
+Filtrado:</p>
+<table>
+<thead>
+<tr>
+<th>Clasificación</th>
+<th>Condición</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>clase</code>: curso_artificial_agua</td>
+<td>cod_d=Hidrografía Continental.Curso artificial de agua</td>
+</tr>
+<tr>
+<td><code>clase</code>: curso_natural_agua</td>
+<td>cod_d=Hidrografía Continental.Curso natural de agua</td>
+</tr>
+<tr>
+<td><code>clase</code>: embalse</td>
+<td>cod_d=Hidrografía Continental.Embalse</td>
+</tr>
+<tr>
+<td><code>clase</code>: entrante_costero_estrecho_maritimo</td>
+<td>cod_d=Hidrografía y Orografía Marítima y Costera.Entrante costero y estrecho marítimo</td>
+</tr>
+<tr>
+<td><code>clase</code>: glaciares</td>
+<td>cod_d=Hidrografía Continental.Glaciares</td>
+</tr>
+<tr>
+<td><code>clase</code>: hidronimo_puntual</td>
+<td>cod_d=Hidrografía Continental.Hidrónimo puntual</td>
+</tr>
+<tr>
+<td><code>clase</code>: isla</td>
+<td>cod_d=Hidrografía y Orografía Marítima y Costera.Isla</td>
+</tr>
+<tr>
+<td><code>clase</code>: mar</td>
+<td>cod_d=Hidrografía y Orografía Marítima y Costera.Mar</td>
+</tr>
+<tr>
+<td><code>clase</code>: masa_agua</td>
+<td>cod_d=Hidrografía Continental.Masa de agua</td>
+</tr>
+<tr>
+<td><code>clase</code>: otro_relieve_costero</td>
+<td>cod_d=Hidrografía y Orografía Marítima y Costera.Otro relieve costero</td>
+</tr>
+<tr>
+<td><code>clase</code>: playa</td>
+<td>cod_d=Hidrografía y Orografía Marítima y Costera.Playa</td>
+</tr>
+<tr>
+<td><code>clase</code>: relieve_submarino</td>
+<td>cod_d=Hidrografía y Orografía Marítima y Costera.Relieve submarino</td>
+</tr>
+<tr>
+<td><code>clase</code>: saliente_costero</td>
+<td>cod_d=Hidrografía y Orografía Marítima y Costera.Saliente costero</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Atributos:  </p>
+<table>
+<thead>
+<tr>
+<th>Atributo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Observaciones</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>clase</code></td>
+<td>string</td>
+<td></td>
+<td>Clase de objeto</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>curso_artificial_agua</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>curso_natural_agua</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>embalse</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>entrante_costero_estrecho_maritimo</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>glaciares</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>hidronimo_puntual</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>isla</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>mar</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>masa_agua</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>otro_relieve_costero</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>playa</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>relieve_submarino</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>saliente_costero</td>
+<td></td>
+</tr>
+<tr>
+<td><code>nombre</code></td>
+<td>string</td>
+<td>[nombre]</td>
+<td></td>
+</tr>
+<tr>
+<td><code>nombre_alt</code></td>
+<td>string</td>
+<td>[nombre2]</td>
+<td>Nombre alternativo</td>
+</tr>
+<tr>
+<td><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="ngbe_orografia">ngbe_orografia</h3>
+<p>Referencias de los nombres geográficos de los elementos orográficos continentales y áreas geográficas que están incluidos en el «Nomenclátor Geográfico Básico de España» (NGBE) que es mantenido por el <a href="https://www.ign.es"><em>Instituto Geográfico Nacional (IGN)</em></a> y distribuido como Información Geográfica de Referencia por el <a href="https://www.cnig.es"><em>Centro Nacional de Información Geográfica (CNIG)</em></a>,<br />
+<br />
+Archivo: <strong><code>ngbe_orografia_pto</code></strong><br />
+Geometría: <code>punto</code><br />
+Fuente de datos: <code>NGBE.accdb</code> <em>(IGN/CNIG. IGR Nomenclátor Geográfico Básico de España)</em><br />
+Filtrado:</p>
+<table>
+<thead>
+<tr>
+<th>Clasificación</th>
+<th>Condición</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>clase</code>: alineacion_montañosa</td>
+<td>cod_d=Orografía continental y áreas geográficas.Alineación montañosa</td>
+</tr>
+<tr>
+<td><code>clase</code>: comarca_geografica</td>
+<td>cod_d=Orografía continental y áreas geográficas.Comarca geográfica</td>
+</tr>
+<tr>
+<td><code>clase</code>: depresion</td>
+<td>cod_d=Orografía continental y áreas geográficas.Depresión</td>
+</tr>
+<tr>
+<td><code>clase</code>: espacio_protegido_restante</td>
+<td>cod_d=Orografía continental y áreas geográficas.Espacio protegido restante</td>
+</tr>
+<tr>
+<td><code>clase</code>: llanura</td>
+<td>cod_d=Orografía continental y áreas geográficas.Llanura</td>
+</tr>
+<tr>
+<td><code>clase</code>: montaña</td>
+<td>cod_d=Orografía continental y áreas geográficas.Montaña</td>
+</tr>
+<tr>
+<td><code>clase</code>: paisaje</td>
+<td>cod_d=Orografía continental y áreas geográficas.Elemento puntual del paisaje</td>
+</tr>
+<tr>
+<td><code>clase</code>: paraje</td>
+<td>cod_d=Orografía continental.Espacio geográfico.Paraje</td>
+</tr>
+<tr>
+<td><code>clase</code>: parque_nacional_natural</td>
+<td>cod_d=Orografía continental y áreas geográficas.Parque Nacional y Natural</td>
+</tr>
+<tr>
+<td><code>clase</code>: paso_montaña</td>
+<td>cod_d=Orografía continental y áreas geográficas.Paso de montaña</td>
+</tr>
+<tr>
+<td><code>clase</code>: vertiente</td>
+<td>cod_d=Orografía continental y áreas geográficas.Vertientes</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Atributos:  </p>
+<table>
+<thead>
+<tr>
+<th>Atributo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Observaciones</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>clase</code></td>
+<td>string</td>
+<td></td>
+<td>Clase de objeto</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>alineacion_montañosa</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>comarca_geografica</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>depresion</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>espacio_protegido_restante</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>llanura</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>montaña</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>paisaje</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>paraje</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>parque_nacional_natural</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>paso_montaña</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>vertiente</td>
+<td></td>
+</tr>
+<tr>
+<td><code>nombre</code></td>
+<td>string</td>
+<td>[nombre]</td>
+<td></td>
+</tr>
+<tr>
+<td><code>nombre_alt</code></td>
+<td>string</td>
+<td>[nombre2]</td>
+<td>Nombre alternativo</td>
+</tr>
+<tr>
+<td><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="ngbe_poblaciones_construcciones">ngbe_poblaciones_construcciones</h3>
+<p>Referencias de los nombres geográficos de poblaciones y construcciones incluidos en el «Nomenclátor Geográfico Básico de España» (NGBE) que es mantenido por el <a href="https://www.ign.es"><em>Instituto Geográfico Nacional (IGN)</em></a> y distribuido como Información Geográfica de Referencia por el <a href="https://www.cnig.es"><em>Centro Nacional de Información Geográfica (CNIG)</em></a>,<br />
+<br />
+Archivo: <strong><code>ngbe_poblaciones_construcciones_pto</code></strong><br />
+Geometría: <code>punto</code><br />
+Fuente de datos: <code>NGBE.accdb</code> <em>(IGN/CNIG. IGR Nomenclátor Geográfico Básico de España)</em><br />
+Filtrado:</p>
+<table>
+<thead>
+<tr>
+<th>Clasificación</th>
+<th>Condición</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>clase</code>: barrio</td>
+<td>cod_d=Poblaciones  y construcciones.Barrio</td>
+</tr>
+<tr>
+<td><code>clase</code>: barrio</td>
+<td>cod_d=Poblaciones y construcciones. Barrio</td>
+</tr>
+<tr>
+<td><code>clase</code>: barrio</td>
+<td>cod_d=Poblaciones y construcciones.Barrio</td>
+</tr>
+<tr>
+<td><code>clase</code>: barrio</td>
+<td>cod_d=Poblaciones y construcciones.Barrio.</td>
+</tr>
+<tr>
+<td><code>clase</code>: capital_comunidad_autonoma_ciudad</td>
+<td>cod_d=Poblaciones y construcciones.Capital de comunidad autónoma y ciudad con estatuto de autonomía</td>
+</tr>
+<tr>
+<td><code>clase</code>: capital_eatim</td>
+<td>cod_d=Poblaciones y construcciones.Capital de EATIM</td>
+</tr>
+<tr>
+<td><code>clase</code>: capital_estado</td>
+<td>cod_d=Poblaciones y construcciones.Capital de Estado</td>
+</tr>
+<tr>
+<td><code>clase</code>: capital_municipio</td>
+<td>cod_d=Poblaciones  y construcciones.Capital de municipio</td>
+</tr>
+<tr>
+<td><code>clase</code>: capital_municipio</td>
+<td>cod_d=Poblaciones y construcciones.Capital de municipio</td>
+</tr>
+<tr>
+<td><code>clase</code>: capital_provincia</td>
+<td>cod_d=Poblaciones y construcciones.Capital de provincia</td>
+</tr>
+<tr>
+<td><code>clase</code>: construccion_instalacion_abierta</td>
+<td>cod_d=Poblaciones  y construcciones.Construcción/instalación abierta</td>
+</tr>
+<tr>
+<td><code>clase</code>: construccion_instalacion_abierta</td>
+<td>cod_d=Poblaciones y construcciones.Construcción/instalación abierta</td>
+</tr>
+<tr>
+<td><code>clase</code>: distrito_municipal</td>
+<td>cod_d=Poblaciones y construcciones.Distrito municipal</td>
+</tr>
+<tr>
+<td><code>clase</code>: edificacion</td>
+<td>cod_d=Poblaciones y construcciones. Edificación</td>
+</tr>
+<tr>
+<td><code>clase</code>: edificacion</td>
+<td>cod_d=Poblaciones y construcciones.Edificación</td>
+</tr>
+<tr>
+<td><code>clase</code>: entidad_colectiva</td>
+<td>cod_d=Poblaciones  y construcciones.Entidad colectiva</td>
+</tr>
+<tr>
+<td><code>clase</code>: entidad_menor_poblacion</td>
+<td>cod_d=Poblaciones  y construcciones.Entidad menor de población</td>
+</tr>
+<tr>
+<td><code>clase</code>: entidad_menor_poblacion</td>
+<td>cod_d=Poblaciones y construcciones. Entidad menor de población</td>
+</tr>
+<tr>
+<td><code>clase</code>: entidad_menor_poblacion</td>
+<td>cod_d=Poblaciones y construcciones. Entidad menor de población.</td>
+</tr>
+<tr>
+<td><code>clase</code>: entidad_menor_poblacion</td>
+<td>cod_d=Poblaciones y construcciones.Entidad menor de población</td>
+</tr>
+<tr>
+<td><code>clase</code>: entidad_menor_poblacion</td>
+<td>cod_d=Poblaciones y construcciones.Entidad menor de poblacióno</td>
+</tr>
+<tr>
+<td><code>clase</code>: entidad_menor_poblacion</td>
+<td>cod_d=Poblaciones y construcciones.Entidad menorde población</td>
+</tr>
+<tr>
+<td><code>clase</code>: entidad_singular</td>
+<td>cod_d=Poblaciones  y construcciones.Entidad singular</td>
+</tr>
+<tr>
+<td><code>clase</code>: entidad_singular</td>
+<td>cod_d=Poblaciones y construcciones. Entidad singular</td>
+</tr>
+<tr>
+<td><code>clase</code>: entidad_singular</td>
+<td>cod_d=Poblaciones y construcciones.Entidad Singular</td>
+</tr>
+<tr>
+<td><code>clase</code>: entidad_singular</td>
+<td>cod_d=Poblaciones y construcciones.Entidad singular</td>
+</tr>
+<tr>
+<td><code>clase</code>: entidad_singular_INE</td>
+<td>cod_d=Poblaciones y construcciones. Entidad singular INE.</td>
+</tr>
+<tr>
+<td><code>clase</code>: entidad_singular_INE</td>
+<td>cod_d=Poblaciones y construcciones.Entidad singular INE</td>
+</tr>
+<tr>
+<td><code>clase</code>: hito_demarcacion_territorial</td>
+<td>cod_d=Poblaciones y construcciones.Hitos de demarcación territorial</td>
+</tr>
+<tr>
+<td><code>clase</code>: hito_via_comunicacion</td>
+<td>cod_d=Poblaciones  y construcciones.Hitos en vías de comunicación</td>
+</tr>
+<tr>
+<td><code>clase</code>: nucleo_poblacion</td>
+<td>cod_d=Poblaciones y construcciones.Núcleos de población</td>
+</tr>
+<tr>
+<td><code>clase</code>: nucleo_poblacion</td>
+<td>cod_d=Poblaciones  y construcciones.Núcleos de población</td>
+</tr>
+<tr>
+<td><code>clase</code>: otra_entidad_menor_poblacion</td>
+<td>cod_d=Poblaciones y construcciones.Otras entidades menores de población.</td>
+</tr>
+<tr>
+<td><code>clase</code>: otra_entidad_menor_poblacion</td>
+<td>cod_d=Poblaciones y construcciones. Otras entidades menores de población.</td>
+</tr>
+<tr>
+<td><code>clase</code>: vertice_geodesico</td>
+<td>cod_d=Poblaciones y construcciones.Vértice Geodésico</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Atributos:  </p>
+<table>
+<thead>
+<tr>
+<th>Atributo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Observaciones</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>clase</code></td>
+<td>string</td>
+<td></td>
+<td>Clase de objeto</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>barrio</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>capital_comunidad_autonoma_ciudad</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>capital_eatim</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>capital_estado</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>capital_municipio</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>capital_provincia</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>construccion_instalacion_abierta</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>distrito_municipal</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>edificacion</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>entidad_colectiva</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>entidad_menor_poblacion</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>entidad_singular</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>entidad_singular_INE</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>hito_demarcacion_territorial</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>hito_via_comunicacion</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>nucleo_poblacion</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>otra_entidad_menor_poblacion</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>vertice_geodesico</td>
+<td></td>
+</tr>
+<tr>
+<td><code>nombre</code></td>
+<td>string</td>
+<td>[nombre]</td>
+<td></td>
+</tr>
+<tr>
+<td><code>nombre_alt</code></td>
+<td>string</td>
+<td>[nombre2]</td>
+<td>Nombre alternativo</td>
+</tr>
+<tr>
+<td><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="ngbe_transporte">ngbe_transporte</h3>
+<p>Referencias de los nombres geográficos relativos al transporte recogidos en el «Nomenclátor Geográfico Básico de España» (NGBE), que es mantenido por el <a href="https://www.ign.es"><em>Instituto Geográfico Nacional (IGN)</em></a> y distribuido como Información Geográfica de Referencia por el <a href="https://www.cnig.es"><em>Centro Nacional de Información Geográfica (CNIG)</em></a>,<br />
+<br />
+Archivo: <strong><code>ngbe_transporte_pto</code></strong><br />
+Geometría: <code>punto</code><br />
+Fuente de datos: <code>NGBE.accdb</code> <em>(IGN/CNIG. IGR Nomenclátor Geográfico Básico de España)</em><br />
+Filtrado:</p>
+<table>
+<thead>
+<tr>
+<th>Clasificación</th>
+<th>Condición</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>clase</code>: aerodromo</td>
+<td>cod_d=Comunicaciones y transporte.Aeródromo</td>
+</tr>
+<tr>
+<td><code>clase</code>: aeropuerto</td>
+<td>cod_d=Comunicaciones y transporte.Aeropuerto</td>
+</tr>
+<tr>
+<td><code>clase</code>: camino_via_pecuaria</td>
+<td>cod_d=Comunicaciones y transporte.Camino y vía pecuaria</td>
+</tr>
+<tr>
+<td><code>clase</code>: carretera</td>
+<td>cod_d=Comunicaciones y transporte.Carretera</td>
+</tr>
+<tr>
+<td><code>clase</code>: ferrocarril</td>
+<td>cod_d=Comunicaciones y transporte.Ferrocarril</td>
+</tr>
+<tr>
+<td><code>clase</code>: infraestructura_transporte_terrestre</td>
+<td>cod_d=Comunicaciones y transporte.Infraestructura de transporte terrestre</td>
+</tr>
+<tr>
+<td><code>clase</code>: instalacion_portuaria</td>
+<td>cod_d=Comunicaciones y transporte.Instalación portuaria</td>
+</tr>
+<tr>
+<td><code>clase</code>: pista_aviacion_helipuerto</td>
+<td>cod_d=Comunicaciones y transporte.Pista de aviación y helipuerto</td>
+</tr>
+<tr>
+<td><code>clase</code>: puerto</td>
+<td>cod_d=Comunicaciones y transporte.Aeropuerto</td>
+</tr>
+<tr>
+<td><code>clase</code>: via_maritima</td>
+<td>cod_d=Comunicaciones y transporte.Vía marítima</td>
+</tr>
+<tr>
+<td><code>clase</code>: via_urbana</td>
+<td>cod_d=Comunicaciones y transporte.Vía urbana</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Atributos:  </p>
+<table>
+<thead>
+<tr>
+<th>Atributo</th>
+<th>Tipo</th>
+<th>Valor</th>
+<th>Observaciones</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>clase</code></td>
+<td>string</td>
+<td></td>
+<td>Clase de objeto</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>aerodromo</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>aeropuerto</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>camino_via_pecuaria</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>carretera</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>ferrocarril</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>infraestructura_transporte_terrestre</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>instalacion_portuaria</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>pista_aviacion_helipuerto</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>puerto</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>via_maritima</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>via_urbana</td>
+<td></td>
+</tr>
+<tr>
+<td><code>nombre</code></td>
+<td>string</td>
+<td>[nombre]</td>
+<td></td>
+</tr>
+<tr>
+<td><code>nombre_alt</code></td>
+<td>string</td>
+<td>[nombre2]</td>
+<td>Nombre alternativo</td>
+</tr>
+<tr>
+<td><br /></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr /></div>
+        
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+        
+        
+        
+    </footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+    var base_url = '../..';
+    </script>
+    <!-- <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script> -->
+    <script src="../../js/base.js"></script>
+    <script src="../../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        From here you can search these documents. Enter your search terms below.
+                    </p>
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                        </div>
+                    </form>
+                    <div id="mkdocs-search-results"></div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+
+</html>
